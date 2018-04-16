@@ -10,7 +10,7 @@
 <%
     Connection connection = null;
     Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-    connection = DriverManager.getConnection("jdbc:odbc:data");
+    connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres");
 
     Statement statement = connection.createStatement();
 
