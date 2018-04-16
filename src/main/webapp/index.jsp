@@ -6,6 +6,5 @@
 <h2>nata ikka on</h2>
 
 <img src="https://i.imgur.com/WoF89Ay.jpg">
-
 </body>
 </html>
