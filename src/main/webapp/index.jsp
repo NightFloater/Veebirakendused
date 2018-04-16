@@ -1,13 +1,40 @@
-<html>
-<body>
-<h2>rancOnPede</h2>
-<h2>ranceiolepededee</h2>
-<h2>ranceiolepededee</h2>
-<h2>nata ikka on lolllll</h2>
+<%@ page import="java.sql.*" %>
+<HTML>
+<HEAD>
+    <TITLE>Filling a Table</TITLE>
+</HEAD>
 
-<img src="https://i.imgur.com/WoF89Ay.jpg">
+<BODY>
+<H1>Filling a Table</H1>
+
+<%
+    Connection connection = null;
+    Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+    connection = DriverManager.getConnection("jdbc:odbc:data");
+
+    Statement statement = connection.createStatement();
+
+    String command = "INSERT INTO nimed (nimi) VALUES ('Tom')";
+    statement.executeUpdate(command);
 
 
 
-</body>
-</html>
+    ResultSet resultset = statement.executeQuery("select * from nimed");
+
+    while(resultset.next()){
+%>
+<TABLE BORDER="1">
+    <TR>
+        <TH>ID</TH>
+        <TH>Name</TH>
+    </TR>
+    <TR>
+        <TD> <%= resultset.getString(1) %> </TD>
+
+    </TR>
+</TABLE>
+<%
+    }
+%>
+</BODY>
+</HTML>
