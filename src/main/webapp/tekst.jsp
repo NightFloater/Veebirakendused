@@ -14,20 +14,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 
-<%
-    Connection connection = null;
-    try {
-        Class.forName("sun.jdbc.odbc.JdbcOdbcDriver").newInstance();
-        connection = DriverManager.getConnection("jdbc:odbc:data", "userName", "password");
-
-        Statement statement = connection.createStatement();
-        String command = "CREATE TABLE Employees (ID INTEGER, Name CHAR(50));";
-        statement.executeUpdate(command);
-
-    } catch (Exception e) {
-        out.println("An error occurred1.");
-    }
-%>
 
 
 
@@ -52,6 +38,7 @@
     }
     catch(Exception e)
     {
+        out.println("feilib");
         System.out.print(e);
         e.printStackTrace();
     }

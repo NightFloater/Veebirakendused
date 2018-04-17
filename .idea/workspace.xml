@@ -97,13 +97,13 @@
       <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+            <state relative-caret-position="317">
+              <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
               <folding>
-                <marker date="1524007159043" expanded="true" signature="762:812" ph="CREATE TABLE... Employees" />
-                <marker date="1524007159043" expanded="true" signature="1538:1636" ph="CREATE TABLE... kasutajad" />
-                <marker date="1524007159043" expanded="true" signature="1737:1749" ph="insert into postgres.... " />
-                <marker date="1524007159043" expanded="true" signature="1737:1872" ph="insert into kasutaja... " />
+                <marker date="1524007247149" expanded="true" signature="762:812" ph="CREATE TABLE... Employees" />
+                <marker date="1524007247149" expanded="true" signature="1539:1637" ph="CREATE TABLE... kasutajad" />
+                <marker date="1524007247149" expanded="true" signature="1738:1750" ph="insert into postgres.... " />
+                <marker date="1524007247149" expanded="true" signature="1738:1873" ph="insert into kasutaja... " />
               </folding>
             </state>
           </provider>
@@ -532,14 +532,7 @@
       <workItem from="1523797575846" duration="107000" />
       <workItem from="1523799605457" duration="2477000" />
       <workItem from="1523986696151" duration="17928000" />
-      <workItem from="1524006401060" duration="793000" />
-    </task>
-    <task id="LOCAL-00019" summary="Deploy">
-      <created>1523818565492</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1523818565492</updated>
+      <workItem from="1524006401060" duration="883000" />
     </task>
     <task id="LOCAL-00020" summary="Deploy">
       <created>1523818671781</created>
@@ -877,11 +870,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524007165132</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="Deploy">
+      <created>1524007257021</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1524007257021</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25440000" />
+    <option name="totallyTimeSpent" value="25530000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1306,13 +1306,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
+        <state relative-caret-position="317">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
-            <marker date="1524007159043" expanded="true" signature="762:812" ph="CREATE TABLE... Employees" />
-            <marker date="1524007159043" expanded="true" signature="1538:1636" ph="CREATE TABLE... kasutajad" />
-            <marker date="1524007159043" expanded="true" signature="1737:1749" ph="insert into postgres.... " />
-            <marker date="1524007159043" expanded="true" signature="1737:1872" ph="insert into kasutaja... " />
+            <marker date="1524007247149" expanded="true" signature="762:812" ph="CREATE TABLE... Employees" />
+            <marker date="1524007247149" expanded="true" signature="1539:1637" ph="CREATE TABLE... kasutajad" />
+            <marker date="1524007247149" expanded="true" signature="1738:1750" ph="insert into postgres.... " />
+            <marker date="1524007247149" expanded="true" signature="1738:1873" ph="insert into kasutaja... " />
           </folding>
         </state>
       </provider>
