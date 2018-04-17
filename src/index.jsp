@@ -8,7 +8,7 @@
 <img src="https://i.imgur.com/WoF89Ay.jpg">
 <img src="https://i.imgur.com/6nbkvee.png">
 
-<form name="myForm" action="tekst.jsp" method="post" >
+<form name="myForm" method="post" >
     <td>Eesnimi </td>
     <input type="text" name="Eesnimi" >
     <td>Perenimi</td>
