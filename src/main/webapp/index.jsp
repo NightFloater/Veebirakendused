@@ -1,7 +1,7 @@
 <html>
 <body>
 
-<TITLE>MEEMIDE OST, MÜÜK, VAHETUS</TITLE>
+<h6>MEEMIDE OST, MÜÜK, VAHETUS</h6>
 <h2>Viimase nädala kõige sõgedamad meemid on</h2>
 
 
