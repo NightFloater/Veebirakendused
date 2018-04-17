@@ -5,7 +5,7 @@
   Time: 8:42 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" import="javastuff.*"%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <img src="https://i.imgur.com/WoF89Ay.jpg">
@@ -23,15 +23,6 @@
 
 </head>
 <body>
-<jsp:useBean id="obj" class="javastuff.KasutajaBean"/>
-<jsp:setProperty name="*" property="obj"/>
-<%
-    int status=KasutajaDAO.SisestaKasutaja(obj);
-    if (status > 0)
-        out.println("Inserted");
-    else
-        out.println("fail");
 
-%>
 </body>
 </html>

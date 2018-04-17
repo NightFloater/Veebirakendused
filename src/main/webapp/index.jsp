@@ -1,3 +1,5 @@
+<%@ page import="main.webapp.javastuff.KasutajaDAO" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <body>
 
@@ -25,7 +27,16 @@ Siia sisesta oma info kui soovid luua kasutajat
 </form>
 
 
+<jsp:useBean id="obj" class="main.webapp.javastuff.KasutajaBean"/>
+<jsp:setProperty name="*" property="obj"/>
+<%
+    int status= KasutajaDAO.SisestaKasutaja(obj);
+    if (status > 0)
+        out.println("Inserted");
+    else
+        out.println("fail");
 
+%>
 
 </body>
 </html>
