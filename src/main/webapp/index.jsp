@@ -6,11 +6,12 @@
 
 
 <img src="https://i.redd.it/qcwrcbhy4gs01.png">
-<img src="https://i.redd.it/wpozn1bapfs01.png">
-<img src="https://i.imgur.com/4rU2l2T.jpg">
+<p><img src="https://i.redd.it/wpozn1bapfs01.png"></p>
+<p><img src="https://i.imgur.com/4rU2l2T.jpg"></p>
 
 
-<TITLE>Siia sisesta oma info kui soovid luua kasutajat</TITLE>
+
+Siia sisesta oma info kui soovid luua kasutajat
 <form name="myForm" action="tekst.jsp" method="post" >
     <td>Eesnimi </td>
     <input type="text" name="Eesnimi" >
