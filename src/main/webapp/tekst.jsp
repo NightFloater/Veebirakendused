@@ -13,6 +13,24 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
+
+<%
+    Connection connection = null;
+    try {
+        Class.forName("sun.jdbc.odbc.JdbcOdbcDriver").newInstance();
+        connection = DriverManager.getConnection("jdbc:odbc:data", "userName", "password");
+
+        Statement statement = connection.createStatement();
+        String command = "CREATE TABLE Employees (ID INTEGER, Name CHAR(50));";
+        statement.executeUpdate(command);
+
+    } catch (Exception e) {
+        out.println("An error occurred.");
+    }
+%>
+
+
+
 <%
     String first_name=request.getParameter("eesnimi");
     String last_name=request.getParameter("perenimi");
@@ -22,7 +40,12 @@
     try
     {
         Class.forName("org.postgresql.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:postgresql://ec2-54-83-1-94.compute-1.amazonaws.com", "owxntdhsuqxztz", "5097df67696c883797291e3383b61471cbbdcacd9985b33d07e34fa2a8c29f33");
+        Connection conn = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
+
+        Statement statement = connection.createStatement();
+        String command = "CREATE TABLE kasutajad (eesnimi char(50), perenimi CHAR(50),vanus VARCHAR (50),email VARCHAR (50));";
+        statement.executeUpdate(command);
+
         PreparedStatement st = conn.prepareStatement("insert into kasutajad(eesnimi,perenimi,vanus,email) VALUES ('" + first_name + "','" + last_name + "','" +city_name + "','" + email + "'");
        st.executeUpdate();
         out.println("Data is successfully inserted!");
