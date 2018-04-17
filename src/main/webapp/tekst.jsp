@@ -23,7 +23,7 @@
     {
         Class.forName("org.postgresql.Driver");
         Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666");
-        PreparedStatement st = conn.prepareStatement("insert into kasutaja(eesnimi,perenimi,vanus,email) VALUES ('" + first_name + "','" + last_name + "','" +city_name + "','" + email + "'");
+        PreparedStatement st = conn.prepareStatement("insert into postgres.public.kasutajad(eesnimi,perenimi,vanus,email) VALUES ('" + first_name + "','" + last_name + "','" +city_name + "','" + email + "'");
        st.executeUpdate();
         out.println("Data is successfully inserted!");
     }
