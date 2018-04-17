@@ -14,11 +14,6 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<dependency>
-    <groupId>postgresql</groupId>
-    <artifactId>postgresql</artifactId>
-    <version>9.1-901-1.jdbc4</version>
-</dependency>
 
 
 
