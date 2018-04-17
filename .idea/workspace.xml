@@ -109,8 +109,8 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="255">
+              <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -380,7 +380,7 @@
       <workItem from="1523797575846" duration="107000" />
       <workItem from="1523799605457" duration="2477000" />
       <workItem from="1523880970498" duration="3397000" />
-      <workItem from="1523980060370" duration="3793000" />
+      <workItem from="1523980060370" duration="4285000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy">
       <created>1523794731659</created>
@@ -697,11 +697,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523983765410</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Deploy">
+      <created>1523983870195</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1523983870195</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13646000" />
+    <option name="totallyTimeSpent" value="14138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1157,8 +1164,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="255">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
           <folding />
         </state>
       </provider>
