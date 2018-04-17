@@ -9,7 +9,7 @@
 <html>
 <head>
     <img src="https://i.imgur.com/WoF89Ay.jpg">
-    <p>Sinu sisestatud info</p>
+    <p>Sinu sisestatud info: </p>
 
     <p>Eesnimi: <%= request.getParameter("Eesnimi") %></p>
 
