@@ -1,4 +1,4 @@
-<%@ page import="main.webapp.javastuff.KasutajaDAO" %>
+<%@ page import="javastuff.KasutajaDAO" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <body>
@@ -14,7 +14,7 @@
 
 
 Siia sisesta oma info kui soovid luua kasutajat
-<form name="myForm" action="tekst.jsp" method="post" >
+<form name="myForm" action="tekst.jsp" method="get" >
     <td>Eesnimi </td>
     <input type="text" name="Eesnimi" >
     <td>Perenimi</td>
@@ -26,17 +26,6 @@ Siia sisesta oma info kui soovid luua kasutajat
     <input type="submit" >
 </form>
 
-
-<jsp:useBean id="obj" class="main.webapp.javastuff.KasutajaBean"/>
-<jsp:setProperty name="*" property="obj"/>
-<%
-    int status= KasutajaDAO.SisestaKasutaja(obj);
-    if (status > 0)
-        out.println("Inserted");
-    else
-        out.println("fail");
-
-%>
 
 </body>
 </html>

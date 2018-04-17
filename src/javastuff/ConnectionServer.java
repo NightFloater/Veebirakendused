@@ -1,4 +1,4 @@
-package main.webapp.javastuff;
+package javastuff;
 
 
 import java.sql.*;
