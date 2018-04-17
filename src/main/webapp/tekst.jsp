@@ -9,11 +9,15 @@
 <html>
 <head>
     <img src="https://i.imgur.com/WoF89Ay.jpg">
+    <p>Sinu sisestatud info</p>
 
-    <p>
+    <p>Eesnimi: <%= request.getParameter("Eesnimi") %></p>
 
-    <%= request.getParameter("Eesnimi") %>
-    </p>
+    <p>Perenimi: <%= request.getParameter("Perenimi") %></p>
+
+    <p>Vanus: <%= request.getParameter("Vanus") %></p>
+
+    <p>Email: <%= request.getParameter("Email") %></p>
 
 </head>
 <body>
