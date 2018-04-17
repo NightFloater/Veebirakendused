@@ -11,6 +11,28 @@
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+<%
+    String first_name=request.getParameter("eesnimi");
+    String last_name=request.getParameter("perenimi");
+    String city_name=request.getParameter("vanus");
+    String email=request.getParameter("email");
+
+    try
+    {
+        Class.forName("org.postgresql.Driver");
+        Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666");
+        Statement st=conn.createStatement();
+
+        st.executeUpdate("insert into postgres.public.kasutajad(eesnimi, perenimi, vanus, email)values('"+first_name+"','"+last_name+"','"+city_name+"','"+email+"')");
+        out.println("Data is successfully inserted!");
+    }
+    catch(Exception e)
+    {
+        System.out.print(e);
+        e.printStackTrace();
+    }
+%>
 <html>
 <head>
     <img src="https://i.imgur.com/WoF89Ay.jpg">
@@ -30,26 +52,6 @@
 <body>
 
 
-<%
-    String first_name=request.getParameter("eesnimi");
-    String last_name=request.getParameter("perenimi");
-    String city_name=request.getParameter("vanus");
-    String email=request.getParameter("email");
 
-    try
-    {
-        Class.forName("org.postgresql.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666");
-        Statement st=conn.createStatement();
-
-        int i=st.executeUpdate("insert into kasutajad(eesnimi, perenimi, vanus, email)values('"+first_name+"','"+last_name+"','"+city_name+"','"+email+"')");
-        out.println("Data is successfully inserted!");
-    }
-    catch(Exception e)
-    {
-        System.out.print(e);
-        e.printStackTrace();
-    }
-%>
 </body>
 </html>
