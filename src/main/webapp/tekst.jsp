@@ -18,7 +18,7 @@
     String last_name=request.getParameter("perenimi");
     String city_name=request.getParameter("vanus");
     String email=request.getParameter("email");
-
+    out.println("siinveeltootab");
     try
     {
         Class.forName("org.postgresql.Driver");
