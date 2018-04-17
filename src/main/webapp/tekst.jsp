@@ -13,13 +13,13 @@
     <img src="https://i.imgur.com/WoF89Ay.jpg">
     <p>Sinu sisestatud info: </p>
 
-    <p>Eesnimi: <%= request.getParameter("Eesnimi") %></p>
+    <p>Eesnimi: <%= request.getParameter("eesnimi") %></p>
 
-    <p>Perenimi: <%= request.getParameter("Perenimi") %></p>
+    <p>Perenimi: <%= request.getParameter("perenimi") %></p>
 
-    <p>Vanus: <%= request.getParameter("Vanus") %></p>
+    <p>Vanus: <%= request.getParameter("vanus") %></p>
 
-    <p>Email: <%= request.getParameter("Email") %></p>
+    <p>Email: <%= request.getParameter("email") %></p>
 
 
 

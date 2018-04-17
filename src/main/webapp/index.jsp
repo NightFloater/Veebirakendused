@@ -16,13 +16,13 @@
 Siia sisesta oma info kui soovid luua kasutajat
 <form name="myForm" action="tekst.jsp" method="get" >
     <td>Eesnimi </td>
-    <input type="text" name="Eesnimi" >
+    <input type="text" name="eesnimi" >
     <td>Perenimi</td>
-    <input type="text" name="Perenimi" >
+    <input type="text" name="perenimi" >
     <td>Vanus </td>
-    <input type="text" name="Vanus" >
+    <input type="text" name="vanus" >
     <td>Email</td>
-    <input type="text" name="Email" >
+    <input type="text" name="email" >
     <input type="submit" >
 </form>
 
