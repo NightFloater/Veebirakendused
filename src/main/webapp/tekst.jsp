@@ -1,5 +1,6 @@
 <%@ page import="java.sql.DriverManager" %>
-<%@ page import="java.sql.Connection" %><%--
+<%@ page import="java.sql.Connection" %>
+<%@ page import="java.sql.Statement" %><%--
 <%@ page import="javastuff.*" %>
 <%@ page import="javastuff.KasutajaDAO" %>
   Created by IntelliJ IDEA.
@@ -29,11 +30,11 @@
 <body>
 <%
 Class.forName("org.postgresql.Driver");
-Connection con= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666
+Connection con= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666");
 
 Statement st = con.createStatement();
 
-String sql = ("INSERT INTO register VALUES ('" + eesnimi+ "','" + perenimi + "','" + vanus + "','"+ email) ");
+String sql = ("INSERT INTO register VALUES ('" + eesnimi+ "','" + perenimi + "','" + vanus + "','"+ email) ;
 st.executeUpdate(sql);
 con.close();
 %>
