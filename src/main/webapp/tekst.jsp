@@ -42,7 +42,7 @@
         Class.forName("org.postgresql.Driver");
         Connection conn = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
 
-        Statement statement = connection.createStatement();
+        Statement statement = conn.createStatement();
         String command = "CREATE TABLE kasutajad (eesnimi char(50), perenimi CHAR(50),vanus VARCHAR (50),email VARCHAR (50));";
         statement.executeUpdate(command);
 
