@@ -7,7 +7,7 @@
 
 <img src="https://i.redd.it/qcwrcbhy4gs01.png">
 <img src="https://i.redd.it/wpozn1bapfs01.png">
-<img src="https://imgur.com/a/qjneM">
+<img src="https://i.imgur.com/4rU2l2T.jpg">
 
 
 <TITLE>Siia sisesta oma info kui soovid luua kasutajat</TITLE>
