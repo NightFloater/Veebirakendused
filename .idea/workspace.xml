@@ -29,7 +29,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -81,10 +81,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-92">
+            <state relative-caret-position="112">
               <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
@@ -92,7 +92,7 @@
         </entry>
       </file>
       <file leaf-file-name="ServerInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javastuff/ServerInfo.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/javastuff/ServerInfo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -102,7 +102,7 @@
         </entry>
       </file>
       <file leaf-file-name="ConnectionServer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javastuff/ConnectionServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/javastuff/ConnectionServer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -112,34 +112,34 @@
         </entry>
       </file>
       <file leaf-file-name="KasutajaBean.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javastuff/KasutajaBean.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/javastuff/KasutajaBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="340">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="e#158#159#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#302#303#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-                <element signature="e#416#417#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#518#519#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#649#650#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#200#201#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#314#315#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#393#394#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#488#489#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#690#691#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="KasutajaDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/javastuff/KasutajaDAO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/javastuff/KasutajaDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
               <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
@@ -184,10 +184,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/KasutajaBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/KasutajaDAO.java" />
         <option value="$PROJECT_DIR$/src/javastuff/KasutajaDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/javastuff/KasutajaBean.java" />
         <option value="$PROJECT_DIR$/src/javastuff/KasutajaBean.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/tekst.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/javastuff/KasutajaBean.java" />
       </list>
     </option>
   </component>
@@ -247,13 +247,14 @@
               <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javastuff" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="javastuff" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
@@ -285,6 +286,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\mrani\Desktop\RobinTest2\v33birakendused-master\src\main\webapp" />
+      <recent name="C:\Users\mrani\Desktop\RobinTest2\v33birakendused-master" />
       <recent name="C:\Users\mrani\Desktop\RobinTest2\v33birakendused-master\Java Resources" />
       <recent name="C:\Users\mrani\Desktop\RobinTest2\v33birakendused-master\src\main\" />
       <recent name="C:\Users\mrani\Desktop\RobinTest2\v33birakendused-master\src" />
@@ -413,7 +415,7 @@
       <workItem from="1523797374622" duration="11000" />
       <workItem from="1523797575846" duration="107000" />
       <workItem from="1523799605457" duration="2477000" />
-      <workItem from="1523986696151" duration="6322000" />
+      <workItem from="1523986696151" duration="6478000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy">
       <created>1523794731659</created>
@@ -688,11 +690,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523993655773</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Deploy">
+      <created>1523993798772</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1523993798772</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13041000" />
+    <option name="totallyTimeSpent" value="13197000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -754,7 +763,9 @@
     <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -879,8 +890,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523993684068" expanded="true" signature="62393:62410" ph="..." />
-            <marker date="1523993684068" expanded="true" signature="62393:62441" ph="..." />
+            <marker date="1523993821652" expanded="true" signature="62993:63010" ph="..." />
+            <marker date="1523993821652" expanded="true" signature="62993:63041" ph="..." />
           </folding>
         </state>
       </provider>
@@ -915,8 +926,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523993684068" expanded="true" signature="62393:62410" ph="..." />
-            <marker date="1523993684068" expanded="true" signature="62393:62441" ph="..." />
+            <marker date="1523993821652" expanded="true" signature="62993:63010" ph="..." />
+            <marker date="1523993821652" expanded="true" signature="62993:63041" ph="..." />
           </folding>
         </state>
       </provider>
@@ -951,8 +962,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523993684068" expanded="true" signature="62393:62410" ph="..." />
-            <marker date="1523993684068" expanded="true" signature="62393:62441" ph="..." />
+            <marker date="1523993821652" expanded="true" signature="62993:63010" ph="..." />
+            <marker date="1523993821652" expanded="true" signature="62993:63041" ph="..." />
           </folding>
         </state>
       </provider>
@@ -987,8 +998,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523993684068" expanded="true" signature="62393:62410" ph="..." />
-            <marker date="1523993684068" expanded="true" signature="62393:62441" ph="..." />
+            <marker date="1523993821652" expanded="true" signature="62993:63010" ph="..." />
+            <marker date="1523993821652" expanded="true" signature="62993:63041" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1037,8 +1048,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523993684068" expanded="true" signature="62393:62410" ph="..." />
-            <marker date="1523993684068" expanded="true" signature="62393:62441" ph="..." />
+            <marker date="1523993821652" expanded="true" signature="62993:63010" ph="..." />
+            <marker date="1523993821652" expanded="true" signature="62993:63041" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1126,7 +1137,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javastuff/ServerInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/javastuff/ServerInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
@@ -1134,7 +1145,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javastuff/ConnectionServer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/javastuff/ConnectionServer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
@@ -1142,7 +1153,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javastuff/KasutajaDAO.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/javastuff/KasutajaDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
@@ -1150,36 +1161,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/javastuff/KasutajaBean.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/javastuff/KasutajaBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
-            <element signature="e#158#159#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-            <element signature="e#333#334#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
-            <element signature="e#416#417#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#518#519#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#649#650#0" expanded="true" />
-            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#314#315#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#393#394#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#488#489#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#690#691#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-92">
-          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1187,6 +1190,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="28" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
