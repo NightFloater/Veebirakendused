@@ -41,7 +41,7 @@
     try
     {
         Class.forName("org.postgresql.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "");
+        Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666");
         Statement st=conn.createStatement();
 
         int i=st.executeUpdate("insert into users(first_name,last_name,city_name,email)values('"+first_name+"','"+last_name+"','"+city_name+"','"+email+"')");
