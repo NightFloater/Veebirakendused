@@ -9,7 +9,7 @@
 <html>
 <head>
     <img src="https://i.imgur.com/WoF89Ay.jpg">
-    String name = request.getParameter("Eesnimi");
+    <%= request.getParameter("Eesnimi") %>
 
 </head>
 <body>
