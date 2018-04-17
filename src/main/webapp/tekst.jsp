@@ -28,22 +28,30 @@
 
 </head>
 <body>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+         pageEncoding="ISO-8859-1"%>
+<%@page import="java.sql.*,java.util.*"%>
+
 <%
-    String eesnimi = request.getParameter("eesnimi");
-    String perenimi = request.getParameter("perenimi");
-    String vanus = request.getParameter("vanus");
-    String email = request.getParameter("email");
+    String first_name=request.getParameter("eesnimi");
+    String last_name=request.getParameter("perenimi");
+    String city_name=request.getParameter("vanus");
+    String email=request.getParameter("email");
 
+    try
+    {
+        Class.forName("org.postgresql.Driver");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "");
+        Statement st=conn.createStatement();
 
-
-Class.forName("org.postgresql.Driver");
-Connection con= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666");
-
-Statement st = con.createStatement();
-
-String sql = ("INSERT INTO register VALUES ('" + eesnimi+ "','" + perenimi + "','" + vanus + "','"+ email) ;
-st.executeUpdate(sql);
-con.close();
+        int i=st.executeUpdate("insert into users(first_name,last_name,city_name,email)values('"+first_name+"','"+last_name+"','"+city_name+"','"+email+"')");
+        out.println("Data is successfully inserted!");
+    }
+    catch(Exception e)
+    {
+        System.out.print(e);
+        e.printStackTrace();
+    }
 %>
 </body>
 </html>
