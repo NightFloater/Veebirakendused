@@ -7,5 +7,18 @@
 
 <img src="https://i.imgur.com/WoF89Ay.jpg">
 
+<form name="myForm" action="tekst.jsp" method="post" >
+    <td>Eesnimi </td>
+    <input type="text" name="Eesnimi" >
+    <td>Perenimi</td>
+    <input type="text" name="Perenimi" >
+    <td>Vanus </td>
+    <input type="text" name="Vanus" >
+    <td>Email</td>
+    <input type="text" name="Email" >
+    <input type="submit" >
+</form>
+
+
 </body>
 </html>

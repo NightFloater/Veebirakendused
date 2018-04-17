@@ -36,7 +36,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
               <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
@@ -71,7 +71,7 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1523986784815" expanded="true" signature="54973:55149" ph="..." />
+                <marker date="1523986869045" expanded="true" signature="56205:56381" ph="..." />
               </folding>
             </state>
           </provider>
@@ -152,7 +152,7 @@
               <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
               <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -176,6 +176,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mrani\Desktop\RobinTest2\v33birakendused-master\src\main\webapp" />
       <recent name="C:\Users\mrani\Desktop\RobinTest2\v33birakendused-master\src\main\" />
       <recent name="C:\Users\mrani\Desktop\RobinTest2\v33birakendused-master\src" />
     </key>
@@ -303,7 +304,7 @@
       <workItem from="1523797374622" duration="11000" />
       <workItem from="1523797575846" duration="107000" />
       <workItem from="1523799605457" duration="2477000" />
-      <workItem from="1523986696151" duration="102000" />
+      <workItem from="1523986696151" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy">
       <created>1523794731659</created>
@@ -466,11 +467,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523986762222</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Deploy">
+      <created>1523986845426</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1523986845426</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6821000" />
+    <option name="totallyTimeSpent" value="6910000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -586,7 +594,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
@@ -599,7 +607,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523986784815" expanded="true" signature="54973:55149" ph="..." />
+            <marker date="1523986869045" expanded="true" signature="56205:56381" ph="..." />
           </folding>
         </state>
       </provider>
@@ -737,7 +745,7 @@
       </provider>
     </entry>
     <entry file="das://table:/19423c5e/b5f1a810-3ab9-4968-a251-907fd8d62996/postgres.public.nimed" />
-    <entry file="file://$PROJECT_DIR$/src/main/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -750,7 +758,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523986784815" expanded="true" signature="54973:55149" ph="..." />
+            <marker date="1523986869045" expanded="true" signature="56205:56381" ph="..." />
           </folding>
         </state>
       </provider>
@@ -772,7 +780,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -785,7 +793,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523986784815" expanded="true" signature="54973:55149" ph="..." />
+            <marker date="1523986869045" expanded="true" signature="56205:56381" ph="..." />
           </folding>
         </state>
       </provider>
@@ -807,7 +815,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -820,7 +828,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523986784815" expanded="true" signature="54973:55149" ph="..." />
+            <marker date="1523986869045" expanded="true" signature="56205:56381" ph="..." />
           </folding>
         </state>
       </provider>
@@ -842,7 +850,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -855,7 +863,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523986784815" expanded="true" signature="54973:55149" ph="..." />
+            <marker date="1523986869045" expanded="true" signature="56205:56381" ph="..." />
           </folding>
         </state>
       </provider>
@@ -867,7 +875,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -904,7 +912,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523986784815" expanded="true" signature="54973:55149" ph="..." />
+            <marker date="1523986869045" expanded="true" signature="56205:56381" ph="..." />
           </folding>
         </state>
       </provider>
@@ -934,7 +942,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
