@@ -25,7 +25,7 @@
         statement.executeUpdate(command);
 
     } catch (Exception e) {
-        out.println("An error occurred.");
+        out.println("An error occurred1.");
     }
 %>
 
