@@ -48,8 +48,8 @@
       <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="187">
+              <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -81,8 +81,8 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1523987025409" expanded="true" signature="58333:58375" ph="..." />
-                <marker date="1523987025409" expanded="true" signature="58333:58406" ph="..." />
+                <marker date="1523987596310" expanded="true" signature="58741:58783" ph="..." />
+                <marker date="1523987596310" expanded="true" signature="58741:58814" ph="..." />
               </folding>
             </state>
           </provider>
@@ -323,7 +323,7 @@
       <workItem from="1523797374622" duration="11000" />
       <workItem from="1523797575846" duration="107000" />
       <workItem from="1523799605457" duration="2477000" />
-      <workItem from="1523986696151" duration="450000" />
+      <workItem from="1523986696151" duration="1035000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy">
       <created>1523794731659</created>
@@ -500,11 +500,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523986980775</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Deploy">
+      <created>1523987204387</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1523987204387</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7169000" />
+    <option name="totallyTimeSpent" value="7754000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,8 +640,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523987025409" expanded="true" signature="58333:58375" ph="..." />
-            <marker date="1523987025409" expanded="true" signature="58333:58406" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58783" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58814" ph="..." />
           </folding>
         </state>
       </provider>
@@ -785,8 +792,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523987025409" expanded="true" signature="58333:58375" ph="..." />
-            <marker date="1523987025409" expanded="true" signature="58333:58406" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58783" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58814" ph="..." />
           </folding>
         </state>
       </provider>
@@ -821,8 +828,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523987025409" expanded="true" signature="58333:58375" ph="..." />
-            <marker date="1523987025409" expanded="true" signature="58333:58406" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58783" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58814" ph="..." />
           </folding>
         </state>
       </provider>
@@ -857,8 +864,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523987025409" expanded="true" signature="58333:58375" ph="..." />
-            <marker date="1523987025409" expanded="true" signature="58333:58406" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58783" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58814" ph="..." />
           </folding>
         </state>
       </provider>
@@ -893,8 +900,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523987025409" expanded="true" signature="58333:58375" ph="..." />
-            <marker date="1523987025409" expanded="true" signature="58333:58406" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58783" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58814" ph="..." />
           </folding>
         </state>
       </provider>
@@ -943,8 +950,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1523987025409" expanded="true" signature="58333:58375" ph="..." />
-            <marker date="1523987025409" expanded="true" signature="58333:58406" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58783" ph="..." />
+            <marker date="1523987596310" expanded="true" signature="58741:58814" ph="..." />
           </folding>
         </state>
       </provider>
@@ -984,8 +991,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="187">
+          <caret line="11" column="48" lean-forward="false" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
           <folding />
         </state>
       </provider>
