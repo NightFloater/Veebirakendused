@@ -36,7 +36,7 @@
 
 
 
-Class.forName("un.jdbc.odbc.JdbcOdbcDriver");
+Class.forName("org.postgresql.Driver");
 Connection con= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666");
 
 Statement st = con.createStatement();
