@@ -29,6 +29,13 @@
 </head>
 <body>
 <%
+    String eesnimi = request.getParameter("eesnimi");
+    String perenimi = request.getParameter("perenimi");
+    String vanus = request.getParameter("vanus");
+    String email = request.getParameter("email");
+
+
+
 Class.forName("org.postgresql.Driver");
 Connection con= DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666");
 
