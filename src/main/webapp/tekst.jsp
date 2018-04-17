@@ -9,7 +9,11 @@
 <html>
 <head>
     <img src="https://i.imgur.com/WoF89Ay.jpg">
+
+    <p>
+
     <%= request.getParameter("Eesnimi") %>
+    </p>
 
 </head>
 <body>
