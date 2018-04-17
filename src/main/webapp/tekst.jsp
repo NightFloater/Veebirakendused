@@ -1,6 +1,7 @@
 <%@ page import="java.sql.DriverManager" %>
 <%@ page import="java.sql.Connection" %>
-<%@ page import="java.sql.Statement" %><%--
+<%@ page import="java.sql.Statement" %>
+<%@ page import="java.sql.Driver" %><%--
 <%@ page import="javastuff.*" %>
 <%@ page import="javastuff.KasutajaDAO" %>
   Created by IntelliJ IDEA.
@@ -20,7 +21,7 @@
 
 
         Class.forName("org.postgresql.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666");
+        Connection conn = Driver.getConnection("jdbc:postgresql://localhost:5432/postgres", "postgres", "kaloss666");
         Statement st=conn.createStatement();
 
        int i= st.executeUpdate("insert into kasutajad(eesnimi, perenimi, vanus, email)values('"+first_name+"','"+last_name+"','"+city_name+"','"+email+"')");
