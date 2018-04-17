@@ -23,8 +23,7 @@
     String city_name=request.getParameter("vanus");
     String email=request.getParameter("email");
     out.println("siinveeltootab");
-    try
-    {
+
         Class.forName("org.postgresql.Driver");
         Connection conn = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
 
@@ -35,13 +34,8 @@
         PreparedStatement st = conn.prepareStatement("insert into kasutajad(eesnimi,perenimi,vanus,email) VALUES ('" + first_name + "','" + last_name + "','" +city_name + "','" + email + "'");
        st.executeUpdate();
         out.println("Data is successfully inserted!");
-    }
-    catch(Exception e)
-    {
-        out.println("feilib");
-        System.out.print(e);
-        e.printStackTrace();
-    }
+
+
 %>
 <html>
 <head>
