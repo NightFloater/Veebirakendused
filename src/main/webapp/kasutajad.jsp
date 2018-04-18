@@ -16,7 +16,7 @@
 />
 
 <sql:query var="listUsers"   dataSource="${myDS}">
-    SELECT * FROM kasutajad;
+
 </sql:query>
 
 <div align="center">
@@ -28,7 +28,7 @@
             <th>vanus</th>
             <th>email</th>
         </tr>
-        <c:forEach var="user" items="${listUsers.rows}">
+        <c:forEach var="user" items="${kasutajad.rows}">
             <tr>
                 <td><c:out value="${kasutajad.eesnimi}" /></td>
                 <td><c:out value="${kasutajad.perenimi}" /></td>
