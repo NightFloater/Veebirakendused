@@ -4,9 +4,7 @@
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="Deploy">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_42_2_2.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/javastuff/ConnectionServer.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/tekst.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/tekst.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -569,14 +567,7 @@
       <workItem from="1523986696151" duration="17928000" />
       <workItem from="1524006401060" duration="10335000" />
       <workItem from="1524028321735" duration="6288000" />
-      <workItem from="1524042349413" duration="44000" />
-    </task>
-    <task id="LOCAL-00071" summary="Deploy">
-      <created>1524007785415</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1524007785415</updated>
+      <workItem from="1524042349413" duration="726000" />
     </task>
     <task id="LOCAL-00072" summary="Deploy">
       <created>1524008213524</created>
@@ -914,11 +905,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524041192894</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="Deploy">
+      <created>1524042412977</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1524042412977</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41314000" />
+    <option name="totallyTimeSpent" value="41996000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1030,6 +1028,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,6 +1061,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1094,6 +1094,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1132,6 +1133,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
