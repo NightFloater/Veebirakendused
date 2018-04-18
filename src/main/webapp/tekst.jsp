@@ -74,9 +74,8 @@
 </head>
 <body>
 <%
-    Connection c = connect();
-    out.print(c);
-    close(c);
+    connect();
+    //close(c);
 %>
 
 </body>
