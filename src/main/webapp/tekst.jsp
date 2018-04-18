@@ -20,7 +20,7 @@
 
 
 
-<%! public static Connection connect2 (){
+<%!public static Connection connect (){
     String first_name=request.getParameter("eesnimi");
     String last_name=request.getParameter("perenimi");
     String city_name=request.getParameter("vanus");
@@ -55,6 +55,11 @@
         }
 
     }
+
+
+
+
+
 %>
 <html>
 <head>
@@ -73,7 +78,11 @@
 
 </head>
 <body>
-
+<%
+    Connection c = connect();
+    out.print(c);
+    close(c);
+%>
 
 </body>
 </html>
