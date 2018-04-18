@@ -23,9 +23,7 @@
     String city_name=request.getParameter("vanus");
     String email=request.getParameter("email");
     out.println("siinveeltootab");
-    try
-    {
-        Connection connection = null;
+    Connection connection = null;
 
         Class.forName("com.mysql.jdbc.Driver");
         Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
@@ -34,13 +32,7 @@
         PreparedStatement st = conn.prepareStatement("insert into kasutajad(eesnimi,perenimi,vanus,email) VALUES ('" + first_name + "','" + last_name + "','" +city_name + "','" + email + "'");
        st.executeUpdate();
         out.println("Data is successfully inserted!");
-    }
-    catch(Exception e)
-    {
-        out.println("feilib");
-        System.out.print(e);
-        e.printStackTrace();
-    }
+
 %>
 <html>
 <head>
