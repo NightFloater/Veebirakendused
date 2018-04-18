@@ -25,7 +25,7 @@
                 while(rs.next())
                 {
         %>
-        <tr><td><%out.println(rs.getString("eesnimi\\t")+rs.getString("perenimi\\t")+rs.getString("vanus\\t")+rs.getString("email")); %></td></tr>
+        <tr><td><%out.println(rs.getString("eesnimi")+"\\t"+rs.getString("perenimi")+"\\t"+rs.getString("vanus")+"\\t"+rs.getString("email")); %></td></tr>
 
 
 
