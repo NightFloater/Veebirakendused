@@ -81,8 +81,7 @@
                     }
                 }
                 catch (Exception ex) {
-                    out.println("Unable to connect to batabase.");
-
+                    throw new Error(ex);
                 }
                 finally {
                     // close all the connections.
