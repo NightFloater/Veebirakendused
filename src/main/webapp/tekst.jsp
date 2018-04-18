@@ -60,7 +60,7 @@
 		to database. */
                     connection = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
                     // sql query to insert values in the secified table.
-                    String queryString = "INSERT INTO kasutajad(Name, Address,Phone,Email) VALUES (?, ?, ?,?)";
+                    String queryString = "INSERT INTO kasutajad(eesnimi, perenimi,vanus,email) VALUES (?, ?, ?,?)";
               	      /* createStatement() is used for create statement
               object that is used for
 		sending sql statements to the specified database. */
