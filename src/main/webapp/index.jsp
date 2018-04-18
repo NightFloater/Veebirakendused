@@ -51,9 +51,9 @@ Siia sisesta oma info kui soovid luua kasutajat
 <form name="myForm" action="tekst.jsp" method="post" >
     <input type="submit" >
 </form>
-
+Siia vajutades saad ligi kasutajate nimekirjale
 <form name="myForm" action="kasutajad.jsp" method="post" >
-    <input type="Kasutajad" >
+    <input type="submit" >
 </form>
 
 
