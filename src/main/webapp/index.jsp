@@ -42,10 +42,10 @@
 
 
 <div>
-    <h4><a href="http://allinthehead.com/" data-gravatar-hash="13734b0cb20708f79e730809c29c3c48">
-        Drew McLellan
+    <h4><a href="https://i.redd.it/" data-gravatar-hash="/wpozn1bapfs01.png">
+        Reddit mememee
     </a></h4>
-    <p>This is a great article!</p>
+    <p>This is a great meme!</p>
 </div>
 
 <img src="https://i.redd.it/qcwrcbhy4gs01.png">
