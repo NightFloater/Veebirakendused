@@ -2,7 +2,8 @@
 <%@ page import="java.sql.Driver" %>
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.Statement" %>
-<%@ page import="java.sql.PreparedStatement" %><%--
+<%@ page import="java.sql.PreparedStatement" %>
+<%@ page import="main.webapp.App" %><%--
 <%@ page import="javastuff.*" %>
 <%@ page import="javastuff.KasutajaDAO" %>
   Created by IntelliJ IDEA.
@@ -23,16 +24,24 @@
     String city_name=request.getParameter("vanus");
     String email=request.getParameter("email");
     out.println("siinveeltootab");
-    Connection connection = null;
+    try
+    {
+        Connection connection = null;
 
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "root");
 
 
         PreparedStatement st = conn.prepareStatement("insert into kasutajad(eesnimi,perenimi,vanus,email) VALUES ('" + first_name + "','" + last_name + "','" +city_name + "','" + email + "'");
        st.executeUpdate();
         out.println("Data is successfully inserted!");
-
+    }
+    catch(Exception e)
+    {
+        out.println("feilib");
+        System.out.print(e);
+        e.printStackTrace();
+    }
 %>
 <html>
 <head>
@@ -51,6 +60,13 @@
 
 </head>
 <body>
+
+
+
+<%
+    App tc = new App();
+    tc.Robin();
+%>
 
 
 
