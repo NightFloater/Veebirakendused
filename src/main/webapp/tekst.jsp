@@ -11,15 +11,15 @@
 <FORM action="tekst.jsp" method="get">
     <TABLE style="background-color: #14e01b;" WIDTH="30%" >
         <TR>
-            <TH width="50%">Name</TH>
+            <TH width="50%">Eesnimi</TH>
             <TD width="50%"><INPUT TYPE="text" NAME="eesnimi"></TD>
         </tr>
         <TR>
-            <TH width="50%">City</TH>
+            <TH width="50%">Perenimi</TH>
             <TD width="50%"><INPUT TYPE="text" NAME="perenimi"></TD>
         </tr>
         <TR>
-            <TH width="50%">Phone</TH>
+            <TH width="50%">Vanus</TH>
             <TD width="50%"><INPUT TYPE="text" NAME="vanus"></TD>
         </tr>
         <TR>
