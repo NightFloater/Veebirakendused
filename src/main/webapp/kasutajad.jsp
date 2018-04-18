@@ -5,12 +5,6 @@
 
 <form method="post">
 
-    <table style="float: right" border="1">
-        <tr>
-            <td>Eesnimi</td>
-
-
-        </tr>
         <%
             try
             {
@@ -25,15 +19,23 @@
                 while(rs.next())
                 {
         %>
-        <tr><td><%out.println(rs.getString("eesnimi")); %></td></tr>
+    <div>
+        <table style="width:50%; float:left">
+            <tr>
+                <td><%out.println(rs.getString("eesnimi")+"\t"+rs.getString("perenimi")); %></td>
+            </tr>
+        </table>
 
-
+        <table id="tblTwo" style="width:50%; float:left">
+        <tr><td><%out.println(rs.getString("vanus")+("\t")+rs.getString("email")); %></td></tr>
+        </table>
+    </div>
 
 
         <%
             }
         %>
-    </table>
+
     <%
             rs.close();
             stmt.close();
