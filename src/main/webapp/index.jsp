@@ -11,7 +11,7 @@
 
 
     }catch(Exception e){
-        return null;
+       throw new Error(e);
     }
 }
 
