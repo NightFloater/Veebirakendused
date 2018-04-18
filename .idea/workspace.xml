@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/HerokuApp.iml" afterPath="$PROJECT_DIR$/HerokuApp.iml" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/javastuff/ConnectionServer.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/tekst.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/tekst.jsp" />
     </list>
@@ -107,12 +108,11 @@
       <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="121" lean-forward="false" selection-start-line="28" selection-start-column="121" selection-end-line="28" selection-end-column="121" />
+            <state relative-caret-position="374">
+              <caret line="30" column="87" lean-forward="false" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
               <folding>
-                <marker date="1524008740418" expanded="true" signature="1022:1120" ph="CREATE TABLE... kasutajad" />
-                <marker date="1524008740418" expanded="true" signature="1221:1233" ph="insert into postgres.... " />
-                <marker date="1524008740418" expanded="true" signature="1221:1356" ph="insert into kasutaja... " />
+                <marker date="1524010117545" expanded="true" signature="1018:1030" ph="insert into postgres.... " />
+                <marker date="1524010117545" expanded="true" signature="1018:1153" ph="insert into kasutaja... " />
               </folding>
             </state>
           </provider>
@@ -269,7 +269,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propCompiler" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../postgresql-42.2.2.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../mysql-connector-java-5.1.46" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL&#10;MySQL" />
   </component>
   <component name="RecentsManager">
@@ -542,14 +542,7 @@
       <workItem from="1523797575846" duration="107000" />
       <workItem from="1523799605457" duration="2477000" />
       <workItem from="1523986696151" duration="17928000" />
-      <workItem from="1524006401060" duration="2343000" />
-    </task>
-    <task id="LOCAL-00025" summary="Deploy">
-      <created>1523986980775</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1523986980775</updated>
+      <workItem from="1524006401060" duration="3666000" />
     </task>
     <task id="LOCAL-00026" summary="Deploy">
       <created>1523987204387</created>
@@ -887,11 +880,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524008573267</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="Deploy">
+      <created>1524008763408</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1524008763408</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26990000" />
+    <option name="totallyTimeSpent" value="28313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1323,12 +1323,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="121" lean-forward="false" selection-start-line="28" selection-start-column="121" selection-end-line="28" selection-end-column="121" />
+        <state relative-caret-position="374">
+          <caret line="30" column="87" lean-forward="false" selection-start-line="30" selection-start-column="87" selection-end-line="30" selection-end-column="87" />
           <folding>
-            <marker date="1524008740418" expanded="true" signature="1022:1120" ph="CREATE TABLE... kasutajad" />
-            <marker date="1524008740418" expanded="true" signature="1221:1233" ph="insert into postgres.... " />
-            <marker date="1524008740418" expanded="true" signature="1221:1356" ph="insert into kasutaja... " />
+            <marker date="1524010117545" expanded="true" signature="1018:1030" ph="insert into postgres.... " />
+            <marker date="1524010117545" expanded="true" signature="1018:1153" ph="insert into kasutaja... " />
           </folding>
         </state>
       </provider>
