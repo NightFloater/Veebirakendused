@@ -34,7 +34,7 @@
         st.executeUpdate();
 
     }catch(Exception e){
-        throw new Error(e);
+
     }
 
 }
