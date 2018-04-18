@@ -7,7 +7,7 @@
     try{
 
         Class.forName("org.postgresql.Driver").newInstance();
-        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","kaloss666");
+        return DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2","vkzivsefpcoxqi","dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
 
 
     }catch(Exception e){
