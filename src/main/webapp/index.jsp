@@ -6,8 +6,8 @@
 <%!public static Connection connect (){
     try{
 
-        Class.forName("com.mysql.jdbc.Driver").newInstance();
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","root");
+        Class.forName("org.postgresql.Driver").newInstance();
+        return DriverManager.getConnection("jdbc:postgresql://localhost:5432/postgres","postgres","kaloss666");
 
 
     }catch(Exception e){
