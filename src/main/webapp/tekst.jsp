@@ -81,7 +81,7 @@
 <body>
 <%
     Connection c = connect();
-    out.print(c);
+    connect();
     close(c);
 %>
 
