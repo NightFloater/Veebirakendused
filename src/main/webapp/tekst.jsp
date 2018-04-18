@@ -3,7 +3,7 @@
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.Statement" %>
 <%@ page import="java.sql.PreparedStatement" %>
-<%@ page import="main.webapp.App" %><%--
+<%--
 <%@ page import="javastuff.*" %>
 <%@ page import="javastuff.KasutajaDAO" %>
   Created by IntelliJ IDEA.
