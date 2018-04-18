@@ -45,5 +45,5 @@
         }
     %>
     <h2>Niisama V2ike nunnu Randolfus</h2>
-    <img src="https://imgur.com/a/FWbam">
+    <img src="https://imgur.com/a/jJ0Uf">
 </form>`
