@@ -29,7 +29,7 @@
         Connection connection = null;
 
         Class.forName("com.mysql.jdbc.Driver");
-        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306", "root", "root");
+        Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/sys", "root", "root");
 
 
         PreparedStatement st = conn.prepareStatement("insert into kasutajad(eesnimi,perenimi,vanus,email) VALUES ('" + first_name + "','" + last_name + "','" +city_name + "','" + email + "'");
