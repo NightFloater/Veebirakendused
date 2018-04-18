@@ -20,7 +20,7 @@
 
 <% String first_name =request.getParameter("eesnimi"); %>
 
-<%!public static Connection connect (){
+<%!public static void Connection connect (){
 
 
 
@@ -36,7 +36,7 @@
     }catch(Exception e){
         throw new Error(e);
     }
-    return null;
+
 }
 
 
