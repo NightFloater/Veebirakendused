@@ -26,19 +26,24 @@
     String city_name=request.getParameter("vanus");
     String email=request.getParameter("email");
     out.println("siinveeltootab");
+    try
+    {
 
-        Connection connection = null;
         Class.forName("org.postgresql.Driver").newInstance();
         Connection conn = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2","vkzivsefpcoxqi","dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
 
-        Statement statement = connection.createStatement();
+        Statement statement = conn.createStatement();
         String command = "CREATE TABLE kasutajad (eesnimi CHAR(50), perenimi CHAR(50),vanus CHAR(50), email CHAR(50));";
         statement.executeUpdate(command);
 
         PreparedStatement st = conn.prepareStatement("insert into kasutajad(eesnimi,perenimi,vanus,email) VALUES ('" + first_name + "','" + last_name + "','" +city_name + "','" + email + "'");
         st.executeUpdate();
         out.println("Data is successfully inserted!");
-
+    }
+    catch(Exception e)
+    {
+        throw new Error(e);
+    }
 %>
 <html>
 <head>
