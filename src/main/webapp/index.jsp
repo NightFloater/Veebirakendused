@@ -41,7 +41,8 @@
 <h2>Viimase nädala kõige sõgedamad meemid on</h2>
 
 
-
+<h2>Niisama V2ike nunnu Randolfus</h2>
+<p><img src="https://imgur.com/a/jJ0Uf"></p>
 
 
 <img src="https://i.redd.it/qcwrcbhy4gs01.png">
