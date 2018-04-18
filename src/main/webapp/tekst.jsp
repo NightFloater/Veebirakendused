@@ -42,9 +42,7 @@
     }
     catch(Exception e)
     {
-        out.println("feilib");
-        System.out.print(e);
-        e.printStackTrace();
+        throw new Error(e);
     }
 %>
 <html>
