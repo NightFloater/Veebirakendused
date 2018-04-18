@@ -76,6 +76,12 @@ Siia vajutades saad ligi kasutajate nimekirjale
     <input type="submit" >
 </form>
 
+Vajuta siia et laadida pilti
+<form name="myForm" action="PildiLaadimine.jsp" method="post" >
+    <input type="submit" >
+</form>
+
+
 
 
 <%
