@@ -27,10 +27,11 @@
                 while(rs.next())
                 {
         %>
-        <tr><td><%rs.getString("eesnimi"); %></td></tr>
-        <tr><td><%rs.getString("perenimi"); %></td></tr>
-        <tr><td><%rs.getString("vanus"); %></td></tr>
-        <tr><td><%rs.getString("email"); %></td></tr>
+        <tr><td><%out.println(rs.getString("eesnimi")); %></td></tr>
+        <tr><td><%out.println(rs.getString("perenimi")); %></td></tr>
+        <tr><td><%out.println(rs.getString("vanus")); %></td></tr>
+        <tr><td><%out.println(rs.getString("email")); %></td></tr>
+
 
 
         <%
