@@ -4,6 +4,7 @@
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="Deploy">
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_42_2_2.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/javastuff/ConnectionServer.java" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/tekst.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/tekst.jsp" />
     </list>
@@ -137,23 +138,14 @@
       <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InsertData.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/InsertData.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+            <state relative-caret-position="260">
+              <caret line="71" column="49" lean-forward="false" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2039#2040#0" expanded="true" />
-                <element signature="e#2081#2082#0" expanded="true" />
-                <marker date="1524046661615" expanded="true" signature="1259:1406" ph="insert into kasutajad... " />
+                <element signature="n#style#0;n#TABLE#0;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#TABLE#1;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
+                <marker date="1524047490952" expanded="true" signature="2760:2786" ph="INSERT INTO kasutajad... " />
+                <marker date="1524047490952" expanded="true" signature="2760:2802" ph="INSERT INTO kasutajad... " />
+                <marker date="1524047490952" expanded="true" signature="2760:2827" ph="INSERT INTO kasutajad... " />
               </folding>
             </state>
           </provider>
@@ -169,23 +161,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseConnection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/DatabaseConnection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="153">
+              <caret line="9" column="208" lean-forward="false" selection-start-line="9" selection-start-column="144" selection-end-line="9" selection-end-column="208" />
               <folding />
             </state>
           </provider>
@@ -242,9 +222,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/App.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/display.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/DatabaseConnection.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/InsertData.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/tekst.jsp" />
       </list>
     </option>
@@ -315,13 +295,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="InsertData.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
@@ -626,14 +599,7 @@
       <workItem from="1524006401060" duration="10335000" />
       <workItem from="1524028321735" duration="6288000" />
       <workItem from="1524042349413" duration="726000" />
-      <workItem from="1524043514385" duration="3459000" />
-    </task>
-    <task id="LOCAL-00089" summary="Deploy">
-      <created>1524014369105</created>
-      <option name="number" value="00089" />
-      <option name="presentableId" value="LOCAL-00089" />
-      <option name="project" value="LOCAL" />
-      <updated>1524014369105</updated>
+      <workItem from="1524043514385" duration="3973000" />
     </task>
     <task id="LOCAL-00090" summary="Deploy">
       <created>1524014631619</created>
@@ -971,11 +937,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524046773221</updated>
     </task>
-    <option name="localTasksCounter" value="138" />
+    <task id="LOCAL-00138" summary="Deploy">
+      <created>1524046986310</created>
+      <option name="number" value="00138" />
+      <option name="presentableId" value="LOCAL-00138" />
+      <option name="project" value="LOCAL" />
+      <updated>1524046986310</updated>
+    </task>
+    <option name="localTasksCounter" value="139" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45455000" />
+    <option name="totallyTimeSpent" value="45969000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1307,9 +1280,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="59">
           <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/InsertData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="208" lean-forward="false" selection-start-line="9" selection-start-column="144" selection-end-line="9" selection-end-column="208" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1321,32 +1308,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="9" selection-start-column="43" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/InsertData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="57" column="13" lean-forward="true" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2039#2040#0" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
-            <marker date="1524046661615" expanded="true" signature="1259:1406" ph="insert into kasutajad... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="260">
+          <caret line="71" column="49" lean-forward="false" selection-start-line="71" selection-start-column="49" selection-end-line="71" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#TABLE#0;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#TABLE#1;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
+            <marker date="1524047490952" expanded="true" signature="2760:2786" ph="INSERT INTO kasutajad... " />
+            <marker date="1524047490952" expanded="true" signature="2760:2802" ph="INSERT INTO kasutajad... " />
+            <marker date="1524047490952" expanded="true" signature="2760:2827" ph="INSERT INTO kasutajad... " />
+          </folding>
         </state>
       </provider>
     </entry>
