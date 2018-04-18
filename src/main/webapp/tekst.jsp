@@ -20,7 +20,7 @@
 
 
 
-<%
+<%! public static Connection connect2 (){
     String first_name=request.getParameter("eesnimi");
     String last_name=request.getParameter("perenimi");
     String city_name=request.getParameter("vanus");
@@ -39,10 +39,21 @@
         PreparedStatement st = conn.prepareStatement("insert into kasutajad(eesnimi,perenimi,vanus,email) VALUES ('" + first_name + "','" + last_name + "','" +city_name + "','" + email + "'");
         st.executeUpdate();
         out.println("Data is successfully inserted!");
-    }
-    catch(Exception e)
-    {
+    }catch(Exception e){
         throw new Error(e);
+    }
+}
+
+
+    public static boolean close(Connection c){
+
+        try{
+            c.close();
+            return true;
+        }catch (Exception e){
+            return false;
+        }
+
     }
 %>
 <html>
