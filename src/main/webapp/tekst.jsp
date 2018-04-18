@@ -77,6 +77,9 @@
     connect();
     //close(c);
 %>
+<form name="myForm" action="display.jsp" method="post" >
+    <input type="submit" >
+</form>
 
 </body>
 </html>
