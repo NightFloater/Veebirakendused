@@ -43,7 +43,7 @@
 
 <h2>Niisama V2ike nunnu Randolfus</h2>
 <p><img src="https://imgur.com/a/jJ0Uf.png"></p>
-
+<<img src="https://imgur.com/a/qjneM" >
 
 <img src="https://i.redd.it/qcwrcbhy4gs01.png">
 <p><img src="https://i.redd.it/wpozn1bapfs01.png"></p>
