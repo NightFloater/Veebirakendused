@@ -7,7 +7,7 @@
     <TITLE>insert data using prepared statement </TITLE>
 </HEAD>
 <BODY bgcolor="#ffffcc">
-<font size="+3" color="green"><br>Welcome in www.roseindia.net !</font>
+<font size="+3" color="green"><br>Welcome in memer!</font>
 <FORM action="tekst.jsp" method="get">
     <TABLE style="background-color: #ECE5B6;" WIDTH="30%" >
         <TR>
@@ -58,8 +58,7 @@
               method that takes parameters of string type
               connection url, user name and password to connect
 		to database. */
-                    connection = DriverManager.getConnection
-                            (connectionURL, "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
+                    connection = DriverManager.getConnection(connectionURL, "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
                     // sql query to insert values in the secified table.
                     String queryString = "INSERT INTO kasutajad(Name, Address,Phone,Email) VALUES (?, ?, ?,?)";
               	      /* createStatement() is used for create statement
