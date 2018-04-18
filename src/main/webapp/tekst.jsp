@@ -16,35 +16,6 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<%!public static Connection connect (){
-    try{
-        out.print("tootab");
-        Class.forName("com.mysql.jdbc.Driver").newInstance();
-        return DriverManager.getConnection("jdbc:mysql://localhost/robin","root","root");
-
-
-    }catch(Exception e){
-        return null;
-    }
-}
-
-
-public static boolean close(Connection c){
-
-    try{
-        c.close();
-        return true;
-    }catch (Exception e){
-        return false;
-    }
-
-}
-
-
-
-
-
-%>
 
 
 <%
@@ -90,11 +61,6 @@ public static boolean close(Connection c){
 </head>
 <body>
 
-<%
-    Connection c = connect();
-    out.print(c);
-    close(c);
-%>
 
 </body>
 </html>
