@@ -1,4 +1,5 @@
 <%@ page import="java.sql.DriverManager" %>
+<%@ page import="java.sql.*" %>
 <%@ page import="java.sql.Driver" %>
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.Statement" %>
@@ -15,7 +16,34 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
+<%!public static Connection connect (){
+    try{
+        Class.forName("com.mysql.jdbc.Driver").newInstance();
+        return DriverManager.getConnection("jdbc:mysql://localhost/robin","root","root");
 
+
+    }catch(Exception e){
+        return null;
+    }
+}
+
+
+public static boolean close(Connection c){
+
+    try{
+        c.close();
+        return true;
+    }catch (Exception e){
+        return false;
+    }
+
+}
+
+
+
+
+
+%>
 
 
 <%
@@ -61,8 +89,11 @@
 </head>
 <body>
 
-
-
+<%
+    Connection c = connect();
+    out.print(c);
+    close(c);
+%>
 
 </body>
 </html>
