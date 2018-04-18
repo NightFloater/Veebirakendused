@@ -6,7 +6,7 @@
 <%!public static Connection connect (){
     try{
 
-        Class.forName("C:\\Users\\mrani\\Desktop\\mysql-connector-java-5.1.46\\mysql-connector-java-5.1.46.jar!\\com\\mysql\\jdbc\\Driver.class").newInstance();
+        Class.forName("co").newInstance();
         return DriverManager.getConnection("jdbc:mysql://localhost/robin","root","root");
 
 

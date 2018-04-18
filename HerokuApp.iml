@@ -34,13 +34,19 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/../../mysql-connector-java-5.1.46" />
+          <root url="jar://$MODULE_DIR$/../../mysql-connector-java-5.1.46/mysql-connector-java-5.1.46-bin.jar!/" />
         </CLASSES>
         <JAVADOC />
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/../../mysql-connector-java-5.1.46/src" />
-        </SOURCES>
-        <jarDirectory url="file://$MODULE_DIR$/../../mysql-connector-java-5.1.46" recursive="false" />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../mysql-connector-java-5.1.46/mysql-connector-java-5.1.46.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>
