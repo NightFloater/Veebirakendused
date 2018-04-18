@@ -18,17 +18,10 @@
 
 
 
-Siia sisesta oma info kui soovid luua kasutajat
-<form name="myForm" action="InsertData.java" method="post" >
-    <td>Eesnimi </td>
-    <input type="text" name="eesnimi" >
-    <td>Perenimi</td>
-    <input type="text" name="perenimi" >
-    <td>Vanus </td>
-    <input type="text" name="vanus" >
-    <td>Email</td>
-    <input type="text" name="email" >
-    <input type="submit" >
+
+<form action="InsertData.java" method="get">
+    <input type="text" name="input">
+    <input type="submit" value="Send it!">
 </form>
 
 
