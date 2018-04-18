@@ -5,9 +5,9 @@
 
 <form method="post">
 
-    <table border="1">
+    <table style="float: right" border="1">
         <tr>
-            <td>Eesnimi&nbsp;Perenimi&nbsp;Vanus&nbsp;Email</td>
+            <td>Eesnimi</td>
 
 
         </tr>
