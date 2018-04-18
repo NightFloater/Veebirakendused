@@ -18,14 +18,10 @@
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-
+<% String first_name =request.getParameter("eesnimi"); %>
 
 <%!public static Connection connect (){
-    String first_name=request.getParameter("eesnimi");
-    String last_name=request.getParameter("perenimi");
-    String city_name=request.getParameter("vanus");
-    String email=request.getParameter("email");
-    out.println("siinveeltootab");
+
 
 
     try{
@@ -34,7 +30,7 @@
 
         Connection conn = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2","vkzivsefpcoxqi","dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
 
-        PreparedStatement st = conn.prepareStatement("insert into kasutajad(eesnimi,perenimi,vanus,email) VALUES ('" + first_name + "','" + last_name + "','" +city_name + "','" + email + "'");
+        PreparedStatement st = conn.prepareStatement("insert into kasutajad(eesnimi,perenimi,vanus,email) VALUES ('" + "Robin" + "','" + "Soodor" + "','" +"Vanus" + "','" + "email" + "'");
         st.executeUpdate();
 
     }catch(Exception e){
