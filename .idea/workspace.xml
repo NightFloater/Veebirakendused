@@ -146,15 +146,15 @@
       <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-290">
-              <caret line="32" column="161" lean-forward="false" selection-start-line="32" selection-start-column="161" selection-end-line="32" selection-end-column="161" />
+            <state relative-caret-position="-1">
+              <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
-                <marker date="1524038582070" expanded="true" signature="1074:1135" ph="insert into kasutajad... " />
-                <marker date="1524038582070" expanded="true" signature="1074:1149" ph="insert into kasutajad... " />
-                <marker date="1524038582070" expanded="true" signature="1074:1168" ph="insert into kasutajad... " />
-                <marker date="1524038582070" expanded="true" signature="1074:1185" ph="insert into kasutajad... " />
-                <marker date="1524038582070" expanded="true" signature="1074:1203" ph="insert into kasutajad... " />
-                <marker date="1524038582070" expanded="true" signature="1074:1205" ph="insert into kasutajad... " />
+                <marker date="1524038674004" expanded="true" signature="1079:1140" ph="insert into kasutajad... " />
+                <marker date="1524038674004" expanded="true" signature="1079:1154" ph="insert into kasutajad... " />
+                <marker date="1524038674004" expanded="true" signature="1079:1173" ph="insert into kasutajad... " />
+                <marker date="1524038674004" expanded="true" signature="1079:1190" ph="insert into kasutajad... " />
+                <marker date="1524038674004" expanded="true" signature="1079:1208" ph="insert into kasutajad... " />
+                <marker date="1524038674004" expanded="true" signature="1079:1210" ph="insert into kasutajad... " />
               </folding>
             </state>
           </provider>
@@ -594,14 +594,7 @@
       <workItem from="1523799605457" duration="2477000" />
       <workItem from="1523986696151" duration="17928000" />
       <workItem from="1524006401060" duration="10335000" />
-      <workItem from="1524028321735" duration="3572000" />
-    </task>
-    <task id="LOCAL-00065" summary="Deploy">
-      <created>1524006477904</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1524006477905</updated>
+      <workItem from="1524028321735" duration="3700000" />
     </task>
     <task id="LOCAL-00066" summary="Deploy">
       <created>1524006833437</created>
@@ -939,11 +932,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524038588972</updated>
     </task>
-    <option name="localTasksCounter" value="114" />
+    <task id="LOCAL-00114" summary="Deploy">
+      <created>1524038681041</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1524038681041</updated>
+    </task>
+    <option name="localTasksCounter" value="115" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38554000" />
+    <option name="totallyTimeSpent" value="38682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1314,15 +1314,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-290">
-          <caret line="32" column="161" lean-forward="false" selection-start-line="32" selection-start-column="161" selection-end-line="32" selection-end-column="161" />
+        <state relative-caret-position="-1">
+          <caret line="22" column="21" lean-forward="false" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
           <folding>
-            <marker date="1524038582070" expanded="true" signature="1074:1135" ph="insert into kasutajad... " />
-            <marker date="1524038582070" expanded="true" signature="1074:1149" ph="insert into kasutajad... " />
-            <marker date="1524038582070" expanded="true" signature="1074:1168" ph="insert into kasutajad... " />
-            <marker date="1524038582070" expanded="true" signature="1074:1185" ph="insert into kasutajad... " />
-            <marker date="1524038582070" expanded="true" signature="1074:1203" ph="insert into kasutajad... " />
-            <marker date="1524038582070" expanded="true" signature="1074:1205" ph="insert into kasutajad... " />
+            <marker date="1524038674004" expanded="true" signature="1079:1140" ph="insert into kasutajad... " />
+            <marker date="1524038674004" expanded="true" signature="1079:1154" ph="insert into kasutajad... " />
+            <marker date="1524038674004" expanded="true" signature="1079:1173" ph="insert into kasutajad... " />
+            <marker date="1524038674004" expanded="true" signature="1079:1190" ph="insert into kasutajad... " />
+            <marker date="1524038674004" expanded="true" signature="1079:1208" ph="insert into kasutajad... " />
+            <marker date="1524038674004" expanded="true" signature="1079:1210" ph="insert into kasutajad... " />
           </folding>
         </state>
       </provider>

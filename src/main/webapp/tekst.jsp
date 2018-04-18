@@ -20,7 +20,7 @@
 
 <% String first_name =request.getParameter("eesnimi"); %>
 
-<%!public static void Connection connect (){
+<%!public static void  connect (){
 
 
 
