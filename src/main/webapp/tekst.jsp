@@ -58,7 +58,7 @@
 
 
 Siia sisesta oma info kui soovid luua kasutajat
-<form name="myForm" action="tekst.jsp" method="post" >
+<form name="myForm" action="InsertData.java" method="post" >
     <td>Eesnimi </td>
     <input type="text" name="eesnimi" >
     <td>Perenimi</td>
