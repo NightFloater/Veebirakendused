@@ -18,6 +18,7 @@
 
 <%!public static Connection connect (){
     try{
+        out.print("tootab");
         Class.forName("com.mysql.jdbc.Driver").newInstance();
         return DriverManager.getConnection("jdbc:mysql://localhost/robin","root","root");
 
