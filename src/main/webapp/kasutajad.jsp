@@ -44,4 +44,6 @@
             e.printStackTrace();
         }
     %>
+    <h2>Niisama V2ike nunnu Randolfus</h2>
+    <img src="https://imgur.com/a/FWbam">
 </form>`

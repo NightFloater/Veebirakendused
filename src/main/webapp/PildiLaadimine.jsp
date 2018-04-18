@@ -1,34 +1,42 @@
-<%@page import="java.sql.*" %>
-<html>
-<form method="get" action="tulevaneKood.jsp" onsubmit="txtvalidate()">
-    <head>
-        <style type="text/css">
-            body{
-                background-color:#d0e4fe;
-            }
-        </style>
-    </head>
+<form method="post">
 
-    <body>
-    <table>
+    <table border="1">
+        <tr>
+            <td>Eesnimi&nbsp;Perenimi&nbsp;Vanus&nbsp;Email</td>
 
-                <input type="submit" value="SUBMIT" id="submit">
-            </td>
+
         </tr>
-
-        <script type="text/javascript">
-            function isNumberKey(evt)
+        <%
+            try
             {
-                var charCode = (evt.which) ? evt.which : event.keyCode
-                if (charCode > 31 && (charCode < 48 || charCode > 57))
-                    return false;
-                else
-                    return true;
+                Class.forName("org.postgresql.Driver");
+                String url="jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2";
+                String username="vkzivsefpcoxqi";
+                String password="dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080";
+                String query="select * from kasutajad";
+                Connection conn=DriverManager.getConnection(url, username, password);
+                Statement stmt=conn.createStatement();
+                ResultSet rs=stmt.executeQuery(query);
+                while(rs.next())
+                {
+        %>
+        <tr><td><%out.println(rs.getString("eesnimi")+"\t"+rs.getString("perenimi")+"\t"+rs.getString("vanus")+"\t"+rs.getString("email")); %></td></tr>
+
+
+
+
+        <%
             }
-        </script>
-
-
+        %>
     </table>
-    </body>
-</form>
-</html>
+    <%
+            rs.close();
+            stmt.close();
+            conn.close();
+        }
+        catch(Exception e)
+        {
+            e.printStackTrace();
+        }
+    %>
+</form>`
