@@ -169,9 +169,11 @@
       <file leaf-file-name="kasutajad.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="459">
+              <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+              <folding>
+                <marker date="1524053142608" expanded="true" signature="693:716" ph="select * fro... kasutajad" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -614,14 +616,7 @@
       <workItem from="1524043514385" duration="5421000" />
       <workItem from="1524050003953" duration="146000" />
       <workItem from="1524050418938" duration="1378000" />
-      <workItem from="1524051821052" duration="1078000" />
-    </task>
-    <task id="LOCAL-00106" summary="Deploy">
-      <created>1524037173560</created>
-      <option name="number" value="00106" />
-      <option name="presentableId" value="LOCAL-00106" />
-      <option name="project" value="LOCAL" />
-      <updated>1524037173560</updated>
+      <workItem from="1524051821052" duration="1352000" />
     </task>
     <task id="LOCAL-00107" summary="Deploy">
       <created>1524037669272</created>
@@ -959,11 +954,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524052627461</updated>
     </task>
-    <option name="localTasksCounter" value="155" />
+    <task id="LOCAL-00155" summary="Deploy">
+      <created>1524053011902</created>
+      <option name="number" value="00155" />
+      <option name="presentableId" value="LOCAL-00155" />
+      <option name="project" value="LOCAL" />
+      <updated>1524053011902</updated>
+    </task>
+    <option name="localTasksCounter" value="156" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50019000" />
+    <option name="totallyTimeSpent" value="50293000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1344,9 +1346,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding />
+        <state relative-caret-position="459">
+          <caret line="27" column="54" lean-forward="false" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+          <folding>
+            <marker date="1524053142608" expanded="true" signature="693:716" ph="select * fro... kasutajad" />
+          </folding>
         </state>
       </provider>
     </entry>

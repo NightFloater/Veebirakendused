@@ -7,10 +7,8 @@
 
     <table border="1">
         <tr>
-            <td>eesnimi</td>
-            <td>perenimi</td>
-            <td>vanus</td>
-            <td>email</td>
+            <td>Eesnimi&nbsp;Perenimi&nbsp;Vanus&nbsp;Email</td>
+
 
         </tr>
         <%
@@ -27,7 +25,7 @@
                 while(rs.next())
                 {
         %>
-        <tr><td><%out.println(rs.getString("eesnimi")+rs.getString("perenimi")+rs.getString("vanus")+rs.getString("email")); %></td></tr>
+        <tr><td><%out.println(rs.getString("eesnimi\\t")+rs.getString("perenimi\\t")+rs.getString("vanus\\t")+rs.getString("email")); %></td></tr>
 
 
 
