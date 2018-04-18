@@ -40,12 +40,12 @@
 <P ALIGN=CENTER><h6>MEEMIDE OST, MÜÜK, VAHETUS</h6></P>
 <h2>Viimase nädala kõige sõgedamad meemid on</h2>
 
-<div>
+
     <h4><a href="https://i.imgur.com/" data-gravatar-hash="4rU2l2T.jpg">
         Pilt meemist
     </a></h4>
     <p>This is a great memeeeme!</p>
-</div>
+
 <img src="https://i.redd.it/qcwrcbhy4gs01.png">
 <p><img src="https://i.redd.it/wpozn1bapfs01.png"></p>
 
