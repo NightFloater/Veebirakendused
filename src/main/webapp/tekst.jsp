@@ -63,12 +63,6 @@
 
 
 
-<%
-    App tc = new App();
-    tc.Robin();
-%>
-
-
 
 </body>
 </html>
