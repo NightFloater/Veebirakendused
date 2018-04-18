@@ -7,7 +7,7 @@
     try{
 
         Class.forName("com.mysql.jdbc.Driver").newInstance();
-        return DriverManager.getConnection("jdbc:mysql://localhost/robin","root","root");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/MySQL","root","root");
 
 
     }catch(Exception e){
