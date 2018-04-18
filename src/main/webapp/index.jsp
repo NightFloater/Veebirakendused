@@ -41,21 +41,25 @@
 <h2>Viimase nädala kõige sõgedamad meemid on</h2>
 
 
-<div>
-    <h4><a href="https://i.redd.it/" data-gravatar-hash="/wpozn1bapfs01.png">
-        Reddit mememee
-    </a></h4>
-    <p>This is a great meme!</p>
-</div>
+
+
 
 <img src="https://i.redd.it/qcwrcbhy4gs01.png">
 <p><img src="https://i.redd.it/wpozn1bapfs01.png"></p>
+
+
+<div>
+    <h4><a href="http://allinthehead.com/" data-gravatar-hash="13734b0cb20708f79e730809c29c3c48">
+        Drew McLellan
+    </a></h4>
+    <p>This is a great article!</p>
+</div>
 
 <script type="text/javascript">
     $(window).load(function() {
         $('a[data-gravatar-hash]').prepend(function(index){
             var hash = $(this).attr('data-gravatar-hash')
-            return '<img width="100" height="100" alt="" src="https://i.redd.it/wpozn1bapfs01.png' + hash + '">'
+            return '<img width="100" height="100" alt="" src="http://www.gravatar.com/avatar.php?size=100&gravatar_id=' + hash + '">'
         })
     })
 </script>
