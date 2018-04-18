@@ -5,7 +5,7 @@
 
 <form method="post">
 
-    <table border="2">
+    <table border="1">
         <tr>
             <td>eesnimi</td>
             <td>perenimi</td>
