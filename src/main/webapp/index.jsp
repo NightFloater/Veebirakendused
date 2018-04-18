@@ -40,10 +40,24 @@
 <P ALIGN=CENTER><h6>MEEMIDE OST, MÜÜK, VAHETUS</h6></P>
 <h2>Viimase nädala kõige sõgedamad meemid on</h2>
 
-
+<div>
+    <h4><a href="https://i.imgur.com/" data-gravatar-hash="4rU2l2T.jpg">
+        Pilt meemist
+    </a></h4>
+    <p>This is a great memeeeme!</p>
+</div>
 <img src="https://i.redd.it/qcwrcbhy4gs01.png">
 <p><img src="https://i.redd.it/wpozn1bapfs01.png"></p>
-<p><img src="https://i.imgur.com/4rU2l2T.jpg"></p>
+
+<script type="text/javascript">
+    $(window).load(function() {
+        $('a[data-gravatar-hash]').prepend(function(index){
+            var hash = $(this).attr('data-gravatar-hash')
+            return '<img width="100" height="100" alt="" src="http://www.gravatar.com/avatar.php?size=100&gravatar_id=' + hash + '">'
+        })
+    })
+</script>
+
 
 
 
