@@ -37,6 +37,8 @@
 <html>
 <body>
 
+<iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Flilfishhboi%2Fbetter-prod-dj-yung-vamp&color=orange_white&size=32" style="width: 32px; height: 32px;"></iframe>
+
 <P ALIGN=CENTER><h6>MEEMIDE OST, MÜÜK, VAHETUS</h6></P>
 <h2>Viimase nädala kõige sõgedamad meemid on</h2>
 
