@@ -159,8 +159,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="313" lean-forward="false" selection-start-line="39" selection-start-column="313" selection-end-line="39" selection-end-column="313" />
+            <state relative-caret-position="425">
+              <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -587,14 +587,7 @@
       <workItem from="1524051821052" duration="6145000" />
       <workItem from="1524058460592" duration="316000" />
       <workItem from="1524058801523" duration="2180000" />
-      <workItem from="1524160160781" duration="144000" />
-    </task>
-    <task id="LOCAL-00138" summary="Deploy">
-      <created>1524046986310</created>
-      <option name="number" value="00138" />
-      <option name="presentableId" value="LOCAL-00138" />
-      <option name="project" value="LOCAL" />
-      <updated>1524046986310</updated>
+      <workItem from="1524160160781" duration="528000" />
     </task>
     <task id="LOCAL-00139" summary="Deploy">
       <created>1524047502456</created>
@@ -932,11 +925,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524160209674</updated>
     </task>
-    <option name="localTasksCounter" value="187" />
+    <task id="LOCAL-00187" summary="Deploy">
+      <created>1524160315049</created>
+      <option name="number" value="00187" />
+      <option name="presentableId" value="LOCAL-00187" />
+      <option name="project" value="LOCAL" />
+      <updated>1524160315049</updated>
+    </task>
+    <option name="localTasksCounter" value="188" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57726000" />
+    <option name="totallyTimeSpent" value="58110000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1319,8 +1319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="313" lean-forward="false" selection-start-line="39" selection-start-column="313" selection-end-line="39" selection-end-column="313" />
+        <state relative-caret-position="425">
+          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding />
         </state>
       </provider>
