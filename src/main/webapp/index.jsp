@@ -40,12 +40,14 @@
 
 
 <P ALIGN=CENTER><h1>MEEMIDE OST, MÜÜK, VAHETUS</h1></P>
-<h2>Viimase nädala kõige sõgedamad meemid on</h2>
+
 <h2>Laul rantsist</h2>
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391069176&color=%2350eb6a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
+<img src="/img/loading.gif" alt="Loading" title="Loading" />
+<p><img src="/img/loading.gif" alt="Loading" title="Loading" /></p>
 <h2>Niisama V2ike nunnu Randolfus</h2>
 <p><img src="https://i.imgur.com/3P2eI25.jpg"></p>
+<h4>Viimase nädala kõige sõgedamad meemid on</h4>
 <<img src="https://i.imgur.com/4rU2l2T.jpg" >
 
 <img src="https://i.redd.it/qcwrcbhy4gs01.png">
