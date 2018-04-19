@@ -40,10 +40,8 @@
 
 
 <P ALIGN=CENTER><h1>MEEMIDE OST, MÜÜK, VAHETUS</h1></P>
-
-<div><span style="color:#ff0000;">U</span><span style="color:#ff2a00;">p</span><span style="color:#ff5500;"> </span><span style="color:#ff7f00;">a</span><span style="color:#ff9f00;">n</span><span style="color:#ffbf00;">d</span><span style="color:#ffdf00;"> </span><span style="color:#ffff00;">c</span><span style="color:#aaff00;">o</span><span style="color:#55ff00;">m</span><span style="color:#00ff00;">i</span><span style="color:#00ff55;">n</span><span style="color:#00ffaa;">g</span><span style="color:#00ffff;"> </span><span style="color:#00bfff;">f</span><span style="color:#0080ff;">i</span><span style="color:#0040ff;">s</span><span style="color:#0000ff;">h</span><span style="color:#2e00ff;"> </span><span style="color:#5d00ff;">></span><span style="color:#8b00ff;">P</span></div>
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391069176&color=%2350eb6a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-
+<h1><marquee behavior="scroll" direction="left"><div><span style="color:#ff0000;">U</span><span style="color:#ff2a00;">P</span><span style="color:#ff5500;"> </span><span style="color:#ff7f00;">A</span><span style="color:#ffaa00;">N</span><span style="color:#ffd400;">D</span><span style="color:#ffff00;"> </span><span style="color:#aaff00;">C</span><span style="color:#55ff00;">O</span><span style="color:#00ff00;">M</span><span style="color:#00ff80;">I</span><span style="color:#00ffff;">N</span><span style="color:#00aaff;">G</span><span style="color:#0055ff;"> </span><span style="color:#0000ff;">F</span><span style="color:#2e00ff;">I</span><span style="color:#5d00ff;">S</span><span style="color:#8b00ff;">H</span>
+</div></marquee><h1>
 
 
 <img src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200" style="float:left">
