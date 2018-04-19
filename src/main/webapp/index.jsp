@@ -54,7 +54,7 @@
 <p></p>
 
 <h2>Niisama V2ike nunnu Randolfus</h2>
-<p><img src="https://i.imgur.com/3P2eI25.jpg"></p>
+<img src="https://i.imgur.com/3P2eI25.jpg">
 <h4>Viimase nädala kõige sõgedamad meemid on</h4>
 <<img src="https://i.imgur.com/4rU2l2T.jpg" >
 
