@@ -48,9 +48,9 @@
 
 <img src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200" style="float:left">
 <p></p>
-<img class="middle-img" src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200">
+<img class="middle-img" src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200"style="float:left">
 <p></p>
-<img src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200">
+<img src="https://i.imgur.com/QKwl1jm.gif" height="200"style="float:left">
 <p></p>
 
 <h2>Niisama V2ike nunnu Randolfus</h2>
