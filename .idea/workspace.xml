@@ -158,8 +158,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="98" column="7" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+            <state relative-caret-position="281">
+              <caret line="95" column="62" lean-forward="false" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#marquee#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#div#0;n#marquee#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -608,14 +608,7 @@
       <workItem from="1524051821052" duration="6145000" />
       <workItem from="1524058460592" duration="316000" />
       <workItem from="1524058801523" duration="2180000" />
-      <workItem from="1524160160781" duration="2662000" />
-    </task>
-    <task id="LOCAL-00154" summary="Deploy">
-      <created>1524052627460</created>
-      <option name="number" value="00154" />
-      <option name="presentableId" value="LOCAL-00154" />
-      <option name="project" value="LOCAL" />
-      <updated>1524052627461</updated>
+      <workItem from="1524160160781" duration="2950000" />
     </task>
     <task id="LOCAL-00155" summary="Deploy">
       <created>1524053011902</created>
@@ -953,11 +946,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524162799735</updated>
     </task>
-    <option name="localTasksCounter" value="203" />
+    <task id="LOCAL-00203" summary="Deploy">
+      <created>1524162867468</created>
+      <option name="number" value="00203" />
+      <option name="presentableId" value="LOCAL-00203" />
+      <option name="project" value="LOCAL" />
+      <updated>1524162867468</updated>
+    </task>
+    <option name="localTasksCounter" value="204" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60244000" />
+    <option name="totallyTimeSpent" value="60532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1383,8 +1383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="98" column="7" lean-forward="true" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
+        <state relative-caret-position="281">
+          <caret line="95" column="62" lean-forward="false" selection-start-line="95" selection-start-column="62" selection-end-line="95" selection-end-column="62" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#marquee#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#1;n#div#0;n#marquee#0;n#h1#0;n#body#0;n#html#0;n#!!top" expanded="true" />

@@ -100,9 +100,9 @@
 <img class="middle-img" src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200"style="float:left">
 <p></p>
 <img src="https://i.imgur.com/QKwl1jm.gif" height="200"style="float:left">
-<p></p>
 
-<h2>Niisama V2ike nunnu Randolfus</h2>
+
+    <marquee behavior=scroll direction="left" scrollamount="14"><h2>Niisama V2ike nunnu Randolfus</h2></marquee>
 <img src="https://i.imgur.com/3P2eI25.jpg">
 <h4>Viimase nädala kõige sõgedamad meemid on</h4>
 <<img src="https://i.imgur.com/4rU2l2T.jpg" >
