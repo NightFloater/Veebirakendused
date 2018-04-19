@@ -43,8 +43,16 @@
 
 <h2>Laul rantsist</h2>
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391069176&color=%2350eb6a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-<img src="https://i.imgur.com/QKwl1jm.gif"  />
-<p><img src="https://i.imgur.com/QKwl1jm.gif" /></p>
+
+
+
+<img src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200" style="float:left">
+<p></p>
+<img class="middle-img" src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200">
+<p></p>
+<img src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200">
+<p></p>
+
 <h2>Niisama V2ike nunnu Randolfus</h2>
 <p><img src="https://i.imgur.com/3P2eI25.jpg"></p>
 <h4>Viimase nädala kõige sõgedamad meemid on</h4>
