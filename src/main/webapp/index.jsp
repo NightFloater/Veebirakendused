@@ -93,7 +93,7 @@
 </div></marquee><h1>
 <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391069176&color=%2350eb6a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
-    <marquee behavior=scroll direction="left" scrollamount="14"><div class="css-3d-text">She better than the rest</div></marquee>
+    <marquee behavior=scroll direction="left" scrollamount="14"><div class="css-3d-text2">She better than the rest</div></marquee>
 
 <img src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200" style="float:left">
 <p></p>
