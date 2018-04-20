@@ -153,6 +153,8 @@ Vajuta siia et laadida pilti
     close(c);
 %>
 
+    IP adress on-----
+
         <%   request.getHeader("VIA");
         String ipAddress = request.getHeader("X-FORWARDED-FOR");
        if (ipAddress == null) {
