@@ -162,12 +162,14 @@ Vajuta siia et laadida pilti
        }
         out.print(ipAddress);
         %>
-    <script type="text/javascript">
+    <script type="text/javascript" id="Resolution">
         $(window).resize(function(){
             var windowWidth = $(window).width();
             var windowHeight = $(window).height();
             var Window = windowHeight +"x"+ windowWidth;
-            return Window;
+            var el = document.getElementById("data");
+            el.value = Window;
+
             // windowWidth & windowHeight are automatically updated when the browser size is modified
 
         });
@@ -175,6 +177,11 @@ Vajuta siia et laadida pilti
     </script>
 
 
+    <form >
+        <input id="data" type="hidden" value="" />
+        <input type="submit" />
+    </form>
+    <input type="button" onclick="printDiv('printableArea')" value="print a div!" />
 
 
 </body>
