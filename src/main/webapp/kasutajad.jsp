@@ -22,7 +22,7 @@
                 String query="select * from kasutajad";
                 Connection conn=DriverManager.getConnection(url, username, password);
                 Statement stmt=conn.createStatement();
-                ResultSet rs=stmt.executeQuery(query2);
+                ResultSet rs=stmt.executeQuery(query);
                 while(rs.next())
                 {
         %>
