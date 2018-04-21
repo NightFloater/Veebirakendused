@@ -40,8 +40,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-
-
+    <title>MEEDMID VAHETUS</title>
+</head>
+<body>
 <div>
     <em class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</em>
 </div>
@@ -151,7 +152,7 @@
 
 
 
-    <title>MEEDMID VAHETUS</title>
+
    <p>
     <h4>Viimase nädala kõige sõgedamad meemid on</h4>
     </p>
@@ -222,8 +223,8 @@
     </script>
 
 
-</head>
 
 
+</body>
 
 </html>
