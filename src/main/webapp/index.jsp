@@ -46,15 +46,15 @@
         .wrapper {
             position: relative;
             overflow: hidden;
-            height: 250px;
-            width: 1080px;
+            height: 400px;
+            width: 3840px;
             border: 0px solid orange;
         }
 
         .wrapper p {
             position: absolute;
             margin: 0;
-            line-height: 25px;
+            line-height: 100px;
             white-space: nowrap;
             animation: marquee 10s linear infinite;
 
