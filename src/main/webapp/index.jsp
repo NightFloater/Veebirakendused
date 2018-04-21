@@ -192,9 +192,9 @@
 
 
 <%
-    Connection c = connect();
+    String c = connect();
     out.print(c);
-    close(c);
+
 %>
 
     IP adress on-----
