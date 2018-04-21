@@ -166,13 +166,9 @@
 
 
 <p>
-
+    <img src="https://i.redd.it/wpozn1bapfs01.png" alt="">
     <img src="https://i.redd.it/qcwrcbhy4gs01.png" alt="">
 </p>
-<p>
-    <img src="https://i.redd.it/wpozn1bapfs01.png" alt="">
-</p>
-
 
 
 
