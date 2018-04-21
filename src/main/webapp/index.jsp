@@ -94,11 +94,11 @@
 
 
 
-<marquee direction="left" ><div><span style="color:#ff0000;">U</span><span style="color:#ff2a00;">P</span><span style="color:#ff5500;"> </span><span style="color:#ff7f00;">A</span><span style="color:#ffaa00;">N</span><span style="color:#ffd400;">D</span><span style="color:#ffff00;"> </span><span style="color:#aaff00;">C</span><span style="color:#55ff00;">O</span><span style="color:#00ff00;">M</span><span style="color:#00ff80;">I</span><span style="color:#00ffff;">N</span><span style="color:#00aaff;">G</span><span style="color:#0055ff;"> </span><span style="color:#0000ff;">F</span><span style="color:#2e00ff;">I</span><span style="color:#5d00ff;">S</span><span style="color:#8b00ff;">H</span>
-</div></marquee>
+<em direction="left" ><div><span style="color:#ff0000;">U</span><span style="color:#ff2a00;">P</span><span style="color:#ff5500;"> </span><span style="color:#ff7f00;">A</span><span style="color:#ffaa00;">N</span><span style="color:#ffd400;">D</span><span style="color:#ffff00;"> </span><span style="color:#aaff00;">C</span><span style="color:#55ff00;">O</span><span style="color:#00ff00;">M</span><span style="color:#00ff80;">I</span><span style="color:#00ffff;">N</span><span style="color:#00aaff;">G</span><span style="color:#0055ff;"> </span><span style="color:#0000ff;">F</span><span style="color:#2e00ff;">I</span><span style="color:#5d00ff;">S</span><span style="color:#8b00ff;">H</span>
+</div></em>
 <iframe width="100%" height="300" scrolling="no" frameborder="0" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391069176&color=%2350eb6a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
-<marquee  direction="left" ><div class="css-3d-text2">She better than the rest</div></marquee>
+<em  direction="left" ><div class="css-3d-text2">She better than the rest</div></em>
 
 <img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" width="200" style="float:left">
 
@@ -106,7 +106,7 @@
 <img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200"style="float:left">
 
 
-<marquee  direction="left"><img src="https://i.imgur.com/3P2eI25.jpg" alt=""></marquee>
+<em  direction="left"><img src="https://i.imgur.com/3P2eI25.jpg" alt=""></em>
 <img src="https://i.imgur.com/3P2eI25.jpg" alt="">
 
 <head>
