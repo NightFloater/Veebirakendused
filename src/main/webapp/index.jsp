@@ -105,7 +105,7 @@
 <img src="https://i.imgur.com/QKwl1jm.gif" height="200"style="float:left">
 
 
-    <marquee behavior=scroll direction="left" scrollamount="14"><img src="https://i.imgur.com/3P2eI25.jpg"></marquee>
+<marquee behavior=scroll direction="left"><img src="https://i.imgur.com/3P2eI25.jpg"></marquee>
 <img src="https://i.imgur.com/3P2eI25.jpg" alt="">
 <h4>Viimase nädala kõige sõgedamad meemid on</h4>
 <<img src="https://i.imgur.com/4rU2l2T.jpg" >
