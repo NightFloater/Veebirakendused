@@ -167,21 +167,7 @@
 </p>
 
 
-<div>
-    <h4><a href="http://allinthehead.com/" data-gravatar-hash="13734b0cb20708f79e730809c29c3c48">
-        Drew McLellan
-    </a></h4>
-    <p>This is a great article!</p>
-</div>
 
-<script type="text/javascript">
-    $(window).load(function() {
-        $('a[data-gravatar-hash]').prepend(function(index){
-            var hash = $(this).attr('data-gravatar-hash')
-            return '<img width="100" height="100" alt="" src="http://www.gravatar.com/avatar.php?size=100&gravatar_id=' + hash + '">'
-        })
-    })
-</script>
 
 
 
@@ -229,7 +215,7 @@
     </script>
 
 
-    </head>
+</head>
 
 
 
