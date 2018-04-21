@@ -141,21 +141,16 @@
 
 Siia sisesta oma info kui soovid luua kasutajat
 <form name="myForm" action="tekst.jsp" method="post" >
-    <p>
-
-    <input type="submit" name="submit" id="submit" />
-    </p>>
+    <input type="submit" />
 </form>
 Siia vajutades saad ligi kasutajate nimekirjale
 <form name="myForm" action="kasutajad.jsp" method="post" >
-
-    <input type="submit" name="submit2" id="submit2" />
+    <input type="submit"/>
 </form>
 
 Vajuta siia et laadida pilti
 <form name="myForm" action="PildiLaadimine.jsp" method="post" >
-
-    <input type="submit" name="submit3" id="submit3" />
+    <input type="submit"/>
 </form>
 
 
