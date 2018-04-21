@@ -142,13 +142,20 @@
 
 
 
+<p>
+    Vajuta siia, et anda meile oma infot
+    <input type="button" name="b1" value="Click Me" onclick="location.href='tekst.jsp'">
+</p>
+<p>
+    Vajuta siia, et näha kasutajate nimekirja
+    <input type="button" name="b1" value="Click Me" onclick="location.href='kasutajad.jsp'">
+</p>
+<p>
+    Vajuta siia tulevikus, et laadida üles pilte
+    <input type="button" name="b1" value="Click Me" onclick="location.href='PildiLaadimine.jsp'">
 
-Vajuta siia, et anda meile oma infot
-<input type="button" name="b1" value="Click Me" onclick="location.href='tekst.jsp'">
-Vajuta siia, et näha kasutajate nimekirja
-<input type="button" name="b1" value="Click Me" onclick="location.href='kasutajad.jsp'">
-Vajuta siia tulevikus, et laadida üles pilte
-<input type="button" name="b1" value="Click Me" onclick="location.href='PildiLaadimine.jsp'">
+
+</p>
 
 
 
