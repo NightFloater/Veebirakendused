@@ -39,6 +39,8 @@
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
+<head>
+
 
 <p>
 <em class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</em>
@@ -142,12 +144,12 @@
 <marquee><img src="https://i.imgur.com/3P2eI25.jpg" alt=""></marquee>
 <img src="https://i.imgur.com/3P2eI25.jpg" alt="">
 
-<head>
+
     <title>MEEDMID VAHETUS</title>
    <p>
     <h4>Viimase nädala kõige sõgedamad meemid on</h4>
     </p>
-</head>
+
 
 
 <p>
@@ -227,7 +229,7 @@
     </script>
 
 
-
+    </head>
 
 
 
