@@ -134,15 +134,20 @@
 
 
 <marquee class="css-3d-text" >She better than the rest</marquee>
+<p>
 
-<img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" width="200" style="float:left">
+    <img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" width="200" style="float:left">
 
-<img class="middle-img" src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" width="200"style="float:left">
-<img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200"style="float:left">
+    <img class="middle-img" src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" width="200"style="float:left">
+    <img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200"style="float:left">
+
+
+</p>
+
 
 
 <marquee><img src="https://i.imgur.com/3P2eI25.jpg" alt=""></marquee>
-<img src="https://i.imgur.com/3P2eI25.jpg" alt="">
+
 
 
     <title>MEEDMID VAHETUS</title>
@@ -153,7 +158,7 @@
 
 
 <p>
-
+    <img src="https://i.imgur.com/3P2eI25.jpg" alt="">
     <img src="https://i.imgur.com/4rU2l2T.jpg" alt="" >
 </p>
 
@@ -179,10 +184,11 @@
 <p>
     Vajuta siia, et näha kasutajate nimekirja
     <input type="button" name="b1" value="Click Me" onclick="location.href='kasutajad.jsp'">
-</p>
-
     Vajuta siia tulevikus, et laadida üles pilte
     <input type="button" name="b1" value="Click Me" onclick="location.href='PildiLaadimine.jsp'">
+
+</p>
+
 
 
 
