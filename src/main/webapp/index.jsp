@@ -54,7 +54,7 @@
         .wrapper p {
             position: absolute;
             margin: 0;
-            line-height: 200px;
+            line-height: 1080px;
             white-space: nowrap;
             animation: marquee 5s linear infinite;
 
