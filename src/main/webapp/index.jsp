@@ -45,11 +45,12 @@
 <P ALIGN=CENTER></P>
 <div class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</div>
 <style type="text/css">
-    .css-3d-text {
-        font-size: 76px;
-        color: #ed1aed;
-        font-family: 'Comic Sans MS', cursive, sans-serif;
-        text-shadow: 0px 0px 0 rgb(232,21,232),
+    .css-3d-text{
+
+        font-size:76px;
+        color:#ed1aed;
+        font-family:'Comic Sans MS', cursive, sans-serif;
+        text-shadow:0px 0px 0 rgb(232,21,232),
         1px 1px 0 rgb(227,16,227),
         2px 2px 0 rgb(222,11,222),
         3px 3px 0 rgb(217,6,217),
@@ -102,10 +103,10 @@
 
 <img class="middle-img" src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" width="200"style="float:left">
 <p></p>
-<img src="https://i.imgur.com/QKwl1jm.gif" height="200"style="float:left">
+<img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200"style="float:left">
 
 
-<marquee behavior=scroll direction="left"><img src="https://i.imgur.com/3P2eI25.jpg"></marquee>
+<marquee behavior=scroll direction="left"><img src="https://i.imgur.com/3P2eI25.jpg" alt=""></marquee>
 <img src="https://i.imgur.com/3P2eI25.jpg" alt="">
 <h4>Viimase nädala kõige sõgedamad meemid on</h4>
 <<img src="https://i.imgur.com/4rU2l2T.jpg" >
