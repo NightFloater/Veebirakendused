@@ -43,9 +43,9 @@
 
 
 
-<div class="css-3d-text" ALIGN="center">
+<p class="css-3d-text" ALIGN="center">
     MEEMIDE OST, MÜÜK, VAHETUS
-</div>
+</p>
 
 <style type="text/css">
     .css-3d-text{
