@@ -36,14 +36,15 @@
 %>
 
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<body>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
 
 
 
 
-<P ALIGN=CENTER></P>
+
+<P ALIGN=CENTER>
 <div class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</div>
+</P>
 <style type="text/css">
     .css-3d-text{
 
@@ -191,5 +192,5 @@ Vajuta siia et laadida pilti
     <input type="button" onclick="printDiv('printableArea')" value="print a div!" />
 
 
-</body>
+
 </html>
