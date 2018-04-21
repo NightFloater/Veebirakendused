@@ -143,18 +143,18 @@
 
 
 Siia sisesta oma info kui soovid luua kasutajat
-<form name="myForm" action="tekst.jsp" method="post" >
-    <input type="button" />
-</form>
+<button type="button" name="myForm" action="tekst.jsp" method="post" >
+
+</button>
 Siia vajutades saad ligi kasutajate nimekirjale
-<form name="myForm" action="kasutajad.jsp" method="post" >
-    <input type="button"/>
-</form>
+<button type="button" name="myForm" action="kasutajad.jsp" method="post" >
+
+</button>
 
 Vajuta siia et laadida pilti
-<form name="myForm" action="PildiLaadimine.jsp" method="post" >
-    <input type="button"/>
-</form>
+<button type="button" name="myForm" action="PildiLaadimine.jsp" method="post" >
+
+</button>
 
 
 
