@@ -158,12 +158,12 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2449">
-              <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+            <state relative-caret-position="1019">
+              <caret line="231" column="5" lean-forward="false" selection-start-line="231" selection-start-column="5" selection-end-line="231" selection-end-column="5" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#2;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#head#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -599,14 +599,7 @@
       <workItem from="1524058460592" duration="316000" />
       <workItem from="1524058801523" duration="2180000" />
       <workItem from="1524160160781" duration="8123000" />
-      <workItem from="1524215937296" duration="13530000" />
-    </task>
-    <task id="LOCAL-00201" summary="Deploy">
-      <created>1524162449069</created>
-      <option name="number" value="00201" />
-      <option name="presentableId" value="LOCAL-00201" />
-      <option name="project" value="LOCAL" />
-      <updated>1524162449069</updated>
+      <workItem from="1524215937296" duration="13674000" />
     </task>
     <task id="LOCAL-00202" summary="Deploy">
       <created>1524162799734</created>
@@ -944,11 +937,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524314274898</updated>
     </task>
-    <option name="localTasksCounter" value="250" />
+    <task id="LOCAL-00250" summary="Deploy">
+      <created>1524314419462</created>
+      <option name="number" value="00250" />
+      <option name="presentableId" value="LOCAL-00250" />
+      <option name="project" value="LOCAL" />
+      <updated>1524314419462</updated>
+    </task>
+    <option name="localTasksCounter" value="251" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79235000" />
+    <option name="totallyTimeSpent" value="79379000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1079,9 +1079,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#head#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1105,9 +1105,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#head#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1339,12 +1339,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2449">
-          <caret line="25" column="20" lean-forward="false" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+        <state relative-caret-position="1019">
+          <caret line="231" column="5" lean-forward="false" selection-start-line="231" selection-start-column="5" selection-end-line="231" selection-end-column="5" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#head#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#head#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
