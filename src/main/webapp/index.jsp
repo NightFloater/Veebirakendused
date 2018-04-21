@@ -144,14 +144,25 @@
 
 <head>
     <title>MEEDMID VAHETUS</title>
-    <h4>Viimase nädala kõige sõgedamad meemid on</h4></head>
+   <p>
+    <h4>Viimase nädala kõige sõgedamad meemid on</h4>
+    </p>
+</head>
 
 
+<p>
 
-<img src="https://i.imgur.com/4rU2l2T.jpg" alt="" >
+    <img src="https://i.imgur.com/4rU2l2T.jpg" alt="" >
+</p>
 
-<img src="https://i.redd.it/qcwrcbhy4gs01.png" alt="">
-<p><img src="https://i.redd.it/wpozn1bapfs01.png" alt=""></p>
+
+<p>
+
+    <img src="https://i.redd.it/qcwrcbhy4gs01.png" alt="">
+</p>
+<p>
+    <img src="https://i.redd.it/wpozn1bapfs01.png" alt="">
+</p>
 
 
 <div>
