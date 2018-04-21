@@ -45,7 +45,7 @@
 
 
 
-<style type="text/css" scoped>
+<style type="text/css">
     .css-3d-text{
 
         font-size:76px;
@@ -69,7 +69,7 @@
 </style>
 
 
-<style type="text/css" scoped>
+<style type="text/css">
     .css-3d-text2{
 
         font-size:76px;
@@ -96,7 +96,7 @@
 <!-- Codes by HTML.am -->
 
 <!-- CSS Code -->
-<style type="text/css" scoped>
+<style type="text/css" >
     .GeneratedMarquee {
         font-size:76px;
         color:#1ab1ed;
