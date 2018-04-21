@@ -40,9 +40,9 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 
-
+<p>
 <em class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</em>
-
+</p>
 
 
 <style type="text/css">
@@ -201,11 +201,7 @@
 
 
 
-<%
-    String c = connect();
-    out.print(c);
 
-%>
 
     IP adress on-----
 
