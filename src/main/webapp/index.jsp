@@ -127,7 +127,7 @@
 
 
 <!-- HTML Code -->
-<marquee class="GeneratedMarquee" >Lil Fi$h - </marquee>
+<frameset class="GeneratedMarquee" >Lil Fi$h - </frameset>
 
 
 
