@@ -54,9 +54,9 @@
         .wrapper p {
             position: absolute;
             margin: 0;
-            line-height: 1080px;
+            line-height: 200px;
             white-space: nowrap;
-            animation: marquee 5s linear infinite;
+            animation: marquee 1s linear infinite;
 
             font-size:76px;
             color:#1ab1ed;
@@ -81,7 +81,7 @@
 
         @keyframes marquee {
             0% { transform: translateX(100%); }
-            100% { transform: translateX(-100%); }
+            100% { transform: translateX(-10%); }
         }
 
     </style>
