@@ -1,3 +1,5 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd" >
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.DriverManager" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -35,14 +37,14 @@
 
 
 <html>
-<body  bgcolor="#7ac968">
+<body>
 
 
 
 
 <P ALIGN=CENTER></P>
 <div class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</div>
-<style>
+<style type="text/css">
     .css-3d-text {
         font-size: 76px;
         color: #ed1aed;
@@ -65,7 +67,7 @@
 </style>
 
 
-<style>
+<style type="text/css">
     .css-3d-text2 {
         font-size: 76px;
         color: #1ab1ed;
@@ -89,11 +91,11 @@
 
 
 
-<h1><marquee behavior="scroll" direction="left"><div><span style="color:#ff0000;">U</span><span style="color:#ff2a00;">P</span><span style="color:#ff5500;"> </span><span style="color:#ff7f00;">A</span><span style="color:#ffaa00;">N</span><span style="color:#ffd400;">D</span><span style="color:#ffff00;"> </span><span style="color:#aaff00;">C</span><span style="color:#55ff00;">O</span><span style="color:#00ff00;">M</span><span style="color:#00ff80;">I</span><span style="color:#00ffff;">N</span><span style="color:#00aaff;">G</span><span style="color:#0055ff;"> </span><span style="color:#0000ff;">F</span><span style="color:#2e00ff;">I</span><span style="color:#5d00ff;">S</span><span style="color:#8b00ff;">H</span>
-</div></marquee><h1>
-<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391069176&color=%2350eb6a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+<marquee behavior="scroll" ><div><span style="color:#ff0000;">U</span><span style="color:#ff2a00;">P</span><span style="color:#ff5500;"> </span><span style="color:#ff7f00;">A</span><span style="color:#ffaa00;">N</span><span style="color:#ffd400;">D</span><span style="color:#ffff00;"> </span><span style="color:#aaff00;">C</span><span style="color:#55ff00;">O</span><span style="color:#00ff00;">M</span><span style="color:#00ff80;">I</span><span style="color:#00ffff;">N</span><span style="color:#00aaff;">G</span><span style="color:#0055ff;"> </span><span style="color:#0000ff;">F</span><span style="color:#2e00ff;">I</span><span style="color:#5d00ff;">S</span><span style="color:#8b00ff;">H</span>
+</div></marquee>
+<iframe width="100%" height="300" scrolling="no" frameborder="0" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391069176&color=%2350eb6a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
-    <marquee behavior=scroll direction="left" scrollamount="14"><div class="css-3d-text2">She better than the rest</div></marquee>
+<marquee behavior=scroll direction="left" ><div class="css-3d-text2">She better than the rest</div></marquee>
 
 <img src="https://i.imgur.com/QKwl1jm.gif" height="200" width="200" style="float:left">
 <p></p>
