@@ -118,7 +118,7 @@
     </style>
 
 </head>
-<body bgcolor="#E6E6FA">
+<body>
 <div>
     <em class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</em>
 </div>
