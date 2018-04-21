@@ -43,6 +43,30 @@
     <title>MEEDMID VAHETUS</title>
 
     <style type="text/css">
+        .wrapper {
+            position: relative;
+            overflow: hidden;
+            height: 25px;
+            width: 100px;
+            border: 1px solid orange;
+        }
+
+        .wrapper p {
+            position: absolute;
+            margin: 0;
+            line-height: 25px;
+            white-space: nowrap;
+            animation: marquee 5s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+    </style>
+
+    <style type="text/css">
         .css-3d-text{
 
             font-size:76px;
@@ -124,10 +148,12 @@
 
 
 
-
+<div class="wrapper">
+    <p>Lil Fi$h - </p>
+</div>
 
 <!-- HTML Code -->
-<frameset class="GeneratedMarquee" >Lil Fi$h - </frameset>
+<marquee class="GeneratedMarquee" >Lil Fi$h - </marquee>
 
 
 
