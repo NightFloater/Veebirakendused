@@ -36,13 +36,15 @@
 %>
 
 
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<html>
 
 
 
 
 
-<div class="css-3d-text" ALIGN="center">MEEMIDE OST, MÜÜK, VAHETUS</div>
+<div class="css-3d-text" ALIGN="center">
+    MEEMIDE OST, MÜÜK, VAHETUS
+</div>
 
 <style type="text/css">
     .css-3d-text{
