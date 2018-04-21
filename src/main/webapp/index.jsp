@@ -37,7 +37,7 @@
 %>
 
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" >
 
 <head>
     <title>MEEDMID VAHETUS</title>
