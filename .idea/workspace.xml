@@ -145,7 +145,7 @@
       <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-745">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
               <folding>
                 <marker date="1524061499959" expanded="true" signature="1881:1903" ph="INSERT INTO kasutajad... " />
@@ -159,12 +159,12 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="103" column="112" lean-forward="false" selection-start-line="103" selection-start-column="112" selection-end-line="103" selection-end-column="112" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#2;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -209,6 +209,7 @@
       <find>css-3d-text</find>
       <find>script</find>
       <find>&lt;img src=&quot;https://i.imgur.com/QKwl1jm.gif&quot;</find>
+      <find>body</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -282,8 +283,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1579" />
-    <option name="y" value="176" />
+    <option name="x" value="1006" />
+    <option name="y" value="125" />
     <option name="width" value="1934" />
     <option name="height" value="1271" />
   </component>
@@ -595,14 +596,7 @@
       <workItem from="1524058460592" duration="316000" />
       <workItem from="1524058801523" duration="2180000" />
       <workItem from="1524160160781" duration="8123000" />
-      <workItem from="1524215937296" duration="7304000" />
-    </task>
-    <task id="LOCAL-00174" summary="Deploy">
-      <created>1524057122685</created>
-      <option name="number" value="00174" />
-      <option name="presentableId" value="LOCAL-00174" />
-      <option name="project" value="LOCAL" />
-      <updated>1524057122685</updated>
+      <workItem from="1524215937296" duration="7688000" />
     </task>
     <task id="LOCAL-00175" summary="Deploy">
       <created>1524057134025</created>
@@ -940,11 +934,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524307965666</updated>
     </task>
-    <option name="localTasksCounter" value="223" />
+    <task id="LOCAL-00223" summary="Deploy">
+      <created>1524308191096</created>
+      <option name="number" value="00223" />
+      <option name="presentableId" value="LOCAL-00223" />
+      <option name="project" value="LOCAL" />
+      <updated>1524308191097</updated>
+    </task>
+    <option name="localTasksCounter" value="224" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73009000" />
+    <option name="totallyTimeSpent" value="73393000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -956,7 +957,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1579" y="176" width="1934" height="1271" extended-state="0" />
+    <frame x="1006" y="125" width="1934" height="1271" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1076,9 +1077,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1102,9 +1103,9 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1304,14 +1305,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1322,9 +1315,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-745">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="40" />
           <folding>
             <marker date="1524061499959" expanded="true" signature="1881:1903" ph="INSERT INTO kasutajad... " />
@@ -1336,12 +1337,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="240">
+          <caret line="103" column="112" lean-forward="false" selection-start-line="103" selection-start-column="112" selection-end-line="103" selection-end-column="112" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#2;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
