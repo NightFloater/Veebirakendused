@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -158,8 +159,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="145" column="2" lean-forward="false" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="5" />
+            <state relative-caret-position="317">
+              <caret line="146" column="23" lean-forward="false" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
@@ -284,8 +285,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="339" />
-    <option name="y" value="129" />
+    <option name="x" value="983" />
+    <option name="y" value="426" />
     <option name="width" value="1934" />
     <option name="height" value="1271" />
   </component>
@@ -597,14 +598,7 @@
       <workItem from="1524058460592" duration="316000" />
       <workItem from="1524058801523" duration="2180000" />
       <workItem from="1524160160781" duration="8123000" />
-      <workItem from="1524215937296" duration="9533000" />
-    </task>
-    <task id="LOCAL-00183" summary="Deploy">
-      <created>1524061301358</created>
-      <option name="number" value="00183" />
-      <option name="presentableId" value="LOCAL-00183" />
-      <option name="project" value="LOCAL" />
-      <updated>1524061301358</updated>
+      <workItem from="1524215937296" duration="9732000" />
     </task>
     <task id="LOCAL-00184" summary="Deploy">
       <created>1524061518866</created>
@@ -942,11 +936,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524309937224</updated>
     </task>
-    <option name="localTasksCounter" value="232" />
+    <task id="LOCAL-00232" summary="Deploy">
+      <created>1524310418324</created>
+      <option name="number" value="00232" />
+      <option name="presentableId" value="LOCAL-00232" />
+      <option name="project" value="LOCAL" />
+      <updated>1524310418324</updated>
+    </task>
+    <option name="localTasksCounter" value="233" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75238000" />
+    <option name="totallyTimeSpent" value="75437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -958,7 +959,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="339" y="129" width="1934" height="1271" extended-state="0" />
+    <frame x="983" y="426" width="1934" height="1271" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1338,8 +1339,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="145" column="2" lean-forward="false" selection-start-line="145" selection-start-column="2" selection-end-line="145" selection-end-column="5" />
+        <state relative-caret-position="317">
+          <caret line="146" column="23" lean-forward="false" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
           <folding>
             <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
