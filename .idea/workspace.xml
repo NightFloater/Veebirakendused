@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
+    <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="Deploy">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -158,8 +159,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="29" />
+            <state relative-caret-position="3825">
+              <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />
@@ -211,6 +212,7 @@
       <find>body</find>
       <find>&lt;h4&gt;Viimase nädala kõige sõgedamad meemid on&lt;/h4&gt;</find>
       <find>input ty</find>
+      <find>sc</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -597,14 +599,7 @@
       <workItem from="1524058460592" duration="316000" />
       <workItem from="1524058801523" duration="2180000" />
       <workItem from="1524160160781" duration="8123000" />
-      <workItem from="1524215937296" duration="12028000" />
-    </task>
-    <task id="LOCAL-00194" summary="Deploy">
-      <created>1524161356580</created>
-      <option name="number" value="00194" />
-      <option name="presentableId" value="LOCAL-00194" />
-      <option name="project" value="LOCAL" />
-      <updated>1524161356580</updated>
+      <workItem from="1524215937296" duration="12275000" />
     </task>
     <task id="LOCAL-00195" summary="Deploy">
       <created>1524161435006</created>
@@ -942,11 +937,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524312716722</updated>
     </task>
-    <option name="localTasksCounter" value="243" />
+    <task id="LOCAL-00243" summary="Deploy">
+      <created>1524312835677</created>
+      <option name="number" value="00243" />
+      <option name="presentableId" value="LOCAL-00243" />
+      <option name="project" value="LOCAL" />
+      <updated>1524312835677</updated>
+    </task>
+    <option name="localTasksCounter" value="244" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77733000" />
+    <option name="totallyTimeSpent" value="77980000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1338,8 +1340,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="47" column="29" lean-forward="false" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="29" />
+        <state relative-caret-position="3825">
+          <caret line="225" column="0" lean-forward="false" selection-start-line="225" selection-start-column="0" selection-end-line="225" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#img#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#1;n#html#0;n#!!top" expanded="true" />

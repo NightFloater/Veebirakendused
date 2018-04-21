@@ -6,12 +6,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 
-<%!public static Connection connect (){
+<%!public static String connect (){
     try{
 
         Class.forName("org.postgresql.Driver").newInstance();
-        return DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2","vkzivsefpcoxqi","dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
-
+        DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2","vkzivsefpcoxqi","dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
+        return "connected";
 
     }catch(Exception e){
        throw new Error(e);
@@ -123,7 +123,7 @@
 
 
 <!-- HTML Code -->
-<marquee class="GeneratedMarquee" direction="left" scrollamount="12" behavior="scroll">Lil Fi$h - </marquee>
+<marquee class="GeneratedMarquee" direction="left" >Lil Fi$h - </marquee>
 
 
 
@@ -206,7 +206,7 @@
        }
         out.print(ipAddress);
         %>
-    <script type="text/javascript" id="Resolution">
+    <script type="text/javascript" >
         $(window).resize(function(){
             var windowWidth = $(window).width();
             var windowHeight = $(window).height();
