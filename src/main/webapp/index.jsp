@@ -135,17 +135,20 @@
 
 
 Siia sisesta oma info kui soovid luua kasutajat
-<form name="myForm" action="tekst.jsp" method="post" >niisa
-    <input type="submit" tekst.jsp>
+<form name="myForm" action="tekst.jsp" method="post" >
+    <label for="submit">Submit </label>
+    <input type="submit" name="submit" id="submit" />
 </form>
 Siia vajutades saad ligi kasutajate nimekirjale
 <form name="myForm" action="kasutajad.jsp" method="post" >
-    <input type="submit" kasutajad.jsp >
+    <label for="submit">Submit </label>
+    <input type="submit" name="submit" id="submit" />
 </form>
 
 Vajuta siia et laadida pilti
 <form name="myForm" action="PildiLaadimine.jsp" method="post" >
-    <input type="submit" PildiLaadimine.jsp>
+    <<label for="submit">Submit </label>
+    <input type="submit" name="submit" id="submit" />
 </form>
 
 
