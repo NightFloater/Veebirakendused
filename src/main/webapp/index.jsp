@@ -37,7 +37,7 @@
 %>
 
 
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 
 
 
@@ -65,7 +65,6 @@
         11px 11px 10px rgba(230,32,32,0.6),
         11px 11px 1px rgba(230,32,32,0.5),
         0px 0px 10px rgba(230,32,32,.2);
-    }
 </style>
 
 
@@ -144,7 +143,7 @@
 <img src="https://i.imgur.com/3P2eI25.jpg" alt="">
 
 <head>
-    <title>viimased meemid</title>
+    <title>MEEDMID VAHETUS</title>
     <h4>Viimase nädala kõige sõgedamad meemid on</h4></head>
 
 
