@@ -36,7 +36,7 @@
 %>
 
 
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <body>
 
 
@@ -68,11 +68,12 @@
 
 
 <style type="text/css">
-    .css-3d-text2 {
-        font-size: 76px;
-        color: #1ab1ed;
-        font-family: 'Comic Sans MS', cursive, sans-serif;
-        text-shadow: 0px 0px 0 rgb(21,172,232),
+    .css-3d-text2{
+
+        font-size:76px;
+        color:#1ab1ed;
+        font-family:'Comic Sans MS', cursive, sans-serif;
+        text-shadow:0px 0px 0 rgb(21,172,232),
         1px 1px 0 rgb(16,167,227),
         2px 2px 0 rgb(11,162,222),
         3px 3px 0 rgb(6,157,217),
@@ -103,14 +104,14 @@
 <p></p>
 <img src="https://i.imgur.com/QKwl1jm.gif" height="200"style="float:left">
 
-    <h2>Niisama V2ike nunnu Randolfus</h2>
+
     <marquee behavior=scroll direction="left" scrollamount="14"><img src="https://i.imgur.com/3P2eI25.jpg"></marquee>
 <img src="https://i.imgur.com/3P2eI25.jpg" alt="">
 <h4>Viimase nädala kõige sõgedamad meemid on</h4>
 <<img src="https://i.imgur.com/4rU2l2T.jpg" >
 
-<img src="https://i.redd.it/qcwrcbhy4gs01.png">
-<p><img src="https://i.redd.it/wpozn1bapfs01.png"></p>
+<img src="https://i.redd.it/qcwrcbhy4gs01.png" alt="">
+<p><img src="https://i.redd.it/wpozn1bapfs01.png" alt=""></p>
 
 
 <div>
@@ -133,17 +134,17 @@
 
 
 Siia sisesta oma info kui soovid luua kasutajat
-<form name="myForm" action="tekst.jsp" method="post" >
-    <input type="submit" >
+<form name="myForm" action="tekst.jsp" method="post" >niisa
+    <input type="submit" tekst.jsp>
 </form>
 Siia vajutades saad ligi kasutajate nimekirjale
 <form name="myForm" action="kasutajad.jsp" method="post" >
-    <input type="submit" >
+    <input type="submit" kasutajad.jsp >
 </form>
 
 Vajuta siia et laadida pilti
 <form name="myForm" action="PildiLaadimine.jsp" method="post" >
-    <input type="submit" >
+    <input type="submit" PildiLaadimine.jsp>
 </form>
 
 
