@@ -57,9 +57,7 @@
             line-height: 25px;
             white-space: nowrap;
             animation: marquee 5s linear infinite;
-        }
 
-        .GeneratedMarquee {
             font-size:76px;
             color:#1ab1ed;
             font-family:'Comic Sans MS', cursive, sans-serif;
@@ -77,8 +75,9 @@
             11px 11px 10px rgba(230,32,32,0.6),
             11px 11px 1px rgba(230,32,32,0.5),
             0px 0px 10px rgba(230,32,32,.2);
-
         }
+
+
 
         @keyframes marquee {
             0% { transform: translateX(100%); }
