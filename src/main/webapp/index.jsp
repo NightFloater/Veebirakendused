@@ -108,11 +108,13 @@
 <marquee  direction="left"><img src="https://i.imgur.com/3P2eI25.jpg" alt=""></marquee>
 <img src="https://i.imgur.com/3P2eI25.jpg" alt="">
 
-<head><h4>Viimase nädala kõige sõgedamad meemid on</h4></head>
+<head>
+    <title>viimased meemid</title>
+    <h4>Viimase nädala kõige sõgedamad meemid on</h4></head>
 
 
 
-<img src="https://i.imgur.com/4rU2l2T.jpg" >
+<img src="https://i.imgur.com/4rU2l2T.jpg" alt="" >
 
 <img src="https://i.redd.it/qcwrcbhy4gs01.png" alt="">
 <p><img src="https://i.redd.it/wpozn1bapfs01.png" alt=""></p>
@@ -139,8 +141,10 @@
 
 Siia sisesta oma info kui soovid luua kasutajat
 <form name="myForm" action="tekst.jsp" method="post" >
+    <p>
     <label for="submit">Submit </label>
     <input type="submit" name="submit" id="submit" />
+    </p>>
 </form>
 Siia vajutades saad ligi kasutajate nimekirjale
 <form name="myForm" action="kasutajad.jsp" method="post" >
@@ -150,7 +154,7 @@ Siia vajutades saad ligi kasutajate nimekirjale
 
 Vajuta siia et laadida pilti
 <form name="myForm" action="PildiLaadimine.jsp" method="post" >
-    <<label for="submit">Submit3 </label>
+    <label for="submit">Submit3 </label>
     <input type="submit" name="submit3" id="submit3" />
 </form>
 
