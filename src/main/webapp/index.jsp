@@ -41,7 +41,7 @@
 
 
 
-<b class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</b>
+<em class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</em>
 
 
 
