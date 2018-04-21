@@ -122,7 +122,7 @@
 
 
 <!-- HTML Code -->
-<marquee class="GeneratedMarquee" direction="left" >Lil Fi$h - </marquee>
+<marquee class="GeneratedMarquee" >Lil Fi$h - </marquee>
 
 
 
@@ -131,7 +131,7 @@
 <iframe width="100%" height="300" scrolling="no" frameborder="0" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391069176&color=%2350eb6a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
 
-<marquee class="css-3d-text" direction="left">She better than the rest</marquee>
+<marquee class="css-3d-text" >She better than the rest</marquee>
 
 <img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" width="200" style="float:left">
 
@@ -139,7 +139,7 @@
 <img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200"style="float:left">
 
 
-<marquee  direction="left"><img src="https://i.imgur.com/3P2eI25.jpg" alt=""></marquee>
+<marquee><img src="https://i.imgur.com/3P2eI25.jpg" alt=""></marquee>
 <img src="https://i.imgur.com/3P2eI25.jpg" alt="">
 
 <head>
