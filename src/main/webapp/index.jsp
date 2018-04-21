@@ -45,7 +45,7 @@
 
 
 
-<style type="text/css">
+<style type="text/css" scoped>
     .css-3d-text{
 
         font-size:76px;
@@ -69,7 +69,7 @@
 </style>
 
 
-<style type="text/css">
+<style type="text/css" scoped>
     .css-3d-text2{
 
         font-size:76px;
@@ -123,7 +123,7 @@
 
 
 <!-- HTML Code -->
-<marquee class="GeneratedMarquee" direction="left" scrollamount="12" behavior="scroll">Scrolling text...</marquee>
+<marquee class="GeneratedMarquee" direction="left" scrollamount="12" behavior="scroll">Lil Fi$h - </marquee>
 
 
 
@@ -131,7 +131,8 @@
 
 <iframe width="100%" height="300" scrolling="no" frameborder="0" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391069176&color=%2350eb6a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
 
-<marquee  direction="left" ><div class="css-3d-text2">She better than the rest</div></marquee>
+
+<marquee class="css-3d-text" direction="left">She better than the rest</marquee>
 
 <img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" width="200" style="float:left">
 
