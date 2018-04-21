@@ -142,19 +142,19 @@
 Siia sisesta oma info kui soovid luua kasutajat
 <form name="myForm" action="tekst.jsp" method="post" >
     <p>
-    <label for="submit">Submit </label>
+
     <input type="submit" name="submit" id="submit" />
     </p>>
 </form>
 Siia vajutades saad ligi kasutajate nimekirjale
 <form name="myForm" action="kasutajad.jsp" method="post" >
-    <label for="submit">Submit2 </label>
+
     <input type="submit" name="submit2" id="submit2" />
 </form>
 
 Vajuta siia et laadida pilti
 <form name="myForm" action="PildiLaadimine.jsp" method="post" >
-    <label for="submit">Submit3 </label>
+
     <input type="submit" name="submit3" id="submit3" />
 </form>
 
@@ -191,11 +191,7 @@ Vajuta siia et laadida pilti
     </script>
 
 
-    <form >
-        <input id="data" type="hidden" value="" />
-        <input type="submit" />
-    </form>
-    <input type="button" onclick="printDiv('printableArea')" value="print a div!" />
+
 
 
 
