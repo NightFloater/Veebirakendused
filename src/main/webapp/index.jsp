@@ -46,7 +46,7 @@
         .wrapper {
             position: relative;
             overflow: hidden;
-            height: 100px;
+            height: 250px;
             width: 1080px;
             border: 0px solid orange;
         }
@@ -54,7 +54,7 @@
         .wrapper p {
             position: absolute;
             margin: 0;
-            line-height: 25px;
+            line-height: 200px;
             white-space: nowrap;
             animation: marquee 5s linear infinite;
 
