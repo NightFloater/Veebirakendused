@@ -56,7 +56,7 @@
             margin: 0;
             line-height: 100px;
             white-space: nowrap;
-            animation: marquee 10s linear infinite;
+            animation: marquee 5s linear infinite;
 
             font-size:76px;
             color:#1ab1ed;
