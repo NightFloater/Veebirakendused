@@ -207,19 +207,22 @@
        }
         out.print(ipAddress);
         %>
-    <script type="text/javascript" >
-        $(window).resize(function(){
-            var windowWidth = $(window).width();
-            var windowHeight = $(window).height();
-            var Window = windowHeight +"x"+ windowWidth;
-            var el = document.getElementById("data");
-            el.value = Window;
+    <script >
 
-            // windowWidth & windowHeight are automatically updated when the browser size is modified
+        function resolution(){
 
-        });
+                var windowWidth = $(window).width();
+                var windowHeight = $(window).height();
+                var Window = windowHeight +"x"+ windowWidth;
+                return Window;
 
+                // windowWidth & windowHeight are automatically updated when the browser size is modified
+        }
+
+        resolution();
     </script>
+
+
 
 
 
