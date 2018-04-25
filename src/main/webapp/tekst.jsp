@@ -9,7 +9,7 @@
 <BODY bgcolor="#7ac968">
 <font size="+3" color="green"><br>Welcome memer!</font>
 <FORM action="tekst.jsp" method="get">
-    <TABLE style="background-color: #14e01b;" WIDTH="30%" >
+    <TABLE style="background-color: #14e01b;" WIDTH="30%">
         <TR>
             <TH width="50%">Eesnimi</TH>
             <TD width="50%"><INPUT TYPE="text" NAME="eesnimi"></TD>
@@ -44,9 +44,9 @@
         Class.forName("org.postgresql.Driver").newInstance();
         int updateQuery = 0;
 
-        if(name!=null && city!=null && phone!=null){
+        if (name != null && city != null && phone != null) {
 
-            if(name!="" && city!="" && phone!="") {
+            if (name != "" && city != "" && phone != "") {
                 try {
 
                     connection = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
@@ -63,16 +63,17 @@
     <br>
     <TABLE style="background-color: #14e01b;"
            WIDTH="50%" border="2">
-        <tr><th>Data is inserted successfully
-            in database.</th></tr>
+        <tr>
+            <th>Data is inserted successfully
+                in database.
+            </th>
+        </tr>
     </table>
     <%
                     }
-                }
-                catch (Exception ex) {
+                } catch (Exception ex) {
                     throw new Error(ex);
-                }
-                finally {
+                } finally {
 
                     pstatement.close();
                     connection.close();
@@ -81,6 +82,6 @@
         }
     %>
 </FORM>
-<img src="https://i.imgur.com/KYOVFtS.png" >
+<img src="https://i.imgur.com/KYOVFtS.png">
 </body>
 </html>
