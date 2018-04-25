@@ -276,7 +276,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="517" />
     <option name="y" value="818" />
     <option name="width" value="1934" />
@@ -619,14 +619,7 @@
       <workItem from="1524160160781" duration="8123000" />
       <workItem from="1524215937296" duration="17222000" />
       <workItem from="1524578165772" duration="29000" />
-      <workItem from="1524644545154" duration="1847000" />
-    </task>
-    <task id="LOCAL-00233" summary="Deploy">
-      <created>1524310635908</created>
-      <option name="number" value="00233" />
-      <option name="presentableId" value="LOCAL-00233" />
-      <option name="project" value="LOCAL" />
-      <updated>1524310635909</updated>
+      <workItem from="1524644545154" duration="1882000" />
     </task>
     <task id="LOCAL-00234" summary="Deploy">
       <created>1524310774794</created>
@@ -964,11 +957,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524664165588</updated>
     </task>
-    <option name="localTasksCounter" value="282" />
+    <task id="LOCAL-00282" summary="Deploy">
+      <created>1524664297241</created>
+      <option name="number" value="00282" />
+      <option name="presentableId" value="LOCAL-00282" />
+      <option name="project" value="LOCAL" />
+      <updated>1524664297242</updated>
+    </task>
+    <option name="localTasksCounter" value="283" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84803000" />
+    <option name="totallyTimeSpent" value="84838000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -980,7 +980,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="3088" height="1704" extended-state="6" />
+    <frame x="-8" y="-8" width="3088" height="1704" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
