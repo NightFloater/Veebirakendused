@@ -7,7 +7,10 @@
     <TITLE>Kasutaja info </TITLE>
 </HEAD>
 <BODY bgcolor="#7ac968">
-<object width="148" height="44"><param name="movie" value="https://vocaroo.com/player.swf?playMediaID=s1DX8FMhHOSi&autoplay=0"></param><param name="wmode" value="transparent"></param><embed src="https://vocaroo.com/player.swf?playMediaID=s1DX8FMhHOSi&autoplay=0" width="148" height="44" wmode="transparent" type="application/x-shockwave-flash"></embed></object><br><a href="http://vocaroo.com" style="font-size:xx-small;" title="Vocaroo Voice Recorder">Record music with Vocaroo &gt;&gt;</a>
+<audio controls>
+    <source src="http://www.kanyewest.com/assets/images/LIFT_YOURSELF.mp3" />
+</audio>
+
 <font size="+3" color="green"><br>Welcome memer!</font>
 <FORM action="tekst.jsp" method="get">
     <TABLE style="background-color: #14e01b;" WIDTH="30%">
