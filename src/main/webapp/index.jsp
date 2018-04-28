@@ -192,7 +192,7 @@ IP adress on-----
         var windowWidth = $(window).width();
         var windowHeight = $(window).height();
         var Window = windowHeight + "x" + windowWidth;
-        index.getElementById("reso").innerHTML = Window;
+        document.getElementById("reso").innerHTML = Window;
 
         // windowWidth & windowHeight are automatically updated when the browser size is modified
     }
