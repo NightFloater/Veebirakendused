@@ -125,10 +125,13 @@
 <marquee class="GeneratedMarquee">Lil Fi$h - Better</marquee>
 <p>
 
-    <img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" style="float:left">
+    <video preload="auto" autoplay="autoplay" loop="loop" style="width: 200px; height: 200px;">
+        <source src="https://i.imgur.com/FqXz2Q9.webm" type="video/webm"></source>
+    </video>
+
     <iframe width="50%" height="300" scrolling="no" frameborder="0"
             src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/391069176&color=%2350eb6a&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-    <img src="https://i.imgur.com/FqXz2Q9.gifv" alt="" height="300" width="25%" style="float:left">
+    <img src="https://i.imgur.com/FqXz2Q9.gifv" alt="" height="300"  style="float:left">
 
 </p>
 
