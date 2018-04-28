@@ -7,7 +7,7 @@
     <TITLE>Kasutaja info </TITLE>
 </HEAD>
 <BODY bgcolor="#7ac968">
-<audio controls>
+<audio controls autoplay>
     <source src="http://www.kanyewest.com/assets/images/LIFT_YOURSELF.mp3" />
 </audio>
 
