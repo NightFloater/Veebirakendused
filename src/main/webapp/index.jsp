@@ -115,7 +115,7 @@
     </style>
 
 </head>
-<body onload="resolution()">
+<body onload="resolution()" background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu3TSQXAplExhow-h2xtZGSn9gfEtI2CdHVh6I2YeKtj19K9uB">
 <div>
     <em class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</em>
 </div>
