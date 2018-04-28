@@ -115,7 +115,7 @@
     </style>
 
 </head>
-<body>
+<body onload="resolution()">
 <div>
     <em class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</em>
 </div>
@@ -199,9 +199,7 @@ IP adress on-----
 
 </script>
 
-<script>
-    resolution();
-</script>
+
 <p id="reso"></p>
 
 </body>
