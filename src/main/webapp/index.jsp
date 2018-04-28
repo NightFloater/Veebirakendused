@@ -184,7 +184,7 @@ IP adress on-----
     out.print(ipAddress);
 %>
 
-<p id="reso"></p>
+
 <script>
 
     function resolution() {
@@ -202,7 +202,7 @@ IP adress on-----
 <script>
     resolution();
 </script>
-
+<p id="reso"></p>
 
 </body>
 
