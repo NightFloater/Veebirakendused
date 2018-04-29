@@ -21,7 +21,7 @@ if(isset($_POST['submit']))
 {
     $width = $_POST['width'];
     $height = $_POST['height'];
-    echo "$height,$width";
+    echo "<p>$height,$width";
 
 }
 
