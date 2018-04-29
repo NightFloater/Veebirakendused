@@ -24,10 +24,10 @@
 </form>
 <script type="text/javascript">
     var  findwidth = screen.width;
-    var  findheigth =screen.height;
+    var  findheight =screen.height;
 
     document.getElementById("width").value=findwidth;
-    document.getElementById("height").value=findheigth;
+    document.getElementById("height").value=findheight;
 
 </script>
 
@@ -39,8 +39,8 @@
 if(isset($_POST['submit']))
 {
     $width = $_POST['width'];
-    $heigth = $_POST['height'];
-    echo "$heigth,$width";
+    $height = $_POST['height'];
+    echo "$height,$width";
 
 }
 
