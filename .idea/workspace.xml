@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -231,13 +232,6 @@
               <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
@@ -546,21 +540,7 @@
       <workItem from="1524902274611" duration="827000" />
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
-      <workItem from="1525000233168" duration="10312000" />
-    </task>
-    <task id="LOCAL-00296" summary="Deploy">
-      <created>1524933029349</created>
-      <option name="number" value="00296" />
-      <option name="presentableId" value="LOCAL-00296" />
-      <option name="project" value="LOCAL" />
-      <updated>1524933029349</updated>
-    </task>
-    <task id="LOCAL-00297" summary="Deploy">
-      <created>1524933118597</created>
-      <option name="number" value="00297" />
-      <option name="presentableId" value="LOCAL-00297" />
-      <option name="project" value="LOCAL" />
-      <updated>1524933118597</updated>
+      <workItem from="1525000233168" duration="10363000" />
     </task>
     <task id="LOCAL-00298" summary="Deploy">
       <created>1525000522237</created>
@@ -891,11 +871,25 @@
       <option name="project" value="LOCAL" />
       <updated>1525016471999</updated>
     </task>
-    <option name="localTasksCounter" value="345" />
+    <task id="LOCAL-00345" summary="Deploy">
+      <created>1525016552058</created>
+      <option name="number" value="00345" />
+      <option name="presentableId" value="LOCAL-00345" />
+      <option name="project" value="LOCAL" />
+      <updated>1525016552058</updated>
+    </task>
+    <task id="LOCAL-00346" summary="Deploy">
+      <created>1525016595993</created>
+      <option name="number" value="00346" />
+      <option name="presentableId" value="LOCAL-00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1525016595993</updated>
+    </task>
+    <option name="localTasksCounter" value="347" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101170000" />
+    <option name="totallyTimeSpent" value="101221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1195,13 +1189,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/App.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/ConnectionConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/display.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/DatabaseConnection.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/InsertData.java" />
@@ -1283,6 +1270,14 @@
             <marker date="1525016367021" expanded="true" signature="1014:1037" ph="select * fro... kasutajad" />
             <marker date="1525016367021" expanded="true" signature="1072:1147" ph="create table... image" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
