@@ -201,7 +201,7 @@ asdasd
     Vajuta siia, et näha kasutajate nimekirja
     <input type="button" name="b1" value="Click Me" onclick="location.href='kasutajad.jsp'">
     Vajuta siia tulevikus, et laadida üles pilte
-    <input type="button" name="b1" value="Google maps" onclick="location.href='PildiLaadimine.jsp'">
+    <input type="button" name="b1" value="Upload" onclick="location.href='upload.php'">
 
 
 
