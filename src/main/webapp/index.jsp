@@ -6,6 +6,8 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 
+asdasd
+
 <%!
     public static String connect() {
         try {
