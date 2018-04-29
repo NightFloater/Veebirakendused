@@ -233,7 +233,7 @@ asdasd
 
 
 </p>
-<div class="download">Download</div>
+<div class="download" onclick="location.href='PildiLaadimine.jsp'">Download</div>
 
 IP adress on-----
 
