@@ -25,7 +25,7 @@
 
 <p id="X"></p>
 <p id="Y"></p>
-<p id="today"></p>
+<p id="time"></p>
 
 
 
