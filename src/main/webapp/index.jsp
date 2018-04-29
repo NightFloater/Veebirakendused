@@ -39,42 +39,38 @@ asdasd
 
 <html lang="en">
 
-<
-
-  >
+<head>
     <title>MEEDMID VAHETUS</title>
 
-<
-<style type="text/css">
 
-    .googlemaps {
-        display: inline-block;
-        -webkit-box-sizing: content-box;
-        -moz-box-sizing: content-box;
-        box-sizing: content-box;
-        margin: 0 0 15px;
-        padding: 8px 20px 10px;
-        border: 1px solid rgb(31,45,77);
-        border-top-color: rgb(56,83,140);
-        border-bottom-color: rgb(21,30,51);
-        -webkit-border-radius: 4px;
-        border-radius: 4px;
-        font: normal normal bold 14px/1 "Coda", Helvetica, sans-serif;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        -o-text-overflow: clip;
-        text-overflow: clip;
-        background: rgb(65, 98, 168);
-        -webkit-box-shadow: 0 1px 10px 1px rgb(92,139,238) inset, 0 1px 0 0 rgb(29,44,77) , 0 6px 0 0 rgb(31,48,83) , 0 8px 4px 1px rgb(17,17,17) ;
-        box-shadow: 0 1px 10px 1px rgb(92,139,238) inset, 0 1px 0 0 rgb(29,44,77) , 0 6px 0 0 rgb(31,48,83) , 0 8px 4px 1px rgb(17,17,17) ;
-        text-shadow: 0 -1px 1px rgb(30,45,77) ;
-    }
+    <link async href="http://fonts.googleapis.com/css?family=Coda" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 
+    <style type="text/css">
 
+        .download {
+            display: inline-block;
+            -webkit-box-sizing: content-box;
+            -moz-box-sizing: content-box;
+            box-sizing: content-box;
+            margin: 0 0 15px;
+            padding: 8px 20px 10px;
+            border: 1px solid rgb(31,45,77);
+            border-top-color: rgb(56,83,140);
+            border-bottom-color: rgb(21,30,51);
+            -webkit-border-radius: 4px;
+            border-radius: 4px;
+            font: normal normal bold 14px/1 "Coda", Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            -o-text-overflow: clip;
+            text-overflow: clip;
+            background: rgb(65, 98, 168);
+            -webkit-box-shadow: 0 1px 10px 1px rgb(92,139,238) inset, 0 1px 0 0 rgb(29,44,77) , 0 6px 0 0 rgb(31,48,83) , 0 8px 4px 1px rgb(17,17,17) ;
+            box-shadow: 0 1px 10px 1px rgb(92,139,238) inset, 0 1px 0 0 rgb(29,44,77) , 0 6px 0 0 rgb(31,48,83) , 0 8px 4px 1px rgb(17,17,17) ;
+            text-shadow: 0 -1px 1px rgb(30,45,77) ;
+        }
 
-</style>
-
-
+    </style>
 
 
     <style type="text/css">
@@ -231,13 +227,13 @@ asdasd
 <p>
     Vajuta siia, et näha kasutajate nimekirja
     <input type="button" name="b1" value="Click Me" onclick="location.href='kasutajad.jsp'">
+    Vajuta siia tulevikus, et laadida üles pilte
+    <input type="button" name="b1" value="Click Me" onclick="location.href='PildiLaadimine.jsp'">
 
 
-<div class="download" onclick="href='PildiLaadimine.jsp'">Download</div>
-<link async href="http://fonts.googleapis.com/css?family=Coda" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
 
 </p>
-
+<div class="download">Download</div>
 
 IP adress on-----
 
