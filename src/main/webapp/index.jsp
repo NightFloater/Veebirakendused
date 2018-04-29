@@ -142,7 +142,7 @@
 
 <p>
     <marquee><img src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" alt=""></marquee>
-    <marquee><img src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" alt=""></marquee>
+    <marquee><img src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" alt="" style="float:left"></marquee>
 
 </p>
 
