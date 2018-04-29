@@ -141,7 +141,7 @@
 <marquee class="css-3d-text">She better than the rest</marquee>
 
 
-<marquee><img src="https://i.imgur.com/3P2eI25.jpg" alt=""></marquee>
+<marquee><img src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" alt=""></marquee>
 
 
 <p>
