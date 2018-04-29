@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/upload.php" afterPath="$PROJECT_DIR$/src/main/webapp/upload.php" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,10 +63,10 @@
       <file leaf-file-name="upload.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="-332">
+              <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
               <folding>
-                <marker date="1525028122128" expanded="true" signature="1096:1105" ph="..." />
+                <marker date="1525028301610" expanded="true" signature="1187:1196" ph="..." />
               </folding>
             </state>
           </provider>
@@ -199,9 +200,9 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="29" />
-    <option name="y" value="370" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="220" />
+    <option name="y" value="631" />
     <option name="width" value="1934" />
     <option name="height" value="488" />
   </component>
@@ -558,14 +559,7 @@
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="8412000" />
-      <workItem from="1525020443141" duration="5874000" />
-    </task>
-    <task id="LOCAL-00303" summary="Deploy">
-      <created>1525001084891</created>
-      <option name="number" value="00303" />
-      <option name="presentableId" value="LOCAL-00303" />
-      <option name="project" value="LOCAL" />
-      <updated>1525001084891</updated>
+      <workItem from="1525020443141" duration="6176000" />
     </task>
     <task id="LOCAL-00304" summary="Deploy">
       <created>1525001151984</created>
@@ -903,11 +897,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525028127348</updated>
     </task>
-    <option name="localTasksCounter" value="352" />
+    <task id="LOCAL-00352" summary="Deploy">
+      <created>1525028229136</created>
+      <option name="number" value="00352" />
+      <option name="presentableId" value="LOCAL-00352" />
+      <option name="project" value="LOCAL" />
+      <updated>1525028229136</updated>
+    </task>
+    <option name="localTasksCounter" value="353" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105147000" />
+    <option name="totallyTimeSpent" value="105449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -919,7 +920,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="220" y="631" width="1934" height="488" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -928,7 +930,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49573562" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1817602" sideWeight="0.3517173" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17391305" sideWeight="0.6482827" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45454547" sideWeight="0.6482827" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
@@ -1276,10 +1278,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="14" column="40" lean-forward="true" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="-332">
+          <caret line="25" column="34" lean-forward="true" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
-            <marker date="1525028122128" expanded="true" signature="1096:1105" ph="..." />
+            <marker date="1525028301610" expanded="true" signature="1187:1196" ph="..." />
           </folding>
         </state>
       </provider>

@@ -23,14 +23,13 @@
     <input type="submit" value="Resolution" name="submit">
 </form>
 <script type="text/javascript">
-    var  findwidth = screen.width;
-    var  findheight =screen.height;
+    var  findwidth = window.width;
+    var  findheight =window.height;
 
     document.getElementById("width").value=findwidth;
     document.getElementById("height").value=findheight;
 
 </script>
-
 
 
 </html>
