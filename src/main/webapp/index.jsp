@@ -205,7 +205,9 @@ asdasd
 
 
 
+
 </p>
+
 
 
 IP adress on-----
@@ -234,9 +236,9 @@ IP adress on-----
 </script>
 
 
-<p id="reso"></p>
+
 
 
 </body>
-
+<p id="reso"></p>
 </html>
