@@ -1,20 +1,31 @@
-
+<!DOCTYPE html>
 <html>
-<head><title>File Upload To Database</title></head>
-
+<head>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
+        }
+    </style>
+</head>
 <body>
-<h3>Please Choose a File and click Submit</h3>
-
-<form enctype="multipart/form-data" action="image.jsp" method="POST">
-
-    <input type="hidden" name="MAX_FILE_SIZE" value="300000" />
-    Name : <input type="text" name="name" size="25" length="25" value="">
-
-    <input type="hidden" name="MAX_FILE_SIZE" value="300000" />
-    File: <input name="userfile" type="file" size="25"/>
-
-    <input type="submit" value="Upload" />
-</form>
-
+<h3>My Google Maps Demo</h3>
+<div id="map"></div>
+<script>
+    function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC67ncbQxSpOJI87xCk68u81Z-ysp4i1L0&callback=initMap">
+</script>
 </body>
 </html>
