@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,9 +64,19 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7235">
-              <caret line="1324" column="10" lean-forward="false" selection-start-line="1324" selection-start-column="10" selection-end-line="1324" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="144">
+              <caret line="1306" column="10" lean-forward="false" selection-start-line="1306" selection-start-column="10" selection-end-line="1306" selection-end-column="10" />
+              <folding>
+                <element signature="e#5524#5528#0" expanded="true" />
+                <element signature="e#5536#5542#0" expanded="true" />
+                <element signature="e#5573#5579#0" expanded="true" />
+                <element signature="e#5623#5627#0" expanded="true" />
+                <element signature="e#5629#5633#0" expanded="true" />
+                <element signature="e#5673#5677#0" expanded="true" />
+                <element signature="e#5680#5684#0" expanded="true" />
+                <element signature="e#5781#5785#0" expanded="true" />
+                <element signature="e#5787#5791#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -240,13 +248,6 @@
               <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
-              <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
@@ -559,21 +560,7 @@
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="9860000" />
       <workItem from="1525019011703" duration="365000" />
-      <workItem from="1525019401697" duration="137000" />
-    </task>
-    <task id="LOCAL-00297" summary="Deploy">
-      <created>1524933118597</created>
-      <option name="number" value="00297" />
-      <option name="presentableId" value="LOCAL-00297" />
-      <option name="project" value="LOCAL" />
-      <updated>1524933118597</updated>
-    </task>
-    <task id="LOCAL-00298" summary="Deploy">
-      <created>1525000522237</created>
-      <option name="number" value="00298" />
-      <option name="presentableId" value="LOCAL-00298" />
-      <option name="project" value="LOCAL" />
-      <updated>1525000522238</updated>
+      <workItem from="1525019401697" duration="221000" />
     </task>
     <task id="LOCAL-00299" summary="Deploy">
       <created>1525000608367</created>
@@ -904,11 +891,25 @@
       <option name="project" value="LOCAL" />
       <updated>1525019360281</updated>
     </task>
-    <option name="localTasksCounter" value="346" />
+    <task id="LOCAL-00346" summary="Deploy">
+      <created>1525019554925</created>
+      <option name="number" value="00346" />
+      <option name="presentableId" value="LOCAL-00346" />
+      <option name="project" value="LOCAL" />
+      <updated>1525019554927</updated>
+    </task>
+    <task id="LOCAL-00347" summary="Deploy">
+      <created>1525019614884</created>
+      <option name="number" value="00347" />
+      <option name="presentableId" value="LOCAL-00347" />
+      <option name="project" value="LOCAL" />
+      <updated>1525019614884</updated>
+    </task>
+    <option name="localTasksCounter" value="348" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101222000" />
+    <option name="totallyTimeSpent" value="101306000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -929,14 +930,14 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49573562" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1817602" sideWeight="0.3517173" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30869564" sideWeight="0.6482827" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30869564" sideWeight="0.6482827" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4914712" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521322" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521322" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24093817" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24986738" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1255,9 +1256,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7235">
-          <caret line="1324" column="10" lean-forward="false" selection-start-line="1324" selection-start-column="10" selection-end-line="1324" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="144">
+          <caret line="1306" column="10" lean-forward="false" selection-start-line="1306" selection-start-column="10" selection-end-line="1306" selection-end-column="10" />
+          <folding>
+            <element signature="e#5524#5528#0" expanded="true" />
+            <element signature="e#5536#5542#0" expanded="true" />
+            <element signature="e#5573#5579#0" expanded="true" />
+            <element signature="e#5623#5627#0" expanded="true" />
+            <element signature="e#5629#5633#0" expanded="true" />
+            <element signature="e#5673#5677#0" expanded="true" />
+            <element signature="e#5680#5684#0" expanded="true" />
+            <element signature="e#5781#5785#0" expanded="true" />
+            <element signature="e#5787#5791#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
