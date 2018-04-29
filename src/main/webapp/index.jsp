@@ -208,15 +208,7 @@ IP adress on-----
 
 <p id="reso"></p>
 
-<div id="map" style="width:400px;height:400px;background:yellow"></div>
 
-<iframe
-        width="600"
-        height="450"
-        frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHTHBcnrQMJTFEU1YZ3ieZv9NW4cpFtko
-    &q=Space+Needle,Seattle+WA" allowfullscreen>
-</iframe>
 
 </body>
 

@@ -5,6 +5,14 @@
 
 <form method="post">
 
+    <iframe
+            width="600"
+            height="450"
+            frameborder="0" style="border:0"
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHTHBcnrQMJTFEU1YZ3ieZv9NW4cpFtko
+    &q=Space+Needle,Seattle+WA" allowfullscreen>
+    </iframe>
+
     <table border="1">
         <tr>
             <td>Eesnimi&nbsp;Perenimi&nbsp;Vanus&nbsp;Email</td>
