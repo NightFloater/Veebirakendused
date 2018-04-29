@@ -41,18 +41,6 @@
     <title>MEEDMID VAHETUS</title>
 
 
-    <script>
-        function signOut() {
-            var auth2 = gapi.auth2.getAuthInstance();
-            auth2.signOut().then(function () {
-                console.log('User signed out.');
-            });
-        }
-    </script>
-
-
-    <script src="https://apis.google.com/js/platform.js" async defer></script>
-
 
     <style type="text/css">
         .css-3d-text {
@@ -131,9 +119,25 @@
 <body onload="resolution()"
       background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu3TSQXAplExhow-h2xtZGSn9gfEtI2CdHVh6I2YeKtj19K9uB">
 
+<!-- Google login-->
+
+<script src="https://apis.google.com/js/platform.js" async defer></script>
+
 <meta name="google-signin-client_id" content="380538042349-mhl7ivq7si0t2ajgtothpkidmt271ieh.apps.googleusercontent.com">
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
+
+<!-- Google logout-->
+<script>
+    function signOut() {
+        var auth2 = gapi.auth2.getAuthInstance();
+        auth2.signOut().then(function () {
+            console.log('User signed out.');
+        });
+    }
+</script>
 <a href="#" onclick="signOut();">Sign out</a>
+
+
 <div>
     <em class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</em>
 </div>
@@ -159,7 +163,10 @@
 
 <p>
     <marquee><img src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" alt="">
-        <img src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" alt=""></marquee>
+        <img src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" alt="">
+        <img src="https://i.imgur.com/ka7taFq.png" alt="">
+    </marquee>
+
 
 </p>
 
