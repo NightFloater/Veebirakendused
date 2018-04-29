@@ -40,7 +40,7 @@ if(isset($_POST['submit']))
 {
     $width = $_POST['width'];
     $heigth = $_POST['height'];
-    echo "<p> Su resolutsioon on $width x $height";
+    echo $heigth,$width;
 
 }
 
