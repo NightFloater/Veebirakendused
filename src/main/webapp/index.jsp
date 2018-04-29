@@ -210,17 +210,13 @@ IP adress on-----
 
 <div id="map" style="width:400px;height:400px;background:yellow"></div>
 
-<script>
-    function myMap() {
-        var mapOptions = {
-            zoom: 10,
-            mapTypeId: google.maps.MapTypeId.HYBRID
-        }
-        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    }
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<iframe
+        width="600"
+        height="450"
+        frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHTHBcnrQMJTFEU1YZ3ieZv9NW4cpFtko
+    &q=Space+Needle,Seattle+WA" allowfullscreen>
+</iframe>
 
 </body>
 
