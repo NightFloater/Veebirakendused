@@ -136,10 +136,10 @@
 <marquee class="css-3d-text">She better than the rest</marquee>
 <p>
 
-    <img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" width="200" style="float:left">
+    <img src="https://media.giphy.com/media/6JGsvAD6L09wI/giphy.gif" alt="" height="200" width="200" style="float:left">
 
-    <img class="middle-img" src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" width="200" style="float:left">
-    <img src="https://i.imgur.com/QKwl1jm.gif" alt="" height="200" style="float:left">
+    <img class="middle-img" src="https://media.giphy.com/media/6JGsvAD6L09wI/giphy.gif" alt="" height="200" width="200" style="float:left">
+    <img src="https://media.giphy.com/media/6JGsvAD6L09wI/giphy.gif" alt="" height="200" style="float:left">
 
 
 </p>
