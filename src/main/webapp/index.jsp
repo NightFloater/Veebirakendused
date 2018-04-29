@@ -41,6 +41,16 @@
     <title>MEEDMID VAHETUS</title>
 
 
+    <script>
+        function signOut() {
+            var auth2 = gapi.auth2.getAuthInstance();
+            auth2.signOut().then(function () {
+                console.log('User signed out.');
+            });
+        }
+    </script>
+
+
     <script src="https://apis.google.com/js/platform.js" async defer></script>
 
 
@@ -123,6 +133,7 @@
 
 <meta name="google-signin-client_id" content="380538042349-mhl7ivq7si0t2ajgtothpkidmt271ieh.apps.googleusercontent.com">
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
+<a href="#" onclick="signOut();">Sign out</a>
 <div>
     <em class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</em>
 </div>
