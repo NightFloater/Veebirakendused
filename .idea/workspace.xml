@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="" />
+    <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,17 +67,17 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="1306" column="10" lean-forward="false" selection-start-line="1306" selection-start-column="10" selection-end-line="1306" selection-end-column="10" />
+              <caret line="1317" column="10" lean-forward="false" selection-start-line="1317" selection-start-column="10" selection-end-line="1317" selection-end-column="10" />
               <folding>
-                <element signature="e#5524#5528#0" expanded="true" />
-                <element signature="e#5536#5542#0" expanded="true" />
-                <element signature="e#5573#5579#0" expanded="true" />
-                <element signature="e#5623#5627#0" expanded="true" />
-                <element signature="e#5629#5633#0" expanded="true" />
-                <element signature="e#5673#5677#0" expanded="true" />
-                <element signature="e#5680#5684#0" expanded="true" />
-                <element signature="e#5781#5785#0" expanded="true" />
-                <element signature="e#5787#5791#0" expanded="true" />
+                <element signature="e#6056#6060#0" expanded="true" />
+                <element signature="e#6068#6074#0" expanded="true" />
+                <element signature="e#6105#6111#0" expanded="true" />
+                <element signature="e#6155#6159#0" expanded="true" />
+                <element signature="e#6161#6165#0" expanded="true" />
+                <element signature="e#6205#6209#0" expanded="true" />
+                <element signature="e#6212#6216#0" expanded="true" />
+                <element signature="e#6313#6317#0" expanded="true" />
+                <element signature="e#6319#6323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -560,14 +562,7 @@
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="9860000" />
       <workItem from="1525019011703" duration="365000" />
-      <workItem from="1525019401697" duration="221000" />
-    </task>
-    <task id="LOCAL-00299" summary="Deploy">
-      <created>1525000608367</created>
-      <option name="number" value="00299" />
-      <option name="presentableId" value="LOCAL-00299" />
-      <option name="project" value="LOCAL" />
-      <updated>1525000608367</updated>
+      <workItem from="1525019401697" duration="352000" />
     </task>
     <task id="LOCAL-00300" summary="Deploy">
       <created>1525000736016</created>
@@ -905,11 +900,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525019614884</updated>
     </task>
-    <option name="localTasksCounter" value="348" />
+    <task id="LOCAL-00348" summary="Deploy">
+      <created>1525019660926</created>
+      <option name="number" value="00348" />
+      <option name="presentableId" value="LOCAL-00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1525019660926</updated>
+    </task>
+    <option name="localTasksCounter" value="349" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101306000" />
+    <option name="totallyTimeSpent" value="101437000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1257,17 +1259,17 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
-          <caret line="1306" column="10" lean-forward="false" selection-start-line="1306" selection-start-column="10" selection-end-line="1306" selection-end-column="10" />
+          <caret line="1317" column="10" lean-forward="false" selection-start-line="1317" selection-start-column="10" selection-end-line="1317" selection-end-column="10" />
           <folding>
-            <element signature="e#5524#5528#0" expanded="true" />
-            <element signature="e#5536#5542#0" expanded="true" />
-            <element signature="e#5573#5579#0" expanded="true" />
-            <element signature="e#5623#5627#0" expanded="true" />
-            <element signature="e#5629#5633#0" expanded="true" />
-            <element signature="e#5673#5677#0" expanded="true" />
-            <element signature="e#5680#5684#0" expanded="true" />
-            <element signature="e#5781#5785#0" expanded="true" />
-            <element signature="e#5787#5791#0" expanded="true" />
+            <element signature="e#6056#6060#0" expanded="true" />
+            <element signature="e#6068#6074#0" expanded="true" />
+            <element signature="e#6105#6111#0" expanded="true" />
+            <element signature="e#6155#6159#0" expanded="true" />
+            <element signature="e#6161#6165#0" expanded="true" />
+            <element signature="e#6205#6209#0" expanded="true" />
+            <element signature="e#6212#6216#0" expanded="true" />
+            <element signature="e#6313#6317#0" expanded="true" />
+            <element signature="e#6319#6323#0" expanded="true" />
           </folding>
         </state>
       </provider>
