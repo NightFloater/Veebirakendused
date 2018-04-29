@@ -15,9 +15,30 @@
     <input type="submit" value="Upload" />
 </form>
 
-<input type="button" name="b1" value="Reso" onclick="location.href='image.php'">
+
+
+<p>Kliki siia, et oma reso naha</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="X"></p>
+<p id="Y"></p>
+
+<script>
+    function myFunction() {
+        var x = "Total Width: " + screen.width + "px";
+        var y = "Total Width: " + screen.width + "px";
+
+        document.getElementById("X").innerHTML = x;
+        document.getElementById("Y").innerHTML = y;
+    }
+</script>
+
+
 
 </body>
+
+
 
 
 
