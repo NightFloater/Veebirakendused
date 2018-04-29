@@ -9,7 +9,8 @@
             width="600"
             height="450"
             frameborder="0" style="border:0"
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHTHBcnrQMJTFEU1YZ3ieZv9NW4cpFtko" allowfullscreen>
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHTHBcnrQMJTFEU1YZ3ieZv9NW4cpFtko
+    &q=Tallinn,Harjumaa" allowfullscreen>
     </iframe>
 
     <table border="1">
