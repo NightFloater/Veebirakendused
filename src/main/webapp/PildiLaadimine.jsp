@@ -1,12 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <style>
-        #map {
-            height: 400px;
-            width: 100%;
-        }
-    </style>
+
 </head>
 <body>
 <h3>My Google Maps Demo</h3>
