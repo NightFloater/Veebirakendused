@@ -15,6 +15,8 @@
     <input type="submit" value="Upload" />
 </form>
 
+<input type="button" name="b1" value="Reso" onclick="location.href='image.php'">
+
 </body>
 
 
