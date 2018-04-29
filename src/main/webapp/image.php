@@ -1,3 +1,5 @@
+<html>
+
 <form action="upload.php" method="POST">
     <input type="hidden" name="width" id="width" value="">
     <input type="hidden" name="height" id="height" value="">
@@ -11,7 +13,7 @@
     document.getElementById("height").value=findheight;
 
 </script>
-
+</html>
 
 
 <?php
