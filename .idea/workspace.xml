@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="" />
+    <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,18 +76,18 @@
       <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14365">
-              <caret line="872" column="11" lean-forward="true" selection-start-line="872" selection-start-column="11" selection-end-line="872" selection-end-column="11" />
+            <state relative-caret-position="8602">
+              <caret line="857" column="11" lean-forward="true" selection-start-line="857" selection-start-column="11" selection-end-line="857" selection-end-column="11" />
               <folding>
-                <element signature="e#7249#7253#0" expanded="true" />
-                <element signature="e#7261#7267#0" expanded="true" />
-                <element signature="e#7298#7304#0" expanded="true" />
-                <element signature="e#7348#7352#0" expanded="true" />
-                <element signature="e#7354#7358#0" expanded="true" />
-                <element signature="e#7398#7402#0" expanded="true" />
-                <element signature="e#7405#7409#0" expanded="true" />
-                <element signature="e#7506#7510#0" expanded="true" />
-                <element signature="e#7512#7516#0" expanded="true" />
+                <element signature="e#6822#6826#0" expanded="true" />
+                <element signature="e#6834#6840#0" expanded="true" />
+                <element signature="e#6871#6877#0" expanded="true" />
+                <element signature="e#6921#6925#0" expanded="true" />
+                <element signature="e#6927#6931#0" expanded="true" />
+                <element signature="e#6971#6975#0" expanded="true" />
+                <element signature="e#6978#6982#0" expanded="true" />
+                <element signature="e#7079#7083#0" expanded="true" />
+                <element signature="e#7085#7089#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,16 +98,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
               <caret line="6" column="10" lean-forward="true" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dataSources.local.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -589,14 +581,7 @@
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="10583000" />
       <workItem from="1525016857336" duration="509000" />
-      <workItem from="1525017396535" duration="466000" />
-    </task>
-    <task id="LOCAL-00314" summary="Deploy">
-      <created>1525003759924</created>
-      <option name="number" value="00314" />
-      <option name="presentableId" value="LOCAL-00314" />
-      <option name="project" value="LOCAL" />
-      <updated>1525003759924</updated>
+      <workItem from="1525017396535" duration="576000" />
     </task>
     <task id="LOCAL-00315" summary="Deploy">
       <created>1525003930110</created>
@@ -934,11 +919,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525017842003</updated>
     </task>
-    <option name="localTasksCounter" value="363" />
+    <task id="LOCAL-00363" summary="Deploy">
+      <created>1525017942188</created>
+      <option name="number" value="00363" />
+      <option name="presentableId" value="LOCAL-00363" />
+      <option name="project" value="LOCAL" />
+      <updated>1525017942189</updated>
+    </task>
+    <option name="localTasksCounter" value="364" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102416000" />
+    <option name="totallyTimeSpent" value="102526000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -951,6 +943,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -959,7 +952,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49573562" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30869564" sideWeight="0.35714287" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30869564" sideWeight="0.64285713" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30869564" sideWeight="0.64285713" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
@@ -1289,14 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1305,20 +1290,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/dataSources.local.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="10" lean-forward="false" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14365">
-          <caret line="872" column="11" lean-forward="true" selection-start-line="872" selection-start-column="11" selection-end-line="872" selection-end-column="11" />
+        <state relative-caret-position="8602">
+          <caret line="857" column="11" lean-forward="true" selection-start-line="857" selection-start-column="11" selection-end-line="857" selection-end-column="11" />
           <folding>
-            <element signature="e#7249#7253#0" expanded="true" />
-            <element signature="e#7261#7267#0" expanded="true" />
-            <element signature="e#7298#7304#0" expanded="true" />
-            <element signature="e#7348#7352#0" expanded="true" />
-            <element signature="e#7354#7358#0" expanded="true" />
-            <element signature="e#7398#7402#0" expanded="true" />
-            <element signature="e#7405#7409#0" expanded="true" />
-            <element signature="e#7506#7510#0" expanded="true" />
-            <element signature="e#7512#7516#0" expanded="true" />
+            <element signature="e#6822#6826#0" expanded="true" />
+            <element signature="e#6834#6840#0" expanded="true" />
+            <element signature="e#6871#6877#0" expanded="true" />
+            <element signature="e#6921#6925#0" expanded="true" />
+            <element signature="e#6927#6931#0" expanded="true" />
+            <element signature="e#6971#6975#0" expanded="true" />
+            <element signature="e#6978#6982#0" expanded="true" />
+            <element signature="e#7079#7083#0" expanded="true" />
+            <element signature="e#7085#7089#0" expanded="true" />
           </folding>
         </state>
       </provider>
