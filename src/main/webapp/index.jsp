@@ -203,6 +203,9 @@ asdasd
     Vajuta siia tulevikus, et laadida üles pilte
     <input type="button" name="b1" value="Upload" onclick="location.href='upload.php'">
 
+    Vajuta siia et naha oma resolutsiooni
+    <input type="button" name="b1" value="Reso" onclick="location.href='resolution.php'">
+
 
 
 
@@ -221,24 +224,6 @@ IP adress on-----
 %>
 
 
-<script>
-
-    function resolution() {
-
-        var windowWidth = $(window).width();
-        var windowHeight = $(window).height();
-        var Window = windowHeight + "x" + windowWidth;
-        document.getElementById("reso").innerHTML = Window;
-
-        // windowWidth & windowHeight are automatically updated when the browser size is modified
-    }
-
-</script>
-
-
-
-
-
 </body>
-<p id="reso"></p>
+
 </html>
