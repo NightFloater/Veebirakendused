@@ -59,8 +59,8 @@
       <file leaf-file-name="PildiLaadimine.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="96" lean-forward="false" selection-start-line="27" selection-start-column="96" selection-end-line="27" selection-end-column="96" />
+            <state relative-caret-position="61">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -177,7 +177,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1934" />
     <option name="height" value="1037" />
@@ -527,14 +527,7 @@
       <workItem from="1524902274611" duration="827000" />
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
-      <workItem from="1525000233168" duration="8217000" />
-    </task>
-    <task id="LOCAL-00286" summary="Deploy">
-      <created>1524902617535</created>
-      <option name="number" value="00286" />
-      <option name="presentableId" value="LOCAL-00286" />
-      <option name="project" value="LOCAL" />
-      <updated>1524902617535</updated>
+      <workItem from="1525000233168" duration="8412000" />
     </task>
     <task id="LOCAL-00287" summary="Deploy">
       <created>1524903711849</created>
@@ -872,11 +865,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525014391666</updated>
     </task>
-    <option name="localTasksCounter" value="335" />
+    <task id="LOCAL-00335" summary="Deploy">
+      <created>1525014505222</created>
+      <option name="number" value="00335" />
+      <option name="presentableId" value="LOCAL-00335" />
+      <option name="project" value="LOCAL" />
+      <updated>1525014505222</updated>
+    </task>
+    <option name="localTasksCounter" value="336" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99075000" />
+    <option name="totallyTimeSpent" value="99270000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -888,7 +888,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1223,17 +1223,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#form#0;n#!!top" expanded="true" />
-            <marker date="1525014377375" expanded="true" signature="1013:1036" ph="select * fro... kasutajad" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2822">
@@ -1257,10 +1246,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#form#0;n#!!top" expanded="true" />
+            <marker date="1525014377375" expanded="true" signature="1013:1036" ph="select * fro... kasutajad" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="96" lean-forward="false" selection-start-line="27" selection-start-column="96" selection-end-line="27" selection-end-column="96" />
+        <state relative-caret-position="61">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding />
         </state>
       </provider>

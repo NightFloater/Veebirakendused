@@ -4,7 +4,7 @@
     <style>
         #map {
             height: 400px;
-            width: 400px;
+            width: 100%;
         }
     </style>
 </head>
@@ -25,7 +25,7 @@
     }
 </script>
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHTHBcnrQMJTFEU1YZ3ieZv9NW4cpFtko&callback=initMap">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC67ncbQxSpOJI87xCk68u81Z-ysp4i1L0&callback=initMap">
 </script>
 </body>
 </html>
