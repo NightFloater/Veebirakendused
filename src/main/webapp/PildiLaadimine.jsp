@@ -1,40 +1,32 @@
-<form method="post">
-
-    <table border="1">
-        <tr>
-            <td>Eesnimi&nbsp;Perenimi&nbsp;Vanus&nbsp;Email</td>
-
-
-        </tr>
-        <%
-            try {
-                Class.forName("org.postgresql.Driver");
-                String url = "jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2";
-                String username = "vkzivsefpcoxqi";
-                String password = "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080";
-                String query = "select * from kasutajad";
-                Connection conn = DriverManager.getConnection(url, username, password);
-                Statement stmt = conn.createStatement();
-                ResultSet rs = stmt.executeQuery(query);
-                while (rs.next()) {
-        %>
-        <tr>
-            <td><%
-                out.println(rs.getString("eesnimi") + "\t" + rs.getString("perenimi") + "\t" + rs.getString("vanus") + "\t" + rs.getString("email")); %></td>
-        </tr>
-
-
-        <%
-            }
-        %>
-    </table>
-    <%
-            rs.close();
-            stmt.close();
-            conn.close();
-        } catch (Exception e) {
-            e.printStackTrace();
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        #map {
+            height: 400px;
+            width: 100%;
         }
-    %>
-</form>
-`
+    </style>
+</head>
+<body>
+<h3>My Google Maps Demo</h3>
+<div id="map"></div>
+<script>
+    function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 4,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+<script async defer
+        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHTHBcnrQMJTFEU1YZ3ieZv9NW4cpFtko
+    &q=Space+Needle,Seattle+WA">
+</script>
+</body>
+</html>
