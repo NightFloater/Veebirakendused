@@ -154,14 +154,14 @@
 
 
 <p>
-    <img src="https://i.imgur.com/3P2eI25.jpg" alt="">
-    <img src="https://i.imgur.com/4rU2l2T.jpg" alt="">
+    <img src="http://cdn.funnyand.com/wp-content/uploads/2015/02/80s-Hairstyle.jpg" alt="">
+    <img src="https://pics.me.me/baby-its-only-micro-microsoft-when-its-soft-%F0%9F%98%82%F0%9F%98%82-microsoft-9533785.png" alt="">
 </p>
 
 
 <p>
-    <img src="https://i.redd.it/wpozn1bapfs01.png" alt="">
-    <img src="https://i.redd.it/qcwrcbhy4gs01.png" alt="">
+    <img src="https://thechive.files.wordpress.com/2017/03/90s-memes-that-prove-life-was-tough-before-the-internet-58-photos-28.jpg" alt="">
+    <img src="https://pics.me.me/smh-life-was-much-better-in-the-90s-stormy-atx-6730152.png" alt="">
 </p>
 
 
