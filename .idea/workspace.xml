@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/image.jsp" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
@@ -61,21 +62,31 @@
       <file leaf-file-name="PildiLaadimine.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="276" column="11" lean-forward="true" selection-start-line="276" selection-start-column="11" selection-end-line="276" selection-end-column="11" />
+            <state relative-caret-position="323">
+              <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kasutajad.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="image.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/image.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="202" lean-forward="false" selection-start-line="12" selection-start-column="202" selection-end-line="12" selection-end-column="202" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kasutajad.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1922" lean-forward="false" selection-start-line="14" selection-start-column="1922" selection-end-line="14" selection-end-column="1922" />
+            <state relative-caret-position="391">
+              <caret line="29" column="99" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="99" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#form#0;n#!!top" expanded="true" />
-                <marker date="1525015439196" expanded="true" signature="2808:2831" ph="select * fro... kasutajad" />
+                <marker date="1525015546136" expanded="true" signature="1013:1036" ph="select * fro... kasutajad" />
               </folding>
             </state>
           </provider>
@@ -154,8 +165,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/asd.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/tekst.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/image.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" />
       </list>
     </option>
   </component>
@@ -221,6 +233,13 @@
               <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
@@ -529,14 +548,7 @@
       <workItem from="1524902274611" duration="827000" />
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
-      <workItem from="1525000233168" duration="9204000" />
-    </task>
-    <task id="LOCAL-00291" summary="Deploy">
-      <created>1524931870008</created>
-      <option name="number" value="00291" />
-      <option name="presentableId" value="LOCAL-00291" />
-      <option name="project" value="LOCAL" />
-      <updated>1524931870008</updated>
+      <workItem from="1525000233168" duration="9860000" />
     </task>
     <task id="LOCAL-00292" summary="Deploy">
       <created>1524931964020</created>
@@ -874,11 +886,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525015237586</updated>
     </task>
-    <option name="localTasksCounter" value="340" />
+    <task id="LOCAL-00340" summary="Deploy">
+      <created>1525015456026</created>
+      <option name="number" value="00340" />
+      <option name="presentableId" value="LOCAL-00340" />
+      <option name="project" value="LOCAL" />
+      <updated>1525015456026</updated>
+    </task>
+    <option name="localTasksCounter" value="341" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100062000" />
+    <option name="totallyTimeSpent" value="100718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -981,13 +1000,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HerokuApp.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1249,22 +1261,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="29" column="99" lean-forward="false" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="99" />
+          <folding>
+            <element signature="n#style#0;n#iframe#0;n#form#0;n#!!top" expanded="true" />
+            <marker date="1525015546136" expanded="true" signature="1013:1036" ph="select * fro... kasutajad" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="276" column="11" lean-forward="true" selection-start-line="276" selection-start-column="11" selection-end-line="276" selection-end-column="11" />
+        <state relative-caret-position="323">
+          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/image.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1922" lean-forward="false" selection-start-line="14" selection-start-column="1922" selection-end-line="14" selection-end-column="1922" />
-          <folding>
-            <element signature="n#style#0;n#iframe#0;n#form#0;n#!!top" expanded="true" />
-            <marker date="1525015439196" expanded="true" signature="2808:2831" ph="select * fro... kasutajad" />
-          </folding>
+        <state relative-caret-position="204">
+          <caret line="12" column="202" lean-forward="false" selection-start-line="12" selection-start-column="202" selection-end-line="12" selection-end-column="202" />
+          <folding />
         </state>
       </provider>
     </entry>
