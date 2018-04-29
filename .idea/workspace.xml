@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="Deploy">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/image.jsp" />
+    <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d51161b-f448-4c71-bfad-152d5e6b9ecd.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/9d51161b-f448-4c71-bfad-152d5e6b9ecd.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cf3946eb-c756-4e8a-bb35-44cfe5864163.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/cf3946eb-c756-4e8a-bb35-44cfe5864163.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_2_jre7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_2_jre7.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_0_801_jdbc4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__postgresql_postgresql_9_0_801_jdbc4.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/image.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/tekst.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/tekst.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,9 +44,9 @@
             <state relative-caret-position="136">
               <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
-                <marker date="1524931955982" expanded="true" signature="2009:2031" ph="INSERT INTO kasutajad... " />
-                <marker date="1524931955982" expanded="true" signature="2009:2055" ph="INSERT INTO kasutajad... " />
-                <marker date="1524931955982" expanded="true" signature="2009:2080" ph="INSERT INTO kasutajad... " />
+                <marker date="1525018964454" expanded="true" signature="2009:2031" ph="INSERT INTO kasutajad... " />
+                <marker date="1525018964454" expanded="true" signature="2009:2055" ph="INSERT INTO kasutajad... " />
+                <marker date="1525018964454" expanded="true" signature="2009:2080" ph="INSERT INTO kasutajad... " />
               </folding>
             </state>
           </provider>
@@ -68,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="554">
-              <caret line="1386" column="10" lean-forward="false" selection-start-line="1386" selection-start-column="10" selection-end-line="1386" selection-end-column="10" />
+              <caret line="1369" column="10" lean-forward="false" selection-start-line="1369" selection-start-column="10" selection-end-line="1369" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -77,8 +85,8 @@
       <file leaf-file-name="image.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/image.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -99,10 +107,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding>
-                <marker date="1525016367021" expanded="true" signature="1014:1037" ph="select * fro... kasutajad" />
-                <marker date="1525016367021" expanded="true" signature="1072:1147" ph="create table... image" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -183,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/image.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/image.jsp" />
       </list>
     </option>
   </component>
@@ -207,6 +211,7 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1934" />
@@ -256,6 +261,14 @@
               <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="v33birakendused-master" type="b2602c69:ProjectViewProjectNode" />
+              <item name="v33birakendused-master" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -918,7 +931,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100761000" />
+    <option name="totallyTimeSpent" value="100720000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -933,8 +946,8 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30869564" sideWeight="0.35980812" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30869564" sideWeight="0.6401919" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30869564" sideWeight="0.36247334" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30869564" sideWeight="0.63752663" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -944,15 +957,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33152175" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33152175" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49573562" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4978678" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5778252" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.4914712" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521322" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2521322" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1104,7 +1117,7 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="554">
-          <caret line="1386" column="10" lean-forward="false" selection-start-line="1386" selection-start-column="10" selection-end-line="1386" selection-end-column="10" />
+          <caret line="1369" column="10" lean-forward="false" selection-start-line="1369" selection-start-column="10" selection-end-line="1369" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -1232,7 +1245,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/App.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/ConnectionConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/display.jsp" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/DatabaseConnection.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/InsertData.java" />
@@ -1255,6 +1274,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1270,9 +1290,9 @@
         <state relative-caret-position="136">
           <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
-            <marker date="1524931955982" expanded="true" signature="2009:2031" ph="INSERT INTO kasutajad... " />
-            <marker date="1524931955982" expanded="true" signature="2009:2055" ph="INSERT INTO kasutajad... " />
-            <marker date="1524931955982" expanded="true" signature="2009:2080" ph="INSERT INTO kasutajad... " />
+            <marker date="1525018964454" expanded="true" signature="2009:2031" ph="INSERT INTO kasutajad... " />
+            <marker date="1525018964454" expanded="true" signature="2009:2055" ph="INSERT INTO kasutajad... " />
+            <marker date="1525018964454" expanded="true" signature="2009:2080" ph="INSERT INTO kasutajad... " />
           </folding>
         </state>
       </provider>
@@ -1289,10 +1309,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1525016367021" expanded="true" signature="1014:1037" ph="select * fro... kasutajad" />
-            <marker date="1525016367021" expanded="true" signature="1072:1147" ph="create table... image" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1304,7 +1321,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/image.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/image.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="202" lean-forward="false" selection-start-line="12" selection-start-column="202" selection-end-line="12" selection-end-column="202" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
