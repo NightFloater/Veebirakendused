@@ -17,7 +17,7 @@
 
 </body>
 
-<form action="upload.php" method="Post">
+<form action="upload.php" method="POST">
     <input type="hidden" name="width" id="width" value="">
     <input type="hidden" name="height" id="height" value="">
     <input type="submit" value="Resolution" name="submit">
@@ -40,7 +40,7 @@ if(isset($_POST['submit']))
 {
     $width = $_POST['width'];
     $heigth = $_POST['height'];
-    echo $heigth,$width;
+    echo "$heigth,$width";
 
 }
 
