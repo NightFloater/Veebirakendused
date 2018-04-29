@@ -26,6 +26,7 @@
 <p id="X"></p>
 <p id="Y"></p>
 <p id="time"></p>
+<p id="IP"></p>
 
 
 
@@ -39,9 +40,23 @@
 
         var today = new Date();
         document.getElementById('time').innerHTML=today.getHours().toString();
+
+        var ip = Request.I
+        document.getElementById('IP').innerHTML=ip;
+
     }
 </script>
 
+
+<script type="text/javascript">
+    var userip;
+</script>
+
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
+<script type="text/javascript">
+    document.write("Your IP is :", userip);
+</script>
 
 
 </body>
