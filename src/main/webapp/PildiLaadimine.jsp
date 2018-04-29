@@ -25,8 +25,7 @@
     }
 </script>
 <script async defer
-        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHTHBcnrQMJTFEU1YZ3ieZv9NW4cpFtko
-    &q=Space+Needle,Seattle+WA">
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHTHBcnrQMJTFEU1YZ3ieZv9NW4cpFtko&callback=initMap">
 </script>
 </body>
 </html>

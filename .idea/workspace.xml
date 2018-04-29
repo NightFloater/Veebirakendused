@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -60,8 +60,8 @@
       <file leaf-file-name="PildiLaadimine.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
+            <state relative-caret-position="527">
+              <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -70,8 +70,8 @@
       <file leaf-file-name="kasutajad.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="153">
+              <caret line="12" column="30" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="12" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#form#0;n#!!top" expanded="true" />
                 <marker date="1525006257335" expanded="true" signature="1017:1040" ph="select * fro... kasutajad" />
@@ -151,10 +151,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/InsertData.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/kasutajad.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/asd.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/tekst.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" />
       </list>
     </option>
   </component>
@@ -528,14 +528,7 @@
       <workItem from="1524902274611" duration="827000" />
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
-      <workItem from="1525000233168" duration="6108000" />
-    </task>
-    <task id="LOCAL-00275" summary="Deploy">
-      <created>1524317877465</created>
-      <option name="number" value="00275" />
-      <option name="presentableId" value="LOCAL-00275" />
-      <option name="project" value="LOCAL" />
-      <updated>1524317877465</updated>
+      <workItem from="1525000233168" duration="6227000" />
     </task>
     <task id="LOCAL-00276" summary="Deploy">
       <created>1524317945496</created>
@@ -873,11 +866,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525006181211</updated>
     </task>
-    <option name="localTasksCounter" value="324" />
+    <task id="LOCAL-00324" summary="Deploy">
+      <created>1525006388006</created>
+      <option name="number" value="00324" />
+      <option name="presentableId" value="LOCAL-00324" />
+      <option name="project" value="LOCAL" />
+      <updated>1525006388006</updated>
+    </task>
+    <option name="localTasksCounter" value="325" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96966000" />
+    <option name="totallyTimeSpent" value="97085000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1250,8 +1250,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="22" lean-forward="true" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="153">
+          <caret line="12" column="30" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="12" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#form#0;n#!!top" expanded="true" />
             <marker date="1525006257335" expanded="true" signature="1017:1040" ph="select * fro... kasutajad" />
@@ -1261,8 +1261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="7" />
+        <state relative-caret-position="527">
+          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
           <folding />
         </state>
       </provider>
