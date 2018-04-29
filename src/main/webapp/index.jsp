@@ -231,8 +231,7 @@ asdasd
 <p>
     Vajuta siia, et näha kasutajate nimekirja
     <input type="button" name="b1" value="Click Me" onclick="location.href='kasutajad.jsp'">
-    Vajuta siia tulevikus, et laadida üles pilte
-    <input class="googlemaps" onclick="location.href='PildiLaadimine.jsp'">
+
 
 <div class="download" onclick="href='PildiLaadimine.jsp'">Download</div>
 <link async href="http://fonts.googleapis.com/css?family=Coda" data-generated="http://enjoycss.com" rel="stylesheet" type="text/css"/>
