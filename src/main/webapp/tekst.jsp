@@ -17,36 +17,10 @@
 
 <button onclick="myFunction()">Try it</button>
 
-<p id="X"></p>
-<p id="Y"></p>
-<p id="time"></p>
-<p id="IP"></p>
 
 
 
-<script>
-    function myFunction() {
-        var x = "Total Width: " + screen.width + "px";
-        var y = "Total Width: " + screen.height + "px";
 
-        document.getElementById("X").innerHTML = x;
-        document.getElementById("Y").innerHTML = y;
-
-        var today = new Date();
-        document.getElementById('time').innerHTML=today.getHours().toString();
-    }
-</script>
-
-
-<script type="text/javascript">
-    var userip;
-</script>
-
-<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
-
-<script type="text/javascript">
-    document.write("Su IP address on :", userip);
-</script>
 
 
 
@@ -55,6 +29,13 @@
 
 <font size="+3" color="green"><br>Welcome memer!</font>
 <FORM action="tekst.jsp" method="get">
+
+
+    <p id="X"></p>
+    <p id="Y"></p>
+    <p id="time"></p>
+    <p id="IP"></p>
+
     <TABLE style="background-color: #14e01b;" WIDTH="30%">
         <TR>
             <TH width="50%">Eesnimi</TH>
@@ -77,6 +58,33 @@
             <TD width="50%"><INPUT TYPE="submit" VALUE="submit"></TD>
         </tr>
     </TABLE>
+
+
+    <script>
+        function myFunction() {
+            var x = "Total Width: " + screen.width + "px";
+            var y = "Total Width: " + screen.height + "px";
+
+            document.getElementById("X").innerHTML = x;
+            document.getElementById("Y").innerHTML = y;
+
+            var today = new Date();
+            document.getElementById('time').innerHTML=today.getHours().toString();
+        }
+    </script>
+
+
+    <script type="text/javascript">
+        var userip;
+    </script>
+
+    <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
+    <script type="text/javascript">
+        document.write("Su IP address on :", userip);
+    </script>
+
+
 
 
     <%
