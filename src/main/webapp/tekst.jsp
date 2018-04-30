@@ -15,6 +15,25 @@
 
 
 
+<p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
+
+<button onclick="myFunction()">Try it</button>
+
+
+
+
+<script type="text/javascript">
+    var userip;
+</script>
+
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
+<script type="text/javascript">
+    document.write("Su IP address on :", userip);
+</script>
+
+
+
 
 
 <script>
@@ -38,25 +57,6 @@
 
 <font size="+3" color="green"><br>Welcome memer!</font>
 <FORM action="tekst.jsp" method="get">
-
-
-
-    <p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
-
-    <button onclick="myFunction()">Try it</button>
-
-
-
-
-    <script type="text/javascript">
-        var userip;
-    </script>
-
-    <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
-
-    <script type="text/javascript">
-        document.write("Su IP address on :", userip);
-    </script>
 
 
 

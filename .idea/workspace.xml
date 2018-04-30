@@ -33,12 +33,12 @@
       <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-589">
-              <caret line="85" column="12" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+            <state relative-caret-position="142">
+              <caret line="92" column="53" lean-forward="true" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
               <folding>
                 <element signature="n#style#0;n#TABLE#0;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#TABLE#1;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-                <marker date="1525081035099" expanded="true" signature="3196:3267" ph="INSERT INTO kasutajad... " />
+                <marker date="1525081111853" expanded="true" signature="3136:3207" ph="INSERT INTO kasutajad... " />
               </folding>
             </state>
           </provider>
@@ -562,14 +562,7 @@
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="8412000" />
-      <workItem from="1525020443141" duration="22096000" />
-    </task>
-    <task id="LOCAL-00376" summary="Deploy">
-      <created>1525070674490</created>
-      <option name="number" value="00376" />
-      <option name="presentableId" value="LOCAL-00376" />
-      <option name="project" value="LOCAL" />
-      <updated>1525070674490</updated>
+      <workItem from="1525020443141" duration="22174000" />
     </task>
     <task id="LOCAL-00377" summary="Deploy">
       <created>1525070808977</created>
@@ -907,11 +900,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525081039760</updated>
     </task>
-    <option name="localTasksCounter" value="425" />
+    <task id="LOCAL-00425" summary="Deploy">
+      <created>1525081117448</created>
+      <option name="number" value="00425" />
+      <option name="presentableId" value="LOCAL-00425" />
+      <option name="project" value="LOCAL" />
+      <updated>1525081117448</updated>
+    </task>
+    <option name="localTasksCounter" value="426" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121369000" />
+    <option name="totallyTimeSpent" value="121447000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1281,12 +1281,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-589">
-          <caret line="85" column="12" lean-forward="true" selection-start-line="85" selection-start-column="12" selection-end-line="85" selection-end-column="12" />
+        <state relative-caret-position="142">
+          <caret line="92" column="53" lean-forward="true" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
           <folding>
             <element signature="n#style#0;n#TABLE#0;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#TABLE#1;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
-            <marker date="1525081035099" expanded="true" signature="3196:3267" ph="INSERT INTO kasutajad... " />
+            <marker date="1525081111853" expanded="true" signature="3136:3207" ph="INSERT INTO kasutajad... " />
           </folding>
         </state>
       </provider>
