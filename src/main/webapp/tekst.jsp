@@ -41,7 +41,7 @@
         var x = "Total Width: " + screen.width + "px";
         var y = "Total Width: " + screen.height + "px";
 
-        document.getElementById("X").innerHTML = x;
+        document.getElementById("yks").innerHTML = x;
         document.getElementById("Y").innerHTML = y;
         document.getElementById("IP").innerHTML = userip;
 
@@ -66,7 +66,7 @@
     <TABLE style="background-color: #14e01b;" WIDTH="30%">
         <TR>
             <TH width="50%">Eesnimi</TH>
-            <TD width="50%"><INPUT TYPE="text" NAME="eesnimi"></TD>
+            <TD width="50%"><INPUT TYPE="text" id="yks" NAME="eesnimi"></TD>
         </tr>
         <TR>
             <TH width="50%">Perenimi</TH>
