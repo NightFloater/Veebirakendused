@@ -32,10 +32,10 @@
     }
 </script>
 
-<p id="X"></p>
-<p id="Y"></p>
-<p id="time"></p>
-<p id="IP"></p>
+<p id="X">TEST</p>
+<p id="Y">TEST</p>
+<p id="time">TEST</p>
+<p id="IP">TEST</p>
 
 
 <font size="+3" color="green"><br>Welcome memer!</font>
