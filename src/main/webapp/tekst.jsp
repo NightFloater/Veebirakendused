@@ -19,7 +19,18 @@
 <p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
 
 <button onclick="myFunction()">Try it</button>
+<script>
+    function myFunction() {
+        var x = "Total Width: " + screen.width + "px";
+        var y = "Total Width: " + screen.height + "px";
 
+        document.getElementById("X").innerHTML = x;
+        document.getElementById("Y").innerHTML = y;
+
+        var today = new Date();
+        document.getElementById('time').innerHTML=today.getHours().toString();
+    }
+</script>
 
 
 
@@ -30,23 +41,8 @@
 
 
 
-    <p id="X"></p>
-    <p id="Y"></p>
-    <p id="time"></p>
-    <p id="IP"></p>
 
-    <script>
-        function myFunction() {
-            var x = "Total Width: " + screen.width + "px";
-            var y = "Total Width: " + screen.height + "px";
 
-            document.getElementById("X").innerHTML = x;
-            document.getElementById("Y").innerHTML = y;
-
-            var today = new Date();
-            document.getElementById('time').innerHTML=today.getHours().toString();
-        }
-    </script>
 
 
     <script type="text/javascript">
@@ -59,7 +55,10 @@
         document.write("Su IP address on :", userip);
     </script>
 
-
+    <p id="X"></p>
+    <p id="Y"></p>
+    <p id="time"></p>
+    <p id="IP"></p>
 
 
 
