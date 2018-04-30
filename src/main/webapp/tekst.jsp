@@ -2,6 +2,7 @@
 "http://www.w3.org/TR/html4/loose.dtd" >
 <%@ page import="java.sql.*" %>
 <%@ page import="java.io.*" %>
+<%@ page import="com.sun.org.apache.xalan.internal.xsltc.compiler.Parser" %>
 <HTML>
 <HEAD>
     <TITLE>Kasutaja info </TITLE>
@@ -45,7 +46,7 @@
 
         String Reso = request.getParameter("X")+"X"+request.getParameter("Y");
         String IPa = request.getParameter("IP");
-        Integer aeg = Integer.parseInt(request.getParameter("time"));
+        String aeg =  request.getParameter("time");
 
 
 
@@ -81,7 +82,7 @@
                     pstatement = connection.prepareStatement(queryString2);
                     pstatement.setString(1, Reso);
                     pstatement.setString(2, IPa);
-                    pstatement.setInt(3,aeg);
+                    pstatement.setInt(3, Integer.valueOf(aeg));
                     updateQuery = pstatement.executeUpdate();
 
 
