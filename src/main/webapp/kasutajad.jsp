@@ -29,8 +29,9 @@
                 String username = "vkzivsefpcoxqi";
                 String password = "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080";
                 String query2 = "TRUNCATE kasutajad";
-                String query = "select * from info";
-                String query3 = "create table info (resolutsioon varchar(20) not null,IP varchar(30) not null,time integer(3) )";
+                String query = "select * from kasutajad";
+                String query4 = "select * from info";
+                String query3 = "create table info (resolutsioon varchar(20) not null,IP varchar(30) not null,time integer(3) );";
                 Connection conn = DriverManager.getConnection(url, username, password);
                 Statement stmt = conn.createStatement();
                 ResultSet rs = stmt.executeQuery(query);
@@ -38,10 +39,14 @@
         %>
         <tr>
             <td><%
-                out.println(rs.getString("resolutsioon") + "\t" + rs.getString("IP") + "\t" + rs.getInt("time") + "\t" + rs.getString("email")); %></td>
+                out.println(rs.getString("eesnimi") + "\t" + rs.getString("perenimi") + "\t" + rs.getString("vanus") + "\t" + rs.getString("email")); %></td>
         </tr>
 
+
+
+
     </table>
+
 
 
 
@@ -51,6 +56,62 @@
         <%
             }
         %>
+
+
+
+    <%
+            rs.close();
+            stmt.close();
+            conn.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    %>
+
+
+
+
+
+    <table border="1">
+        <tr>
+            <td>Resolutsioon&nbsp;Ip address&nbsp;Kylastusaeg tundides</td>
+
+
+        </tr>
+        <%
+            try {
+                Class.forName("org.postgresql.Driver");
+                String url = "jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2";
+                String username = "vkzivsefpcoxqi";
+                String password = "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080";
+                String query2 = "TRUNCATE kasutajad";
+                String query4 = "select * from kasutajad";
+                String query = "select * from info";
+                String query3 = "create table info (resolutsioon varchar(20) not null,IP varchar(30) not null,time integer(3) );";
+                Connection conn = DriverManager.getConnection(url, username, password);
+                Statement stmt = conn.createStatement();
+                ResultSet rs = stmt.executeQuery(query);
+                while (rs.next()) {
+        %>
+        <tr>
+            <td><%
+                out.println(rs.getString("resolutsioon") + "\t" + rs.getString("IP") + "\t" + rs.getInt("time")); %></td>
+        </tr>
+
+
+
+
+    </table>
+
+
+
+
+
+
+
+    <%
+        }
+    %>
 
 
 

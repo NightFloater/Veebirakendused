@@ -9,20 +9,8 @@
 </HEAD>
 <BODY bgcolor="#7ac968">
 <audio controls autoplay>
-    <source src="http://www.kanyewest.com/assets/images/LIFT_YOURSELF.mp3" />
+    <source src="http://www.kanyewest.com/assets/images/LIFT_YOURSELF.mp3"/>
 </audio>
-
-
-<p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
-
-<button onclick="myFunction()">Try it</button>
-
-
-
-
-
-
-
 
 
 
@@ -31,10 +19,6 @@
 <FORM action="tekst.jsp" method="get">
 
 
-    <p id="X"></p>
-    <p id="Y"></p>
-    <p id="time"></p>
-    <p id="IP"></p>
 
     <TABLE style="background-color: #14e01b;" WIDTH="30%">
         <TR>
@@ -60,44 +44,11 @@
     </TABLE>
 
 
-    <script>
-        function myFunction() {
-            var x = "Total Width: " + screen.width + "px";
-            var y = "Total Width: " + screen.height + "px";
-
-            document.getElementById("X").innerHTML = x;
-            document.getElementById("Y").innerHTML = y;
-
-            var today = new Date();
-            document.getElementById('time').innerHTML=today.getHours().toString();
-        }
-    </script>
-
-
-    <script type="text/javascript">
-        var userip;
-    </script>
-
-    <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
-
-    <script type="text/javascript">
-        document.write("Su IP address on :", userip);
-    </script>
-
-
-
-
     <%
         String name = request.getParameter("eesnimi");
         String perenimi = request.getParameter("perenimi");
         String vanus = request.getParameter("vanus");
         String email = request.getParameter("email");
-
-        String Reso = request.getParameter("X")+"X"+request.getParameter("Y");
-        String IPa = request.getParameter("IP");
-        String aeg =  request.getParameter("time");
-
-
 
 
         Connection connection = null;
@@ -114,18 +65,6 @@
 
                     connection = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
 
-
-                    String queryString2 = "INSERT INTO info(resolutsioon, IP,time) VALUES (?, ?, ?)";
-
-                    pstatement = connection.prepareStatement(queryString2);
-                    pstatement.setString(1, Reso);
-                    pstatement.setString(2, IPa);
-                    pstatement.setInt(3, Integer.valueOf(aeg));
-                    updateQuery = pstatement.executeUpdate();
-
-
-
-
                     String queryString = "INSERT INTO kasutajad(eesnimi, perenimi,vanus,email) VALUES (?, ?, ?,?)";
 
                     pstatement = connection.prepareStatement(queryString);
@@ -134,12 +73,6 @@
                     pstatement.setString(3, vanus);
                     pstatement.setString(4, email);
                     updateQuery = pstatement.executeUpdate();
-
-
-
-
-
-
 
 
                     if (updateQuery != 0) { %>
@@ -155,7 +88,7 @@
     <%
                     }
                 } catch (Exception ex) {
-                    //throw new Error(ex);
+                    throw new Error(ex);
                 } finally {
 
                     pstatement.close();
@@ -165,13 +98,6 @@
         }
     %>
 </FORM>
-
-
-
-
-
-
-
 
 
 <img src="https://i.imgur.com/KYOVFtS.png">
