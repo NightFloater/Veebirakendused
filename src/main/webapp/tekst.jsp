@@ -106,9 +106,11 @@
                     String queryString = "INSERT INTO info(resolutsioon, IP,time) VALUES (?, ?, ?,?)";
 
                     pstatement = connection.prepareStatement(queryString);
+
+
                     pstatement.setString(1, reso);
                     pstatement.setString(2, IP);
-                    pstatement.setInt(3, Integer.valueOf(time));
+                    pstatement.setInt(3,12);
                     updateQuery = pstatement.executeUpdate();
 
 
