@@ -96,6 +96,9 @@
         Class.forName("org.postgresql.Driver").newInstance();
         int updateQuery = 0;
 
+        if (name != null && perenimi != null && vanus != null) {
+
+            if (name != "" && perenimi != "" && vanus != "") {
                 try {
 
                     connection = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
@@ -128,8 +131,8 @@
                     pstatement.close();
                     connection.close();
                 }
-
-
+            }
+        }
     %>
 </FORM>
 
