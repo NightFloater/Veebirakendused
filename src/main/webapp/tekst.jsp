@@ -32,7 +32,10 @@
     }
 </script>
 
-
+<p id="X"></p>
+<p id="Y"></p>
+<p id="time"></p>
+<p id="IP"></p>
 
 
 <font size="+3" color="green"><br>Welcome memer!</font>
@@ -55,10 +58,7 @@
         document.write("Su IP address on :", userip);
     </script>
 
-    <p id="X"></p>
-    <p id="Y"></p>
-    <p id="time"></p>
-    <p id="IP"></p>
+
 
 
 
