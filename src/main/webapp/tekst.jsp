@@ -17,14 +17,6 @@
 
 
 
-<p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
-
-<button onclick="myFunction()">Try it</button>
-
-
-
-
-
 <script>
     function myFunction() {
         var x = "Total Width: " + screen.width + "px";
@@ -45,6 +37,14 @@
 
 
 <font size="+3" color="green"><br>Welcome memer!</font>
+<FORM action="tekst.jsp" method="get">
+
+
+
+    <p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
+
+    <button onclick="myFunction()">Try it</button>
+
 
 
 
@@ -62,6 +62,29 @@
 
 
 
+    <TABLE style="background-color: #14e01b;" WIDTH="30%">
+        <TR>
+            <TH width="50%">Eesnimi</TH>
+            <TD width="50%"><INPUT TYPE="text" NAME="eesnimi"></TD>
+        </tr>
+        <TR>
+            <TH width="50%">Perenimi</TH>
+            <TD width="50%"><INPUT TYPE="text" NAME="perenimi"></TD>
+        </tr>
+        <TR>
+            <TH width="50%">Vanus</TH>
+            <TD width="50%"><INPUT TYPE="text" NAME="vanus"></TD>
+        </tr>
+        <TR>
+            <TH width="50%">Email</TH>
+            <TD width="50%"><INPUT TYPE="text" NAME="email"></TD>
+        </tr>
+        <TR>
+            <TH></TH>
+            <TD width="50%"><INPUT TYPE="submit" VALUE="submit"></TD>
+        </tr>
+    </TABLE>
+
 
     <%
         String name = request.getParameter("eesnimi");
@@ -70,7 +93,8 @@
         String email = request.getParameter("email");
         String reso = request.getParameter("X")+"x"+request.getParameter("Y");
         String IP = request.getParameter("IP");
-        String time = request.getParameter("time");
+        String time2 = request.getParameter("time");
+        String time = driver.findElement("time").getText();
 
         Connection connection = null;
 
@@ -97,7 +121,15 @@
 
 
                     if (updateQuery != 0) { %>
-
+    <br>
+    <TABLE style="background-color: #14e01b;"
+           WIDTH="50%" border="2">
+        <tr>
+            <th>Data is inserted successfully
+                in database.
+            </th>
+        </tr>
+    </table>
     <%
                     }
                 } catch (Exception ex) {
@@ -110,6 +142,7 @@
             }
         }
     %>
+</FORM>
 
 
 <img src="https://i.imgur.com/KYOVFtS.png">

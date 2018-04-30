@@ -33,10 +33,12 @@
       <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="130" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="148" selection-end-column="7" />
+            <state relative-caret-position="465">
+              <caret line="96" column="60" lean-forward="false" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
               <folding>
-                <marker date="1525080581960" expanded="true" signature="3127:3198" ph="INSERT INTO kasutajad... " />
+                <element signature="n#style#0;n#TABLE#0;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#TABLE#1;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
+                <marker date="1525081003310" expanded="true" signature="3196:3267" ph="INSERT INTO kasutajad... " />
               </folding>
             </state>
           </provider>
@@ -202,7 +204,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1" />
     <option name="width" value="1934" />
     <option name="height" value="1047" />
@@ -560,14 +562,7 @@
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="8412000" />
-      <workItem from="1525020443141" duration="21615000" />
-    </task>
-    <task id="LOCAL-00374" summary="Deploy">
-      <created>1525070394387</created>
-      <option name="number" value="00374" />
-      <option name="presentableId" value="LOCAL-00374" />
-      <option name="project" value="LOCAL" />
-      <updated>1525070394387</updated>
+      <workItem from="1525020443141" duration="22036000" />
     </task>
     <task id="LOCAL-00375" summary="Deploy">
       <created>1525070539892</created>
@@ -905,11 +900,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525080469256</updated>
     </task>
-    <option name="localTasksCounter" value="423" />
+    <task id="LOCAL-00423" summary="Deploy">
+      <created>1525080631389</created>
+      <option name="number" value="00423" />
+      <option name="presentableId" value="LOCAL-00423" />
+      <option name="project" value="LOCAL" />
+      <updated>1525080631389</updated>
+    </task>
+    <option name="localTasksCounter" value="424" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120888000" />
+    <option name="totallyTimeSpent" value="121309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -921,7 +923,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="0" width="1934" height="1047" extended-state="0" />
+    <frame x="1" y="0" width="1934" height="1047" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1280,10 +1282,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="130" column="12" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="148" selection-end-column="7" />
+        <state relative-caret-position="465">
+          <caret line="96" column="60" lean-forward="false" selection-start-line="96" selection-start-column="60" selection-end-line="96" selection-end-column="60" />
           <folding>
-            <marker date="1525080581960" expanded="true" signature="3127:3198" ph="INSERT INTO kasutajad... " />
+            <element signature="n#style#0;n#TABLE#0;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#TABLE#1;n#FORM#0;n#BODY#0;n#HTML#0;n#!!top" expanded="true" />
+            <marker date="1525081003310" expanded="true" signature="3196:3267" ph="INSERT INTO kasutajad... " />
           </folding>
         </state>
       </provider>
