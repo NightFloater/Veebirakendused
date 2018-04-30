@@ -70,7 +70,7 @@
                     pstatement = connection.prepareStatement(queryString);
                     pstatement.setString(1, "1920x1080");
                     pstatement.setString(2, "192.10.100.1");
-                    pstatement.setInt(3, 12);
+                    pstatement.setString(3, "12");
 
                     updateQuery = pstatement.executeUpdate();
 
