@@ -94,6 +94,13 @@
 <body onload="resolution()"
       background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu3TSQXAplExhow-h2xtZGSn9gfEtI2CdHVh6I2YeKtj19K9uB">
 
+<!-- Google translate-->
+<div id="google_translate_element"></div><script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'et,id,la,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true}, 'google_translate_element');
+    }
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 <!-- Google login-->
 
 <script src="https://apis.google.com/js/platform.js" async defer></script>
