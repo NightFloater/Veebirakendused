@@ -41,7 +41,7 @@
         var x = "Total Width: " + screen.width + "px";
         var y = "Total Width: " + screen.height + "px";
 
-        document.getElementById("yks").innerHTML = x;
+        document.getElementById("X").innerHTML = x;
         document.getElementById("Y").innerHTML = y;
         document.getElementById("IP").innerHTML = userip;
 
@@ -59,23 +59,11 @@
 <font size="+3" color="green"><br>Welcome memer!</font>
 <FORM action="tekst.jsp" method="get">
 
-    <script>
-        function myFunction() {
-            var x = "Total Width: " + screen.width + "px";
-            var y = "Total Width: " + screen.height + "px";
-
-            document.getElementById("yks").innerHTML = x;
-            document.getElementById("Y").innerHTML = y;
-            document.getElementById("IP").innerHTML = userip;
-
-            var today = new Date();
-            document.getElementById('time').innerHTML=today.getHours().toString();
-        }
-    </script>
 
 
 
-    <TABLE style="background-color: #14e01b;" WIDTH="30%" onload="myFunction()">
+
+    <TABLE style="background-color: #14e01b;" WIDTH="30%">
         <TR>
             <TH width="50%">Eesnimi</TH>
             <TD width="50%"><INPUT TYPE="text" id="yks" NAME="eesnimi"></TD>
