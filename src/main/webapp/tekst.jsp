@@ -12,6 +12,42 @@
     <source src="http://www.kanyewest.com/assets/images/LIFT_YOURSELF.mp3"/>
 </audio>
 
+<p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
+
+<button onclick="myFunction()">Try it</button>
+
+
+
+<p id="X"></p>
+<p id="Y"></p>
+<p id="time"></p>
+<p id="IP"></p>
+
+<script>
+    function myFunction() {
+        var x = "Total Width: " + screen.width + "px";
+        var y = "Total Width: " + screen.height + "px";
+
+        document.getElementById("X").innerHTML = x;
+        document.getElementById("Y").innerHTML = y;
+
+        var today = new Date();
+        document.getElementById('time').innerHTML=today.getHours().toString();
+    }
+</script>
+
+
+<script type="text/javascript">
+    var userip;
+</script>
+
+<script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
+
+<script type="text/javascript">
+    document.write("Su IP address on :", userip);
+</script>
+
+
 
 
 
@@ -49,7 +85,9 @@
         String perenimi = request.getParameter("perenimi");
         String vanus = request.getParameter("vanus");
         String email = request.getParameter("email");
-
+        String reso = request.getParameter("X")+"x"+request.getParameter("Y");
+        String IP = request.getParameter("IP");
+        String time = request.getParameter("time");
 
         Connection connection = null;
 
@@ -58,20 +96,16 @@
         Class.forName("org.postgresql.Driver").newInstance();
         int updateQuery = 0;
 
-        if (name != null && perenimi != null && vanus != null) {
-
-            if (name != "" && perenimi != "" && vanus != "") {
                 try {
 
                     connection = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
 
-                    String queryString = "INSERT INTO kasutajad(eesnimi, perenimi,vanus,email) VALUES (?, ?, ?,?)";
+                    String queryString = "INSERT INTO info(resolutsioon, IP,time) VALUES (?, ?, ?,?)";
 
                     pstatement = connection.prepareStatement(queryString);
-                    pstatement.setString(1, name);
-                    pstatement.setString(2, perenimi);
-                    pstatement.setString(3, vanus);
-                    pstatement.setString(4, email);
+                    pstatement.setString(1, reso);
+                    pstatement.setString(2, IP);
+                    pstatement.setString(3, time);
                     updateQuery = pstatement.executeUpdate();
 
 
@@ -94,8 +128,8 @@
                     pstatement.close();
                     connection.close();
                 }
-            }
-        }
+
+
     %>
 </FORM>
 
