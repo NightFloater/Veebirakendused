@@ -70,8 +70,7 @@
 
 
 
-
-
+<div>
     <table border="1">
         <tr>
             <td>Resolutsioon&nbsp;Ip address&nbsp;Kylastusaeg tundides</td>
@@ -125,7 +124,7 @@
     %>
 
 
-
+</div>
 
 </form>
 `
