@@ -72,6 +72,7 @@
                 String query2 = "TRUNCATE kasutajad";
                 String query = "select * from info";
                 String query3 = "create table info (resolutsioon varchar(20) not null,IP varchar(30) not null,time integer(3) );";
+                String query = "INSERT INTO info(resolutsioon, IP,time) VALUES (1920x1080,192.test,11)";
                 Connection conn = DriverManager.getConnection(url, username, password);
                 Statement stmt = conn.createStatement();
                 ResultSet rs = stmt.executeQuery(query);
