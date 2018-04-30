@@ -16,6 +16,9 @@
 
 
 
+<p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
+
+<button onclick="myFunction()">Try it</button>
 
 
 
@@ -24,9 +27,7 @@
 <font size="+3" color="green"><br>Welcome memer!</font>
 <FORM action="tekst.jsp" method="get">
 
-    <p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
 
-    <button onclick="myFunction()">Try it</button>
 
 
     <p id="X"></p>
