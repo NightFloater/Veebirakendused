@@ -6,35 +6,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 
-asdasd
-
-<%!
-    public static String connect() {
-        try {
-
-            Class.forName("org.postgresql.Driver").newInstance();
-            DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
-            return "connected";
-
-        } catch (Exception e) {
-            throw new Error(e);
-        }
-    }
-
-
-    public static boolean close(Connection c) {
-
-        try {
-            c.close();
-            return true;
-        } catch (Exception e) {
-            return false;
-        }
-
-    }
-
-
-%>
 
 
 <html lang="en">
@@ -210,18 +181,6 @@ asdasd
 
 
 </p>
-
-
-
-IP adress on-----
-
-<% request.getHeader("VIA");
-    String ipAddress = request.getHeader("X-FORWARDED-FOR");
-    if (ipAddress == null) {
-        ipAddress = request.getRemoteAddr();
-    }
-    out.print(ipAddress);
-%>
 
 
 </body>

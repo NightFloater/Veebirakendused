@@ -55,7 +55,7 @@
 <script type="text/javascript" src="https://l2.io/ip.js?var=userip"></script>
 
 <script type="text/javascript">
-    document.write("Your IP is :", userip);
+    document.write("Su IP address on :", userip);
 </script>
 
 
