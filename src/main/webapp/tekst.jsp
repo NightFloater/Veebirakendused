@@ -43,7 +43,7 @@
         String vanus = request.getParameter("vanus");
         String email = request.getParameter("email");
 
-        String Reso = request.getParameter("X")+"X"+request.getParameter("Y");
+        String Reso = request.getParameter("X").toString()+"X"+request.getParameter("Y").toString();
         String IPa = request.getParameter("IP");
         Integer aeg = request.getParameter("time");
 
