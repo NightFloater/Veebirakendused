@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/upload.php" afterPath="$PROJECT_DIR$/src/main/webapp/upload.php" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -86,10 +84,11 @@
       <file leaf-file-name="kasutajad.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
               <folding>
-                <marker date="1525068265070" expanded="true" signature="1013:1036" ph="select * fro... kasutajad" />
+                <marker date="1525068384122" expanded="true" signature="1014:1037" ph="select * fro... kasutajad" />
+                <marker date="1525068384122" expanded="true" signature="1072:1166" ph="create table... image" />
               </folding>
             </state>
           </provider>
@@ -559,14 +558,7 @@
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="8412000" />
-      <workItem from="1525020443141" duration="9564000" />
-    </task>
-    <task id="LOCAL-00319" summary="Deploy">
-      <created>1525004649906</created>
-      <option name="number" value="00319" />
-      <option name="presentableId" value="LOCAL-00319" />
-      <option name="project" value="LOCAL" />
-      <updated>1525004649906</updated>
+      <workItem from="1525020443141" duration="9815000" />
     </task>
     <task id="LOCAL-00320" summary="Deploy">
       <created>1525004966991</created>
@@ -904,11 +896,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525067936455</updated>
     </task>
-    <option name="localTasksCounter" value="368" />
+    <task id="LOCAL-00368" summary="Deploy">
+      <created>1525068438204</created>
+      <option name="number" value="00368" />
+      <option name="presentableId" value="LOCAL-00368" />
+      <option name="project" value="LOCAL" />
+      <updated>1525068438204</updated>
+    </task>
+    <option name="localTasksCounter" value="369" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108837000" />
+    <option name="totallyTimeSpent" value="109088000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -921,7 +920,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="0" width="1934" height="1047" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -931,7 +929,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49573562" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3622393" sideWeight="0.3543223" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3622393" sideWeight="0.6456777" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3622393" sideWeight="0.6456777" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
@@ -1277,10 +1275,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="32" lean-forward="false" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="238">
+          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
           <folding>
-            <marker date="1525068265070" expanded="true" signature="1013:1036" ph="select * fro... kasutajad" />
+            <marker date="1525068384122" expanded="true" signature="1014:1037" ph="select * fro... kasutajad" />
+            <marker date="1525068384122" expanded="true" signature="1072:1166" ph="create table... image" />
           </folding>
         </state>
       </provider>
