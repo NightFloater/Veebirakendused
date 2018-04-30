@@ -57,7 +57,7 @@
 
 
 <font size="+3" color="green"><br>Welcome memer!</font>
-<FORM action="tekst.jsp" method="get" onload="myFunction()">
+<FORM action="tekst.jsp" method="get">
 
     <script>
         function myFunction() {
@@ -75,7 +75,7 @@
 
 
 
-    <TABLE style="background-color: #14e01b;" WIDTH="30%">
+    <TABLE style="background-color: #14e01b;" WIDTH="30%" onload="myFunction()">
         <TR>
             <TH width="50%">Eesnimi</TH>
             <TD width="50%"><INPUT TYPE="text" id="yks" NAME="eesnimi"></TD>
