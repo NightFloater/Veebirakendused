@@ -41,6 +41,11 @@
                 out.println(rs.getString("eesnimi") + "\t" + rs.getString("perenimi") + "\t" + rs.getString("vanus") + "\t" + rs.getString("email")); %></td>
         </tr>
 
+        <tr>
+            <td><%
+                out.println(rs.getString("resolutsioon") + "\t" + rs.getInt("IPa") + "\t" + rs.getString("time")); %></td>
+        </tr>
+
 
         <%
             }
