@@ -75,7 +75,7 @@
                 String query4 = "INSERT INTO info(resolutsioon, IP,time) VALUES (1920x1080,192.test,11)";
                 Connection conn2 = DriverManager.getConnection(url, username, password);
                 Statement stmt2 = conn2.createStatement();
-                ResultSet rs2 = stmt2.executeQuery(query3);
+                ResultSet rs2 = stmt2.executeQuery(query4);
                 while (rs2.next()) {
         %>
         <tr>
