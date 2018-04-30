@@ -45,7 +45,7 @@
 
         String Reso = request.getParameter("X").toString()+"X"+request.getParameter("Y").toString();
         String IPa = request.getParameter("IP");
-        Integer aeg = request.getParameter("time");
+        Integer aeg = Integer.parseInt(request.getParameter("time"));
 
 
 
