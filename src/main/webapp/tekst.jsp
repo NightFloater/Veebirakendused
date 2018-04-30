@@ -103,14 +103,16 @@
 
                     connection = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
 
+
+                    String queryString2 = "CREATE TABLE info(reso VARCHAR (20), IP VARCHAR (20),time VARCHAR (20))";
                     String queryString = "INSERT INTO info(resolutsioon, IP,time) VALUES (?, ?, ?)";
 
-                    pstatement = connection.prepareStatement(queryString);
+                    pstatement = connection.prepareStatement(queryString2);
 
 
-                    pstatement.setString(1, reso);
-                    pstatement.setString(2, IP);
-                    pstatement.setInt(3,12);
+                   // pstatement.setString(1, reso);
+                   // pstatement.setString(2, IP);
+                   // pstatement.setInt(3,12);
                     updateQuery = pstatement.executeUpdate();
 
 
