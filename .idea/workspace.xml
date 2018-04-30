@@ -84,14 +84,14 @@
       <file leaf-file-name="kasutajad.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="623">
-              <caret line="97" column="111" lean-forward="false" selection-start-line="97" selection-start-column="111" selection-end-line="97" selection-end-column="111" />
+            <state relative-caret-position="742">
+              <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
               <folding>
-                <marker date="1525073669629" expanded="true" signature="1013:1027" ph="select * fro... kasutajad" />
-                <marker date="1525073669629" expanded="true" signature="1013:1036" ph="select * fro... kasutajad" />
-                <marker date="1525073669629" expanded="true" signature="1126:1220" ph="create table... image" />
-                <marker date="1525073669629" expanded="true" signature="2477:2500" ph="select * fro... kasutajad" />
-                <marker date="1525073669629" expanded="true" signature="2535:2553" ph="select * fro... info" />
+                <marker date="1525073811756" expanded="true" signature="1013:1027" ph="select * fro... kasutajad" />
+                <marker date="1525073811756" expanded="true" signature="1013:1036" ph="select * fro... kasutajad" />
+                <marker date="1525073811756" expanded="true" signature="1126:1220" ph="create table... image" />
+                <marker date="1525073811756" expanded="true" signature="2481:2504" ph="select * fro... kasutajad" />
+                <marker date="1525073811756" expanded="true" signature="2539:2557" ph="select * fro... info" />
               </folding>
             </state>
           </provider>
@@ -561,14 +561,7 @@
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="8412000" />
-      <workItem from="1525020443141" duration="14996000" />
-    </task>
-    <task id="LOCAL-00342" summary="Deploy">
-      <created>1525021539923</created>
-      <option name="number" value="00342" />
-      <option name="presentableId" value="LOCAL-00342" />
-      <option name="project" value="LOCAL" />
-      <updated>1525021539923</updated>
+      <workItem from="1525020443141" duration="15109000" />
     </task>
     <task id="LOCAL-00343" summary="Deploy">
       <created>1525021614643</created>
@@ -906,11 +899,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525073675224</updated>
     </task>
-    <option name="localTasksCounter" value="391" />
+    <task id="LOCAL-00391" summary="Deploy">
+      <created>1525073816867</created>
+      <option name="number" value="00391" />
+      <option name="presentableId" value="LOCAL-00391" />
+      <option name="project" value="LOCAL" />
+      <updated>1525073816867</updated>
+    </task>
+    <option name="localTasksCounter" value="392" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114269000" />
+    <option name="totallyTimeSpent" value="114382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1278,14 +1278,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="97" column="111" lean-forward="false" selection-start-line="97" selection-start-column="111" selection-end-line="97" selection-end-column="111" />
+        <state relative-caret-position="742">
+          <caret line="47" column="12" lean-forward="true" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
           <folding>
-            <marker date="1525073669629" expanded="true" signature="1013:1027" ph="select * fro... kasutajad" />
-            <marker date="1525073669629" expanded="true" signature="1013:1036" ph="select * fro... kasutajad" />
-            <marker date="1525073669629" expanded="true" signature="1126:1220" ph="create table... image" />
-            <marker date="1525073669629" expanded="true" signature="2477:2500" ph="select * fro... kasutajad" />
-            <marker date="1525073669629" expanded="true" signature="2535:2553" ph="select * fro... info" />
+            <marker date="1525073811756" expanded="true" signature="1013:1027" ph="select * fro... kasutajad" />
+            <marker date="1525073811756" expanded="true" signature="1013:1036" ph="select * fro... kasutajad" />
+            <marker date="1525073811756" expanded="true" signature="1126:1220" ph="create table... image" />
+            <marker date="1525073811756" expanded="true" signature="2481:2504" ph="select * fro... kasutajad" />
+            <marker date="1525073811756" expanded="true" signature="2539:2557" ph="select * fro... info" />
           </folding>
         </state>
       </provider>
