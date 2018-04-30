@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,7 +30,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1012">
@@ -82,15 +83,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kasutajad.jsp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kasutajad.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="442">
+              <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
               <folding>
-                <marker date="1525069984308" expanded="true" signature="1013:1027" ph="select * fro... kasutajad" />
-                <marker date="1525069984308" expanded="true" signature="1013:1031" ph="select * fro... info" />
-                <marker date="1525069984308" expanded="true" signature="1067:1161" ph="create table... image" />
+                <marker date="1525071239834" expanded="true" signature="1013:1027" ph="select * fro... kasutajad" />
+                <marker date="1525071239834" expanded="true" signature="1013:1031" ph="select * fro... info" />
+                <marker date="1525071239834" expanded="true" signature="1067:1161" ph="create table... image" />
               </folding>
             </state>
           </provider>
@@ -173,8 +174,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/Stiilid.css.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/upload.php" />
-        <option value="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/tekst.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
       </list>
     </option>
   </component>
@@ -560,14 +561,7 @@
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="8412000" />
-      <workItem from="1525020443141" duration="12359000" />
-    </task>
-    <task id="LOCAL-00331" summary="Deploy">
-      <created>1525007069459</created>
-      <option name="number" value="00331" />
-      <option name="presentableId" value="LOCAL-00331" />
-      <option name="project" value="LOCAL" />
-      <updated>1525007069459</updated>
+      <workItem from="1525020443141" duration="12527000" />
     </task>
     <task id="LOCAL-00332" summary="Deploy">
       <created>1525007455721</created>
@@ -905,11 +899,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525071072966</updated>
     </task>
-    <option name="localTasksCounter" value="380" />
+    <task id="LOCAL-00380" summary="Deploy">
+      <created>1525071245130</created>
+      <option name="number" value="00380" />
+      <option name="presentableId" value="LOCAL-00380" />
+      <option name="project" value="LOCAL" />
+      <updated>1525071245130</updated>
+    </task>
+    <option name="localTasksCounter" value="381" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111632000" />
+    <option name="totallyTimeSpent" value="111800000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1257,18 +1258,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="36" column="35" lean-forward="true" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
-          <folding>
-            <marker date="1525069984308" expanded="true" signature="1013:1027" ph="select * fro... kasutajad" />
-            <marker date="1525069984308" expanded="true" signature="1013:1031" ph="select * fro... info" />
-            <marker date="1525069984308" expanded="true" signature="1067:1161" ph="create table... image" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -1284,6 +1273,18 @@
           <folding>
             <marker date="1525071068136" expanded="true" signature="3174:3245" ph="INSERT INTO kasutajad... " />
             <marker date="1525071068136" expanded="true" signature="3643:3699" ph="INSERT INTO kasutajad... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+          <folding>
+            <marker date="1525071239834" expanded="true" signature="1013:1027" ph="select * fro... kasutajad" />
+            <marker date="1525071239834" expanded="true" signature="1013:1031" ph="select * fro... info" />
+            <marker date="1525071239834" expanded="true" signature="1067:1161" ph="create table... image" />
           </folding>
         </state>
       </provider>

@@ -43,7 +43,7 @@
 
         <tr>
             <td><%
-                out.println(rs.getString("resolutsioon") + "\t" + rs.getInt("IPa") + "\t" + rs.getString("time")); %></td>
+                out.println(rs.getString("resolutsioon") + "\t" + rs.getString("IPa") + "\t" + rs.getInt("time")); %></td>
         </tr>
 
 
