@@ -41,16 +41,29 @@
                 out.println(rs.getString("eesnimi") + "\t" + rs.getString("perenimi") + "\t" + rs.getString("vanus") + "\t" + rs.getString("email")); %></td>
         </tr>
 
-        <tr>
-            <td><%
-                out.println(rs.getString("resolutsioon") + "\t" + rs.getString("IPa") + "\t" + rs.getInt("time")); %></td>
-        </tr>
+
 
 
         <%
             }
         %>
     </table>
+
+
+    <table border="1">
+        <tr>
+            <td>Reso&nbsp;IP&nbsp;time</td>
+
+
+        </tr>
+
+    <tr>
+        <td><%
+            out.println(rs.getString("resolutsioon") + "\t" + rs.getString("IPa") + "\t" + rs.getInt("time")); %></td>
+    </tr>
+    </table>
+
+
     <%
             rs.close();
             stmt.close();
