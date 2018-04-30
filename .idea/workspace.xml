@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +33,8 @@
       <file leaf-file-name="tekst.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            <state relative-caret-position="374">
+              <caret line="67" column="113" lean-forward="false" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="113" />
               <folding>
                 <marker date="1525073457960" expanded="true" signature="2106:2177" ph="INSERT INTO kasutajad... " />
               </folding>
@@ -84,14 +85,17 @@
       <file leaf-file-name="kasutajad.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="742">
-              <caret line="81" column="114" lean-forward="false" selection-start-line="81" selection-start-column="114" selection-end-line="81" selection-end-column="114" />
+            <state relative-caret-position="470">
+              <caret line="80" column="12" lean-forward="true" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
               <folding>
-                <marker date="1525074366472" expanded="true" signature="1068:1082" ph="select * fro... kasutajad" />
-                <marker date="1525074366472" expanded="true" signature="1068:1091" ph="select * fro... kasutajad" />
-                <marker date="1525074366472" expanded="true" signature="1131:1225" ph="create table... image" />
-                <marker date="1525074366472" expanded="true" signature="2539:2553" ph="select * fro... kasutajad" />
-                <marker date="1525074366472" expanded="true" signature="2539:2557" ph="select * fro... info" />
+                <marker date="1525074823510" expanded="true" signature="1068:1082" ph="select * fro... kasutajad" />
+                <marker date="1525074823510" expanded="true" signature="1068:1091" ph="select * fro... kasutajad" />
+                <marker date="1525074823510" expanded="true" signature="1131:1225" ph="create table... image" />
+                <marker date="1525074823510" expanded="true" signature="2540:2554" ph="select * fro... kasutajad" />
+                <marker date="1525074823510" expanded="true" signature="2540:2558" ph="select * fro... info" />
+                <marker date="1525074823510" expanded="true" signature="2725:2742" ph="INSERT INTO info... " />
+                <marker date="1525074823510" expanded="true" signature="2725:2773" ph="INSERT INTO info... " />
+                <marker date="1525074823510" expanded="true" signature="2725:2795" ph="INSERT INTO info... " />
               </folding>
             </state>
           </provider>
@@ -561,14 +565,7 @@
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="8412000" />
-      <workItem from="1525020443141" duration="15733000" />
-    </task>
-    <task id="LOCAL-00347" summary="Deploy">
-      <created>1525024958921</created>
-      <option name="number" value="00347" />
-      <option name="presentableId" value="LOCAL-00347" />
-      <option name="project" value="LOCAL" />
-      <updated>1525024958921</updated>
+      <workItem from="1525020443141" duration="16080000" />
     </task>
     <task id="LOCAL-00348" summary="Deploy">
       <created>1525027018061</created>
@@ -906,11 +903,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525074371357</updated>
     </task>
-    <option name="localTasksCounter" value="396" />
+    <task id="LOCAL-00396" summary="Deploy">
+      <created>1525074755202</created>
+      <option name="number" value="00396" />
+      <option name="presentableId" value="LOCAL-00396" />
+      <option name="project" value="LOCAL" />
+      <updated>1525074755202</updated>
+    </task>
+    <option name="localTasksCounter" value="397" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115006000" />
+    <option name="totallyTimeSpent" value="115353000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1242,16 +1246,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding>
-            <marker date="1525073457960" expanded="true" signature="2106:2177" ph="INSERT INTO kasutajad... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1054">
@@ -1276,16 +1270,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/tekst.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="67" column="113" lean-forward="false" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="113" />
+          <folding>
+            <marker date="1525073457960" expanded="true" signature="2106:2177" ph="INSERT INTO kasutajad... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/kasutajad.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="742">
-          <caret line="81" column="114" lean-forward="false" selection-start-line="81" selection-start-column="114" selection-end-line="81" selection-end-column="114" />
+        <state relative-caret-position="470">
+          <caret line="80" column="12" lean-forward="true" selection-start-line="80" selection-start-column="12" selection-end-line="80" selection-end-column="12" />
           <folding>
-            <marker date="1525074366472" expanded="true" signature="1068:1082" ph="select * fro... kasutajad" />
-            <marker date="1525074366472" expanded="true" signature="1068:1091" ph="select * fro... kasutajad" />
-            <marker date="1525074366472" expanded="true" signature="1131:1225" ph="create table... image" />
-            <marker date="1525074366472" expanded="true" signature="2539:2553" ph="select * fro... kasutajad" />
-            <marker date="1525074366472" expanded="true" signature="2539:2557" ph="select * fro... info" />
+            <marker date="1525074823510" expanded="true" signature="1068:1082" ph="select * fro... kasutajad" />
+            <marker date="1525074823510" expanded="true" signature="1068:1091" ph="select * fro... kasutajad" />
+            <marker date="1525074823510" expanded="true" signature="1131:1225" ph="create table... image" />
+            <marker date="1525074823510" expanded="true" signature="2540:2554" ph="select * fro... kasutajad" />
+            <marker date="1525074823510" expanded="true" signature="2540:2558" ph="select * fro... info" />
+            <marker date="1525074823510" expanded="true" signature="2725:2742" ph="INSERT INTO info... " />
+            <marker date="1525074823510" expanded="true" signature="2725:2773" ph="INSERT INTO info... " />
+            <marker date="1525074823510" expanded="true" signature="2725:2795" ph="INSERT INTO info... " />
           </folding>
         </state>
       </provider>
