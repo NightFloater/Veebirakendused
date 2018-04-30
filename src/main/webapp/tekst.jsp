@@ -150,7 +150,7 @@
     <%
                     }
                 } catch (Exception ex) {
-                    throw new Error(ex);
+                    //throw new Error(ex);
                 } finally {
 
                     pstatement.close();
