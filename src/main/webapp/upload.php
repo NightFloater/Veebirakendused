@@ -40,10 +40,6 @@
 
         var today = new Date();
         document.getElementById('time').innerHTML=today.getHours().toString();
-
-        var ip = Request.I
-        document.getElementById('IP').innerHTML=ip;
-
     }
 </script>
 
