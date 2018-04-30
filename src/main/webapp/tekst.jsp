@@ -13,6 +13,9 @@
 </audio>
 
 
+<p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
+
+<button onclick="myFunction()">Try it</button>
 
 <p id="X"></p>
 <p id="Y"></p>
@@ -150,9 +153,6 @@
     %>
 </FORM>
 
-<p>Kliki siia, et oma reso naha ja mis kellaajal kylastasid</p>
-
-<button onclick="myFunction()">Try it</button>
 
 
 
