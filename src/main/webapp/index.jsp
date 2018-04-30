@@ -11,7 +11,7 @@
 <html lang="en">
 
 <head>
-    <title>MEEDMID VAHETUS</title>
+    <title>Meme Exchange</title>
 
 
 
@@ -114,7 +114,7 @@
 
 
 <div>
-    <em class="css-3d-text">MEEMIDE OST, MÜÜK, VAHETUS</em>
+    <em class="css-3d-text">BUY, SELL, EXCHANGE MEMES</em>
 </div>
 
 
@@ -146,7 +146,7 @@
 </p>
 
 
-<em class="css-3d-text2">Viimase nädala kõige sõgedamad meemid on</em>
+<em class="css-3d-text2">Last weeks dankest memes</em>
 
 
 <p>
@@ -165,16 +165,16 @@
 
 
 <p>
-    Vajuta siia, et anda meile oma infot
+    Click here to give us your information
     <input type="button" name="b1" value="Click Me" onclick="location.href='tekst.jsp'">
 </p>
 <p>
-    Vajuta siia, et näha kasutajate nimekirja
+    Click here to see some lists
     <input type="button" name="b1" value="Click Me" onclick="location.href='kasutajad.jsp'">
-    Vajuta siia tulevikus, et laadida üles pilte
+    Click here in the future to upload pictures
     <input type="button" name="b1" value="Upload" onclick="location.href='upload.php'">
 
-    Vajuta siia et naha oma resolutsiooni
+    Click here to see your resolution
     <input type="button" name="b1" value="Reso" onclick="location.href='resolution.php'">
 
 
