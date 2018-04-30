@@ -107,12 +107,12 @@
                     String queryString2 = "CREATE TABLE info(reso VARCHAR (20), IP VARCHAR (20),time VARCHAR (20))";
                     String queryString = "INSERT INTO info(resolutsioon, IP,time) VALUES (?, ?, ?)";
 
-                    pstatement = connection.prepareStatement(queryString2);
+                    pstatement = connection.prepareStatement(queryString);
 
 
-                   // pstatement.setString(1, reso);
-                   // pstatement.setString(2, IP);
-                   // pstatement.setInt(3,12);
+                    pstatement.setString(1, reso);
+                    pstatement.setString(2, IP);
+                   pstatement.setString(3,"12");
                     updateQuery = pstatement.executeUpdate();
 
 
