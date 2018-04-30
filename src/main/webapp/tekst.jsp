@@ -39,9 +39,16 @@
 
     <%
         String name = request.getParameter("eesnimi");
-        String city = request.getParameter("perenimi");
-        String phone = request.getParameter("vanus");
+        String perenimi = request.getParameter("perenimi");
+        String vanus = request.getParameter("vanus");
         String email = request.getParameter("email");
+
+        String Reso = request.getParameter("X")+"X"+request.getParameter("Y");
+        String IPa = request.getParameter("IP");
+        Integer aeg = request.getParameter("time");
+
+
+
 
         Connection connection = null;
 
@@ -50,9 +57,9 @@
         Class.forName("org.postgresql.Driver").newInstance();
         int updateQuery = 0;
 
-        if (name != null && city != null && phone != null) {
+        if (name != null && perenimi != null && vanus != null) {
 
-            if (name != "" && city != "" && phone != "") {
+            if (name != "" && perenimi != "" && vanus != "") {
                 try {
 
                     connection = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
@@ -61,10 +68,25 @@
 
                     pstatement = connection.prepareStatement(queryString);
                     pstatement.setString(1, name);
-                    pstatement.setString(2, city);
-                    pstatement.setString(3, phone);
+                    pstatement.setString(2, perenimi);
+                    pstatement.setString(3, vanus);
                     pstatement.setString(4, email);
                     updateQuery = pstatement.executeUpdate();
+
+
+
+
+                    String queryString2 = "INSERT INTO info(resolutsioon, IP,time) VALUES (?, ?, ?)";
+
+                    pstatement = connection.prepareStatement(queryString2);
+                    pstatement.setString(1, Reso);
+                    pstatement.setString(2, IPa);
+                    pstatement.setInt(3,aeg);
+                    updateQuery = pstatement.executeUpdate();
+
+
+
+
                     if (updateQuery != 0) { %>
     <br>
     <TABLE style="background-color: #14e01b;"

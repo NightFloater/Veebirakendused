@@ -29,7 +29,7 @@
                 String username = "vkzivsefpcoxqi";
                 String password = "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080";
                 String query2 = "TRUNCATE kasutajad";
-                String query = "select * from kasutajad";
+                String query = "select * from info";
                 String query3 = "create table info (resolutsioon varchar(20) not null,IP varchar(30) not null,time integer(3) );";
                 Connection conn = DriverManager.getConnection(url, username, password);
                 Statement stmt = conn.createStatement();
