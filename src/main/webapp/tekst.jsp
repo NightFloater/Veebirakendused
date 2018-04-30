@@ -43,6 +43,7 @@
 
         document.getElementById("X").innerHTML = x;
         document.getElementById("Y").innerHTML = y;
+        document.getElementById("IP").innerHTML = userip;
 
         var today = new Date();
         document.getElementById('time').innerHTML=today.getHours().toString();
