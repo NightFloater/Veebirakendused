@@ -108,7 +108,7 @@
                     pstatement = connection.prepareStatement(queryString);
                     pstatement.setString(1, reso);
                     pstatement.setString(2, IP);
-                    pstatement.setString(3, time);
+                    pstatement.setInt(3, Integer.valueOf(time));
                     updateQuery = pstatement.executeUpdate();
 
 
