@@ -73,14 +73,14 @@
                 String query1 = "select * from info";
                 String query3 = "create table info (resolutsioon varchar(20) not null,IP varchar(30) not null,time integer(3) );";
                 String query4 = "INSERT INTO info(resolutsioon, IP,time) VALUES (1920x1080,192.test,11)";
-                Connection conn = DriverManager.getConnection(url, username, password);
-                Statement stmt = conn.createStatement();
-                ResultSet rs = stmt.executeQuery(query1);
-                while (rs.next()) {
+                Connection conn2 = DriverManager.getConnection(url, username, password);
+                Statement stmt2 = conn2.createStatement();
+                ResultSet rs2 = stmt2.executeQuery(query1);
+                while (rs2.next()) {
         %>
         <tr>
             <td><%
-                out.println(rs.getString("resolutsioon") + "\t" + rs.getString("IP") + "\t" + rs.getString("time")); %></td>
+                out.println(rs2.getString("resolutsioon") + "\t" + rs2.getString("IP") + "\t" + rs2.getString("time")); %></td>
         </tr>
 
 
@@ -89,9 +89,9 @@
         %>
     </table>
     <%
-            rs.close();
-            stmt.close();
-            conn.close();
+            rs2.close();
+            stmt2.close();
+            conn2.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
