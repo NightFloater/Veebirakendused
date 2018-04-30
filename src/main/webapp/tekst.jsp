@@ -93,8 +93,8 @@
         String email = request.getParameter("email");
         String reso = request.getParameter("X")+"x"+request.getParameter("Y");
         String IP = request.getParameter("IP");
-        String time2 = request.getParameter("time");
-        String time = driver.findElement("time").getText();
+        String time = request.getParameter("time");
+
 
         Connection connection = null;
 
