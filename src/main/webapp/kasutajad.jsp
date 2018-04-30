@@ -38,23 +38,11 @@
         %>
         <tr>
             <td><%
-                out.println(rs.getString("eesnimi") + "\t" + rs.getString("perenimi") + "\t" + rs.getString("vanus") + "\t" + rs.getString("email")); %></td>
+                out.println(rs.getString("resolutsioon") + "\t" + rs.getString("IP") + "\t" + rs.getString("time") + "\t" + rs.getString("email")); %></td>
         </tr>
 
     </table>
 
-
-
-        <tr>
-            <td>Reso&nbsp;IP&nbsp;time</td>
-
-
-        </tr>
-
-        <tr>
-            <td><%
-                out.println(rs.getString("resolutsioon") + "\t" + rs.getString("IPa") + "\t" + rs.getInt("time")); %></td>
-        </tr>
 
 
 
