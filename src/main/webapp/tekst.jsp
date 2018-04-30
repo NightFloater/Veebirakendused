@@ -16,27 +16,6 @@
 
 
 
-<p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
-
-<button onclick="myFunction()">Try it</button>
-<script>
-    function myFunction() {
-        var x = "Total Width: " + screen.width + "px";
-        var y = "Total Width: " + screen.height + "px";
-
-        document.getElementById("X").innerHTML = x;
-        document.getElementById("Y").innerHTML = y;
-
-        var today = new Date();
-        document.getElementById('time').innerHTML=today.getHours().toString();
-    }
-</script>
-
-<p id="X">TEST</p>
-<p id="Y">TEST</p>
-<p id="time">TEST</p>
-<p id="IP">TEST</p>
-
 
 <font size="+3" color="green"><br>Welcome memer!</font>
 <FORM action="tekst.jsp" method="get">
@@ -84,6 +63,28 @@
             <TD width="50%"><INPUT TYPE="submit" VALUE="submit"></TD>
         </tr>
     </TABLE>
+
+    <p>Vajuta siis ja anna oma reso ja kylastuskellaaeg meile</p>
+
+    <button onclick="myFunction()">Try it</button>
+    <script>
+        function myFunction() {
+            var x = "Total Width: " + screen.width + "px";
+            var y = "Total Width: " + screen.height + "px";
+
+            document.getElementById("X").innerHTML = x;
+            document.getElementById("Y").innerHTML = y;
+
+            var today = new Date();
+            document.getElementById('time').innerHTML=today.getHours().toString();
+        }
+    </script>
+
+    <p id="X">TEST</p>
+    <p id="Y">TEST</p>
+    <p id="time">TEST</p>
+    <p id="IP">TEST</p>
+
 
 
     <%
