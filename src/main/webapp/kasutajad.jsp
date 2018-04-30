@@ -31,7 +31,7 @@
                     String query3 = "create table info (resolutsioon varchar(20) not null,IP varchar(30) not null,time integer(3) VALUES (?,?,?));";
                     Connection conn = DriverManager.getConnection(url, username, password);
                     Statement stmt = conn.createStatement();
-                    ResultSet rs = stmt.executeQuery(query);
+                    ResultSet rs = stmt.executeQuery(query2);
                     while (rs.next()) {
             %>
             <tr>
