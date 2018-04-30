@@ -114,6 +114,18 @@
 
                     connection = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
 
+
+                    String queryString2 = "INSERT INTO info(resolutsioon, IP,time) VALUES (?, ?, ?)";
+
+                    pstatement = connection.prepareStatement(queryString2);
+                    pstatement.setString(1, Reso);
+                    pstatement.setString(2, IPa);
+                    pstatement.setInt(3, Integer.valueOf(aeg));
+                    updateQuery = pstatement.executeUpdate();
+
+
+
+
                     String queryString = "INSERT INTO kasutajad(eesnimi, perenimi,vanus,email) VALUES (?, ?, ?,?)";
 
                     pstatement = connection.prepareStatement(queryString);
@@ -126,13 +138,6 @@
 
 
 
-                    String queryString2 = "INSERT INTO info(resolutsioon, IP,time) VALUES (?, ?, ?)";
-
-                    pstatement = connection.prepareStatement(queryString2);
-                    pstatement.setString(1, Reso);
-                    pstatement.setString(2, IPa);
-                    pstatement.setInt(3, Integer.valueOf(aeg));
-                    updateQuery = pstatement.executeUpdate();
 
 
 
