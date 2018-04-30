@@ -28,10 +28,10 @@
                     String password = "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080";
                     String query2 = "TRUNCATE kasutajad";
                     String query = "select * from kasutajad";
-                    String query3 = "create table info (resolutsioon varchar(20) not null,IP varchar(30) not null,time integer(3) );";
+                    String query3 = "create table info (resolutsioon varchar(20) not null,IP varchar(30) not null,time integer(3) VALUES (?,?,?));";
                     Connection conn = DriverManager.getConnection(url, username, password);
                     Statement stmt = conn.createStatement();
-                    ResultSet rs = stmt.executeQuery(query);
+                    ResultSet rs = stmt.executeQuery(query3);
                     while (rs.next()) {
             %>
             <tr>
@@ -71,8 +71,8 @@
                 String password = "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080";
                 String query2 = "TRUNCATE kasutajad";
                 String query1 = "select * from info";
-                String query3 = "create table info (resolutsioon varchar(20) not null,IP varchar(30) not null,time integer(3) );";
-                String query4 = "INSERT INTO info(resolutsioon, IP,time) VALUES (1920x1080,192.test,11)";
+                String query3 = "create table info (reso varchar(20,IP varchar(30),aeg varchar(10) );";
+                String query4 = "INSERT INTO info(reso, IP,aeg) VALUES (1920x1080,192.test,11)";
                 Connection conn2 = DriverManager.getConnection(url, username, password);
                 Statement stmt2 = conn2.createStatement();
                 ResultSet rs2 = stmt2.executeQuery(query1);
@@ -80,7 +80,7 @@
         %>
         <tr>
             <td><%
-                out.println(rs2.getString("resolutsioon") + "\t" + rs2.getString("IP") + "\t" + rs2.getString("time")); %></td>
+                out.println(rs2.getString("reso") + "\t" + rs2.getString("IP") + "\t" + rs2.getString("time")); %></td>
         </tr>
 
 

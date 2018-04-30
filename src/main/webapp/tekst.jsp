@@ -65,13 +65,13 @@
 
                     connection = DriverManager.getConnection("jdbc:postgresql://ec2-54-243-213-188.compute-1.amazonaws.com:5432/deoqpobdfumna2", "vkzivsefpcoxqi", "dc800fc78ba20df40f86c5c828c8a4b69dce75095371428e732ca89f2c36b080");
 
-                    String queryString = "INSERT INTO info(resolutsioon, IP,time) VALUES (?, ?,?)";
+                    String queryString = "INSERT INTO kasutajad(eesnimi, perenimi,vanus,email) VALUES (?, ?, ?,?)";
 
                     pstatement = connection.prepareStatement(queryString);
-                    pstatement.setString(1, "1920x1080");
-                    pstatement.setString(2, "192.10.100.1");
-                    pstatement.setString(3, "12");
-
+                    pstatement.setString(1, name);
+                    pstatement.setString(2, perenimi);
+                    pstatement.setString(3, vanus);
+                    pstatement.setString(4, email);
                     updateQuery = pstatement.executeUpdate();
 
 
