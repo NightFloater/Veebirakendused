@@ -105,7 +105,7 @@
 </p>
 
 
-<em class="css-3d-text2">Last weeks dankest memes</em>
+<em class="css-3d-text2">Throwback memes</em>
 
 
 <p>
@@ -116,11 +116,6 @@
          alt="">
 </p>
 
-
-<p>
-
-    <img src="http://cdn.funnyand.com/wp-content/uploads/2015/02/80s-Hairstyle.jpg" alt="">
-</p>
 
 
 <p>
