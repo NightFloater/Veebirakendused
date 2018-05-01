@@ -1,5 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="resolution" content="resolution">
+</head>
 <body>
 
 <p>Click the button to display the total width of your screen, in pixels.</p>

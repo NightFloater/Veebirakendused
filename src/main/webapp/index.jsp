@@ -11,6 +11,10 @@
 <html lang="en">
 
 <head>
+    <script src="script.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="memes" content="memes">
     <title>Meme Exchange</title>
 
 

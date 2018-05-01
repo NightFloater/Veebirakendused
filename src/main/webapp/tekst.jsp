@@ -5,6 +5,8 @@
 <%@ page import="com.sun.org.apache.xalan.internal.xsltc.compiler.Parser" %>
 <HTML lang="en">
 <HEAD>
+    <meta charset="UTF-8">
+    <meta name="user info" content="user info">
     <TITLE>Kasutaja info </TITLE>
 </HEAD>
 <BODY bgcolor="#7ac968">

@@ -1,5 +1,8 @@
 <html lang="en">
-<head><title>File Upload To Database</title></head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="upload" content="image upload">
+    <title>File Upload To Database</title></head>
 
 <body>
 <h3>Please Choose a File and click Submit</h3>

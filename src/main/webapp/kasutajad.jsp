@@ -3,6 +3,10 @@
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.DriverManager" %>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="data" content="user data">
+</head>
 <form method="post">
 
 
