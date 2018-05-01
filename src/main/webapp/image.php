@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <body>
 
 <p>Click the button to display the total width of your screen, in pixels.</p>

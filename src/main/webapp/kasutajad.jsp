@@ -2,7 +2,7 @@
 <%@ page import="java.sql.Statement" %>
 <%@ page import="java.sql.Connection" %>
 <%@ page import="java.sql.DriverManager" %>
-
+<html lang="en">
 <form method="post">
 
 
@@ -61,3 +61,4 @@
 
 
 </form>
+</html>

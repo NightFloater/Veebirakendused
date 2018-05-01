@@ -3,7 +3,7 @@
 <%@ page import="java.sql.*" %>
 <%@ page import="java.io.*" %>
 <%@ page import="com.sun.org.apache.xalan.internal.xsltc.compiler.Parser" %>
-<HTML>
+<HTML lang="en">
 <HEAD>
     <TITLE>Kasutaja info </TITLE>
 </HEAD>

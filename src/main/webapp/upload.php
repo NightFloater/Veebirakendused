@@ -1,4 +1,4 @@
-<html>
+<html lang="en">
 <head><title>File Upload To Database</title></head>
 
 <body>
