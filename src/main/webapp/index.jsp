@@ -117,12 +117,13 @@
     function onSignIn(googleUser) {
         var profile = googleUser.getBasicProfile();
         $("#pic").attr('src',"http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png");
+        document.getElementById("pic").src = "http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png";
 
     }
 
 </script>
 
-<div class="g-signin2" data-onsuccess="onSignIn();" ></div>
+<div class="g-signin2" data-onsuccess="onSignIn" ></div>
 <img id="pic" class = "img-circle" />
 
 
@@ -133,6 +134,7 @@
         var auth2 = gapi.auth2.getAuthInstance();
         auth2.signOut().then(function () {
             console.log('User signed out.');
+
         });
     }
 </script>
