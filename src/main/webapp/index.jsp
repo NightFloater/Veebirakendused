@@ -18,6 +18,18 @@
     <title>Meme Exchange</title>
 
 
+    <style>
+        .g-signin2{
+            margin-left:500px;
+            margin-top:200px;
+        }
+        .data{
+        display:none;
+        }
+
+
+
+    </style>
 
 
 
@@ -111,6 +123,13 @@
 
 <meta name="google-signin-client_id" content="380538042349-mhl7ivq7si0t2ajgtothpkidmt271ieh.apps.googleusercontent.com">
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
+<div class = "data">
+    <img id="pic" class = "img-circle" width="100" height="100"/>
+
+
+
+
+</div>
 
 <!-- Google logout-->
 <script>
