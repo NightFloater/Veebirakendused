@@ -126,7 +126,7 @@
 
 
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
-<img id="pic" class = "img-circle" width="100" height="100"/>
+<img id="pic" class = "img-circle" />
 
 
 
