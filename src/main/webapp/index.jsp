@@ -128,8 +128,6 @@
     Click here in the future to upload pictures
     <input type="button" name="b1" value="Upload" onclick="location.href='upload.php'">
 
-    Click here to see your resolution
-    <input type="button" name="b1" value="Reso" onclick="location.href='resolution.php'">
 
 
 

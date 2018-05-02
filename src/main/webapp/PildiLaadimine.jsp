@@ -29,5 +29,10 @@
 <script async defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC67ncbQxSpOJI87xCk68u81Z-ysp4i1L0&callback=initMap">
 </script>
+
+<img src="https://i.imgur.com/BrL4WkN.png"
+     alt="">
+<img src="https://i.imgur.com/2cL9oxk.png"
+     alt="">
 </body>
 </html>
