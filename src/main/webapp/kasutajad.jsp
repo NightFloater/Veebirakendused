@@ -17,11 +17,20 @@
             src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAHTHBcnrQMJTFEU1YZ3ieZv9NW4cpFtko
     &q=Tallinn,Harjumaa" allowfullscreen>
     </iframe>
-    <%@ page import="java.sql.ResultSet" %>
-    <%@ page import="java.sql.Statement" %>
-    <%@ page import="java.sql.Connection" %>
-    <%@ page import="java.sql.DriverManager" %>
 
+    <h1>Kellaaeg</h1>
+    <div id="result"></div>
+
+    <script>
+        if(typeof(EventSource) !== "undefined") {
+            var source = new EventSource("demoserver.php");
+            source.onmessage = function(event) {
+                document.getElementById("result").innerHTML += event.data + "<br>";
+            };
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support server-sent events...";
+        }
+    </script>
 
 
         <table border="1">
