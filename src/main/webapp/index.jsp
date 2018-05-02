@@ -127,25 +127,19 @@
 <script>
     function myFunction2() {
         var x = document.getElementById("meme1");
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
-
-        var y = document.getElementById("meme1");
-        if (y.style.display === "none") {
-            y.style.display = "block";
-        } else {
-            y.style.display = "none";
-        }
-
+        var y = document.getElementById("meme2");
         var z = document.getElementById("meme3");
-        if (z.style.display === "none") {
+        if (x.style.display === "none" && y.style.display === "none" && z.style.display === "none") {
+            x.style.display = "block";
+            y.style.display = "block";
             z.style.display = "block";
         } else {
+            x.style.display = "none";
+            y.style.display = "none";
             z.style.display = "none";
         }
+
+
     }
 </script>
 
