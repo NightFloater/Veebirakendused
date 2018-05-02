@@ -117,7 +117,7 @@
 
 
 <p>
-<h2>Click here to give us your information</h2>
+<h2><font color="white">Click here to give us your information</font></h2>
 <input type="button" style="height:200px;width:200px" name="b1" value="User info" onclick="location.href='tekst.jsp'">
 </p>
 <p>
