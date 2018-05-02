@@ -48,18 +48,31 @@
 
 
 
+
+
+<div class="g-signin2" data-onsuccess="onSignIn" data-theme = "dark"></div>
+
 <script>
     function onSignIn(googleUser) {
+        // Useful data for your client-side scripts:
         var profile = googleUser.getBasicProfile();
-        $("#pic").attr('src', "http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png");
-        document.getElementById("pic").src = "http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png";
+        console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+        console.log('Full Name: ' + profile.getName());
+        console.log('Given Name: ' + profile.getGivenName());
+        console.log('Family Name: ' + profile.getFamilyName());
+        console.log("Image URL: " + profile.getImageUrl());
+        console.log("Email: " + profile.getEmail());
 
-    }
-
+        // The ID token you need to pass to your backend:
+        var id_token = googleUser.getAuthResponse().id_token;
+        console.log("ID Token: " + id_token);
+        $("#pic").attr('src',"http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png");
+    };
 </script>
 
-<div class="g-signin2" data-onsuccess="onSignIn"></div>
-<img id="pic" class="img-circle" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png">
+
+
+<img id="pic" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png">
 
 
 <!-- Google logout-->
