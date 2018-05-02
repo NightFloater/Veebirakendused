@@ -76,6 +76,7 @@
         var auth2 = gapi.auth2.getAuthInstance();
         auth2.signOut().then(function () {
             console.log('User signed out.');
+            document.getElementById("pic").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
 
         });
     }
