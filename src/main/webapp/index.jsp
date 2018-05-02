@@ -121,16 +121,16 @@
 <input type="button" style="height:200px;width:200px" name="b1" value="User info" onclick="location.href='tekst.jsp'">
 </p>
 <p>
-<h2>Click here to see some lists</h2>
+<h2><font color="aqua">Click here to see some lists</font></h2>
 <input type="button" style="height:200px;width:200px" name="b1" value="Google maps"
        onclick="location.href='kasutajad.jsp'">
-<h2>Click here in the future to upload pictures</h2>
+<h2><font color="#7fffd4">Click here in the future to upload pictures</font></h2>
 <input type="button" style="height:200px;width:200px" name="b1" value="Upload" onclick="location.href='upload.php'">
 
 
 </p>
 <p>
-<h2>Click here to give us your information</h2>
+<h2><font color="#f0f8ff">Stresstest URL Confirmation</font></h2>
 <input type="button" style="height:200px;width:200px" name="b1" value="Click Me"
        onclick="location.href='loaderio-946c5f0bd08a7d43ba7885955bf1dc4e.txt'">
 </p>

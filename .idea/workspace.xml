@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,8 +47,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="635">
+              <caret line="132" column="4" lean-forward="false" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#input#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -615,14 +616,7 @@
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="8412000" />
-      <workItem from="1525020443141" duration="34729000" />
-    </task>
-    <task id="LOCAL-00412" summary="Deploy">
-      <created>1525078141027</created>
-      <option name="number" value="00412" />
-      <option name="presentableId" value="LOCAL-00412" />
-      <option name="project" value="LOCAL" />
-      <updated>1525078141027</updated>
+      <workItem from="1525020443141" duration="34931000" />
     </task>
     <task id="LOCAL-00413" summary="Deploy">
       <created>1525078299932</created>
@@ -960,11 +954,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525253017306</updated>
     </task>
-    <option name="localTasksCounter" value="461" />
+    <task id="LOCAL-00461" summary="Deploy">
+      <created>1525253107527</created>
+      <option name="number" value="00461" />
+      <option name="presentableId" value="LOCAL-00461" />
+      <option name="project" value="LOCAL" />
+      <updated>1525253107527</updated>
+    </task>
+    <option name="localTasksCounter" value="462" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134002000" />
+    <option name="totallyTimeSpent" value="134204000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -977,6 +978,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -986,7 +988,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49573562" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24453124" sideWeight="0.35890302" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24453124" sideWeight="0.64109695" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24453124" sideWeight="0.64109695" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.4978678" order="1" side_tool="false" content_ui="tabs" />
@@ -1351,8 +1353,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="635">
+          <caret line="132" column="4" lean-forward="false" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#1;n#body#0;n#html#0;n#!!top" expanded="true" />
