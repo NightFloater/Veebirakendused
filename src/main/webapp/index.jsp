@@ -65,14 +65,25 @@
         document.getElementById("pic2").src="https://i.imgur.com/qCG1Umu.png";
         document.getElementById("pic3").src="https://i.imgur.com/qCG1Umu.png";
         document.getElementById("pic4").src="https://i.imgur.com/qCG1Umu.png";
+        document.getElementById("pic5").src="https://i.imgur.com/qCG1Umu.png";
+        document.getElementById("pic6").src="https://i.imgur.com/qCG1Umu.png";
+        document.getElementById("pic7").src="https://i.imgur.com/qCG1Umu.png";
     };
 </script>
 
 
 
+<p>
+    <img id="pic" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" >
+    <img id="pic5" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" >
+    <img id="pic6" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" >
+    <img id="pic7" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" >
 
 
-<img id="pic" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" >
+
+</p>
+
+
 
 
 <!-- Google logout-->
@@ -85,6 +96,9 @@
             document.getElementById("pic2").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
             document.getElementById("pic3").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
             document.getElementById("pic4").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
+            document.getElementById("pic5").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
+            document.getElementById("pic6").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
+            document.getElementById("pic7").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
 
         });
     }
