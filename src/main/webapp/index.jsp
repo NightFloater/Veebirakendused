@@ -62,6 +62,7 @@
         var id_token = googleUser.getAuthResponse().id_token;
         console.log("ID Token: " + id_token);
         $("#pic").attr('src',"http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png");
+        document.getElementById("pic").src="http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png";
     };
 </script>
 
