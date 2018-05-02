@@ -77,7 +77,6 @@
 
 
 <!-- HTML Code -->
-<div class="GeneratedMarquee">She better than the best</div>
 
 
 <marquee class="GeneratedMarquee">Lil Fi$h - Better</marquee>
@@ -92,10 +91,6 @@
 </div>
 
 
-<div class="tech-slideshow">
-    <div class="mover-1"></div>
-    <div class="mover-2"></div>
-</div>
 
 </p>
 
