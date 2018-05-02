@@ -105,7 +105,7 @@
 </script>
 <a href="#" onclick="signOut();">Sign out</a>
 
-<p class="css-3d-text">Log in to see a meme only for logged in users </p>
+<p class="css-3d-text">Only logged in users do not have to see Drakes face </p>
 
 <div>
     <em class="css-3d-text">BUY, SELL, EXCHANGE MEMES</em>
