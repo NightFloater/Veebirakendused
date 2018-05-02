@@ -19,13 +19,18 @@
     </iframe>
 
     <h1>Kellaaeg</h1>
-    <div id="result">blaablaaa</div>
+    <p id="result">blaablaaa</p>
+
 
     <script>
-
+        if(typeof(EventSource) !== "undefined") {
             var source = new EventSource("demoserver.php");
             source.onmessage = function(event) {
-                document.getElementById("result").innerHTML += event.data + "<br>";}
+                document.getElementById("result").innerHTML += event.data + "<br>";
+            };
+        } else {
+            document.getElementById("result").innerHTML = "Sorry, your browser does not support server-sent events...";
+        }
     </script>
 
 
