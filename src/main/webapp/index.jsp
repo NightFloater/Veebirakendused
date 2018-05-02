@@ -77,7 +77,7 @@
 
 
 <!-- HTML Code -->
-<marquee class="GeneratedMarquee">Lil Fi$h - Better</marquee>
+<em> class="GeneratedMarquee">Lil Fi$h - Better</em>
 <p>
 
     <img src="https://i.imgur.com/Y7RVrdL.gif" alt="" width="25%" style="float:left">

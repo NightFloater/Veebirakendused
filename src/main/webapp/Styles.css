@@ -1,3 +1,10 @@
+.robin{
+
+}
+
+
+
+
 
 .tech-slideshow {
     height: 423px;
@@ -100,5 +107,19 @@
     11px 11px 10px rgba(230, 32, 32, 0.6),
     11px 11px 1px rgba(230, 32, 32, 0.5),
     0px 0px 10px rgba(230, 32, 32, .2);
+
+    white-space: nowrap;
+    overflow: hidden;
+    overflow-x:-webkit-marquee;
+    -webkit-marquee-direction: forwards;
+    -webkit-marquee-style: scroll;
+    -webkit-marquee-speed: normal;
+    -webkit-marquee-increment: small;
+    -webkit-marquee-repetition: 5;
+    overflow-x: marquee-line;
+    marquee-direction: forward;
+    marquee-style: scroll;
+    marquee-speed: normal;
+    marquee-play-count: 50000;
 
 }
