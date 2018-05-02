@@ -63,6 +63,7 @@
         console.log("ID Token: " + id_token);
         document.getElementById("pic").src="https://i.imgur.com/qCG1Umu.png";
         document.getElementById("pic2").src="https://i.imgur.com/qCG1Umu.png";
+        document.getElementById("pic3").src="https://i.imgur.com/qCG1Umu.png";
         document.getElementById("pic4").src="https://i.imgur.com/qCG1Umu.png";
     };
 </script>
@@ -82,6 +83,7 @@
             console.log('User signed out.');
             document.getElementById("pic").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
             document.getElementById("pic2").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
+            document.getElementById("pic3").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
             document.getElementById("pic4").src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png";
 
         });
