@@ -55,7 +55,7 @@
 </script>
 
 <div class="g-signin2" data-onsuccess="onSignIn" ></div>
-<img id="pic" class = "img-circle" />
+<img id="pic" class = "img-circle" alt=""/>
 
 
 
