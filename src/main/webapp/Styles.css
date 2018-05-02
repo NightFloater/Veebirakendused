@@ -115,11 +115,11 @@
     -webkit-marquee-style: scroll;
     -webkit-marquee-speed: normal;
     -webkit-marquee-increment: small;
-    -webkit-marquee-repetition: 5;
+    -webkit-marquee-repetition: 50;
     overflow-x: marquee-line;
     marquee-direction: forward;
     marquee-style: scroll;
     marquee-speed: normal;
-    marquee-play-count: 50000;
+    marquee-play-count: 50;
 
 }
