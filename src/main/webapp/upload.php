@@ -25,7 +25,10 @@
 <button onclick="myFunction()">Try it</button>
 
 
-
+<img src="https://i.imgur.com/BrL4WkN.png"
+     alt="">
+<img src="https://i.imgur.com/2cL9oxk.png"
+     alt="">
 
 </body>
 
