@@ -44,6 +44,8 @@
 
 <meta name="google-signin-client_id" content="380538042349-mhl7ivq7si0t2ajgtothpkidmt271ieh.apps.googleusercontent.com">
 
+
+
 <script>
     function onSignIn(googleUser) {
         var profile = googleUser.getBasicProfile();
@@ -55,7 +57,7 @@
 </script>
 
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
-<img id="pic" class="img-circle" alt=""/>
+<img id="pic" class="img-circle" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png">
 
 
 <!-- Google logout-->
