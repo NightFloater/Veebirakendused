@@ -40,14 +40,9 @@
 
 <!-- Google login-->
 
-<script src="https://apis.google.com/js/platform.js" async defer></script>
-<script src="https://apis.google.com/js/api.js"></script>
-
-
+<meta name="google-signin-scope" content="profile email">
 <meta name="google-signin-client_id" content="380538042349-mhl7ivq7si0t2ajgtothpkidmt271ieh.apps.googleusercontent.com">
-
-
-
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 
 
 <div class="g-signin2" data-onsuccess="onSignIn" data-theme = "dark"></div>
