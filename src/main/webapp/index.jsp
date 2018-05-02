@@ -6,8 +6,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
 
-
-
 <html lang="en">
 
 <head>
@@ -21,22 +19,24 @@
     <title>Meme Exchange</title>
 
 
-
-
-
-
-
-
 </head>
 <body onload="resolution()"
       background="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu3TSQXAplExhow-h2xtZGSn9gfEtI2CdHVh6I2YeKtj19K9uB">
 
 <!-- Google translate-->
-<div id="google_translate_element"></div><script type="text/javascript">
+<div id="google_translate_element"></div>
+<script type="text/javascript">
     function googleTranslateElementInit() {
-        new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'et,id,la,ru', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, multilanguagePage: true}, 'google_translate_element');
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'et,id,la,ru',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+            multilanguagePage: true
+        }, 'google_translate_element');
     }
-</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</script>
+<script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <!-- Google login-->
 
@@ -47,16 +47,15 @@
 <script>
     function onSignIn(googleUser) {
         var profile = googleUser.getBasicProfile();
-        $("#pic").attr('src',"http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png");
+        $("#pic").attr('src', "http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png");
         document.getElementById("pic").src = "http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png";
 
     }
 
 </script>
 
-<div class="g-signin2" data-onsuccess="onSignIn" ></div>
-<img id="pic" class = "img-circle" alt=""/>
-
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+<img id="pic" class="img-circle" alt=""/>
 
 
 <!-- Google logout-->
@@ -117,25 +116,23 @@
 </p>
 
 
-
 <p>
-    Click here to give us your information
-    <input type="button" name="b1" value="Click Me" onclick="location.href='tekst.jsp'">
+<h2>Click here to give us your information</h2>
+<input type="button" style="height:200px;width:200px" name="b1" value="User info" onclick="location.href='tekst.jsp'">
 </p>
 <p>
-    Click here to see some lists
-    <input type="button" name="b1" value="Click Me" onclick="location.href='kasutajad.jsp'">
-    Click here in the future to upload pictures
-    <input type="button" name="b1" value="Upload" onclick="location.href='upload.php'">
-
-
-
+<h2>Click here to see some lists</h2>
+<input type="button" style="height:200px;width:200px" name="b1" value="Google maps"
+       onclick="location.href='kasutajad.jsp'">
+<h2>Click here in the future to upload pictures</h2>
+<input type="button" style="height:200px;width:200px" name="b1" value="Upload" onclick="location.href='upload.php'">
 
 
 </p>
 <p>
-    <h2>Click here to give us your information</h2>
-    <input type="button" style="height:200px;width:200px" name="b1" value="Click Me" onclick="location.href='loaderio-946c5f0bd08a7d43ba7885955bf1dc4e.txt'">
+<h2>Click here to give us your information</h2>
+<input type="button" style="height:200px;width:200px" name="b1" value="Click Me"
+       onclick="location.href='loaderio-946c5f0bd08a7d43ba7885955bf1dc4e.txt'">
 </p>
 
 

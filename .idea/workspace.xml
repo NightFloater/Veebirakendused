@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c0a5f403-98f7-406d-8b05-5cf9e8d8c84c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -46,9 +47,14 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="112" column="16" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="112" selection-end-column="16" />
-              <folding />
+            <state relative-caret-position="414">
+              <caret line="122" column="83" lean-forward="false" selection-start-line="122" selection-start-column="75" selection-end-line="122" selection-end-column="83" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#1;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -217,12 +223,12 @@
         <option value="$PROJECT_DIR$/src/main/webapp/loaderio-946c5f0bd08a7d43ba7885955bf1dc4e.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/testing" />
         <option value="$PROJECT_DIR$/src/main/webapp/loaderio-946c5f0bd08a7d43ba7885955bf1dc4e" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/loaderio-946c5f0bd08a7d43ba7885955bf1dc4e.txt" />
         <option value="$PROJECT_DIR$/src/main/webapp/PildiLaadimine.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/upload.php" />
         <option value="$PROJECT_DIR$/src/main/webapp/kasutajad.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/tekst.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
       </list>
     </option>
   </component>
@@ -610,14 +616,7 @@
       <workItem from="1524903153715" duration="481000" />
       <workItem from="1524903663253" duration="3997000" />
       <workItem from="1525000233168" duration="8412000" />
-      <workItem from="1525020443141" duration="34386000" />
-    </task>
-    <task id="LOCAL-00410" summary="Deploy">
-      <created>1525077891211</created>
-      <option name="number" value="00410" />
-      <option name="presentableId" value="LOCAL-00410" />
-      <option name="project" value="LOCAL" />
-      <updated>1525077891211</updated>
+      <workItem from="1525020443141" duration="34588000" />
     </task>
     <task id="LOCAL-00411" summary="Deploy">
       <created>1525078060665</created>
@@ -955,11 +954,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525252612773</updated>
     </task>
-    <option name="localTasksCounter" value="459" />
+    <task id="LOCAL-00459" summary="Deploy">
+      <created>1525252777929</created>
+      <option name="number" value="00459" />
+      <option name="presentableId" value="LOCAL-00459" />
+      <option name="project" value="LOCAL" />
+      <updated>1525252777929</updated>
+    </task>
+    <option name="localTasksCounter" value="460" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133659000" />
+    <option name="totallyTimeSpent" value="133861000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1347,9 +1353,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="112" column="16" lean-forward="true" selection-start-line="111" selection-start-column="4" selection-end-line="112" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="414">
+          <caret line="122" column="83" lean-forward="false" selection-start-line="122" selection-start-column="75" selection-end-line="122" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#p#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#1;n#p#4;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
