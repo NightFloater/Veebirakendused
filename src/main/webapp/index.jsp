@@ -65,6 +65,20 @@
     };
 </script>
 
+<button onclick="myFunction2()">Click Me</button>
+
+<img id="pic3" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" >
+<script>
+    function myFunction2() {
+        var x = document.getElementById("pic3");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+</script>
+
 
 
 <img id="pic" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" >
