@@ -19,7 +19,7 @@
     </iframe>
 
     <h1>Kellaaeg</h1>
-    <div id="result"></div>
+    <div id="result">blaablaaa</div>
 
     <script>
         if(typeof(EventSource) !== "undefined") {
