@@ -1,6 +1,6 @@
 
 .tech-slideshow {
-    height: 800px;
+    height: 600px;
     max-width: 100%;
     margin: 0 auto;
     position: relative;
@@ -9,13 +9,13 @@
 }
 
 .tech-slideshow > div {
-    height: 800px;
+    height: 600px;
     width: 100%;
     background: url(https://www.pngarts.com/files/1/Face-PNG-Background-Image.png);
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
+    height: 600px;
     transform: translate3d(0, 0, 0);
 }
 
@@ -26,7 +26,7 @@
 .tech-slideshow .mover-2 {
     opacity: 0;
     transition: opacity 0.5s ease-out;
-    background-position: 0 -200px;
+    background-position: 0 -600px;
     animation: moveSlideshow 15s linear infinite;
 }
 
