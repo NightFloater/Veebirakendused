@@ -61,7 +61,7 @@
         // The ID token you need to pass to your backend:
         var id_token = googleUser.getAuthResponse().id_token;
         console.log("ID Token: " + id_token);
-        document.getElementById("pic").src="http://i1.kym-cdn.com/photos/images/newsfeed/000/270/676/83b.png";
+        document.getElementById("pic").src="https://i.imgur.com/zvolOKK.jpg";
     };
 </script>
 
