@@ -118,9 +118,9 @@
                     String queryString = "INSERT INTO kasutajad(eesnimi, perenimi,vanus,email) VALUES (?, ?, ?,?)";
 
                     pstatement = connection.prepareStatement(queryString);
-                    pstatement.setString(1, reso);
-                    pstatement.setString(2, IP);
-                    pstatement.setString(3, time);
+                    pstatement.setString(1, name);
+                    pstatement.setString(2, perenimi);
+                    pstatement.setString(3, vanus);
                     pstatement.setString(4, email);
                     updateQuery = pstatement.executeUpdate();
 
