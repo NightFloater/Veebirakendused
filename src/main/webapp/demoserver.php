@@ -8,5 +8,7 @@ $sqltime = "SELECT EXTRACT(TIMEZONE FROM now())/3600.0";
 $result = pg_query($sqltime);
 echo $result;
 //connect to a database named "mary" on the host "sheep" with a username and password
-
+$time = date('r');
+echo "data: The server time is: {$time}\n\n";
+flush();
 ?>
