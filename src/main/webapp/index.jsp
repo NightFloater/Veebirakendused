@@ -67,7 +67,7 @@
 
 
 
-<img id="pic" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png">
+<img id="pic" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" >
 
 
 <!-- Google logout-->
