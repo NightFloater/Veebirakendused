@@ -65,19 +65,7 @@
     };
 </script>
 
-<button onclick="myFunction2()">Click Me</button>
 
-<img id="pic3" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" >
-<script>
-    function myFunction2() {
-        var x = document.getElementById("pic3");
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
-    }
-</script>
 
 
 
@@ -134,15 +122,42 @@
 </p>
 
 
-<em class="css-3d-text2">Throwback memes</em>
 
+<img id="pic3" alt="" src="https://www.pngarts.com/files/1/Face-PNG-Background-Image.png" >
+<script>
+    function myFunction2() {
+        var x = document.getElementById("meme1");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+
+        var y = document.getElementById("meme1");
+        if (y.style.display === "none") {
+            y.style.display = "block";
+        } else {
+            y.style.display = "none";
+        }
+
+        var z = document.getElementById("meme3");
+        if (z.style.display === "none") {
+            z.style.display = "block";
+        } else {
+            z.style.display = "none";
+        }
+    }
+</script>
+
+<em class="css-3d-text2">Throwback memes</em>
+<button style="height:200px;width:200px" onclick="myFunction2()">Memes</button>
 
 <p>
     <img src="https://thechive.files.wordpress.com/2017/03/90s-memes-that-prove-life-was-tough-before-the-internet-58-photos-28.jpg"
-         alt="">
-    <img src="https://pics.me.me/smh-life-was-much-better-in-the-90s-stormy-atx-6730152.png" alt="">
+         alt="" id="meme1">
+    <img src="https://pics.me.me/smh-life-was-much-better-in-the-90s-stormy-atx-6730152.png" alt="" id="meme2">
     <img src="https://pics.me.me/baby-its-only-micro-microsoft-when-its-soft-%F0%9F%98%82%F0%9F%98%82-microsoft-9533785.png"
-         alt="">
+         alt="" id="meme3">
 </p>
 
 
