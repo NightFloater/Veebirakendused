@@ -1,7 +1,7 @@
 
 .tech-slideshow {
-    height: 200px;
-    max-width: 800px;
+    height: 423px;
+    max-width: 2160px;
     margin: 0 auto;
     position: relative;
     overflow: hidden;
@@ -9,8 +9,8 @@
 }
 
 .tech-slideshow > div {
-    height: 600px;
-    width: 2526px;
+    height: 423px;
+    width: 750px;
     background: url(https://www.pngarts.com/files/1/Face-PNG-Background-Image.png);
     position: absolute;
     top: 0;
